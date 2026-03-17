@@ -1,0 +1,257 @@
+{
+  "dataset_version": "chatgpt_5.4-extended_pro_external_event_registry_v1",
+  "window_a": {
+    "label": "Broad conflict scope",
+    "start": "2023-10-07",
+    "end": "2026-03-14",
+    "purpose": "Capture Lebanon-Israel conflict dynamics plus Gaza, Syria, and Iran spillover events that could plausibly alter subreddit discourse."
+  },
+  "window_b": {
+    "label": "Daily ceasefire-violation scope",
+    "start": "2024-11-27",
+    "end": "2026-03-14",
+    "purpose": "Track dense local violation patterns after the November 2024 ceasefire took effect, including low-visibility local incidents."
+  },
+  "priority_windows": [
+    {
+      "window_id": "PW_2023_11_nasrallah_speech",
+      "start": "2023-11-01",
+      "end": "2023-11-05",
+      "reason": "Nasrallah's first major wartime speech plus already elevated November 2023 archive activity.",
+      "join_priority": "high"
+    },
+    {
+      "window_id": "PW_2024_06_taleb_abdullah",
+      "start": "2024-06-11",
+      "end": "2024-06-21",
+      "reason": "Taleb Abdullah killing plus Nasrallah-Cyprus rhetoric; matches a known transition/spike month in the local archive.",
+      "join_priority": "high"
+    },
+    {
+      "window_id": "PW_2024_07_08_fuad_shukr_to_retaliation",
+      "start": "2024-07-27",
+      "end": "2024-08-26",
+      "reason": "Majdal Shams, Fuad Shukr strike, and Hezbollah's 25 August retaliation form a coherent pre-September escalation arc.",
+      "join_priority": "high"
+    },
+    {
+      "window_id": "PW_2024_09_device_attacks_to_nasrallah",
+      "start": "2024-09-17",
+      "end": "2024-10-10",
+      "reason": "Pager and walkie-talkie attacks, Ibrahim Aqil strike, deadliest day in Lebanon since 2006, Nasrallah killing, and early-October ground escalation.",
+      "join_priority": "highest"
+    },
+    {
+      "window_id": "PW_2024_11_ceasefire_start",
+      "start": "2024-11-26",
+      "end": "2024-12-10",
+      "reason": "Ceasefire announcement, implementation, and immediate first-wave violation pattern.",
+      "join_priority": "highest"
+    },
+    {
+      "window_id": "PW_2025_03_normalization_and_beirut_strikes",
+      "start": "2025-03-10",
+      "end": "2025-04-07",
+      "reason": "Normalization/border-talk discourse, Gaza ceasefire collapse, first Beirut strike since ceasefire, Hassan Bdeir strike, and Geagea disarmament rhetoric.",
+      "join_priority": "highest"
+    },
+    {
+      "window_id": "PW_2025_11_one_year_violation_tally",
+      "start": "2025-11-18",
+      "end": "2025-11-30",
+      "reason": "One-year ceasefire anniversary, fresh local incidents, and UNIFIL/L'Orient tallies exceeding 10,000 violations.",
+      "join_priority": "high"
+    },
+    {
+      "window_id": "PW_2026_03_iran_spillover_and_renewed_war",
+      "start": "2026-02-28",
+      "end": "2026-03-14",
+      "reason": "Khamenei killing, Hezbollah retaliation citing Iran, renewed Beirut strikes, blanket evacuations, and humanitarian escalation.",
+      "join_priority": "highest"
+    }
+  ],
+  "legacy_comparison_windows_from_local_archive": [
+    {
+      "month": "2020-08",
+      "reason": "Beirut port explosion and Israeli aid/normalization discourse; useful as a pre-Window-A comparison month."
+    },
+    {
+      "month": "2021-05",
+      "reason": "Gaza-war spillover and rockets from south Lebanon; useful as an earlier comparison month."
+    }
+  ],
+  "event_types_most_likely_to_trigger_subreddit_spikes": [
+    {
+      "event_type": "assassination_or_named_targeted_killing",
+      "why": "Named commander or operative deaths often trigger celebration, mockery, blame attribution, and identity performance."
+    },
+    {
+      "event_type": "major_mass_casualty_day",
+      "why": "High-casualty days can trigger fights, humanitarian argument, denial, or shifts toward collective blame."
+    },
+    {
+      "event_type": "normalization_or_border_talk_signal",
+      "why": "These events map unusually well to the subreddit's peace-branding and Palestine-avoidance/suppression hypotheses."
+    },
+    {
+      "event_type": "christian_party_or_historical_memory_speech",
+      "why": "Geagea, Kataeb, or Bashir Gemayel references may activate Christian militia nostalgia, sovereigntist rhetoric, and historical-cooperation narratives."
+    },
+    {
+      "event_type": "post_ceasefire_micro_incident",
+      "why": "Small named-village strikes, detentions, or overflights are ideal for detecting unusually granular awareness inside subreddit comments."
+    },
+    {
+      "event_type": "iran_or_syria_spillover_shock",
+      "why": "Regional spillover events can trigger anti-Iran framing, anti-Hezbollah narratives, and reframing of Lebanon's risk."
+    },
+    {
+      "event_type": "blanket_evacuation_or_displacement_order",
+      "why": "These events can sharply change tone, panic, moral framing, and state-failure discourse."
+    }
+  ],
+  "topic_labels_most_likely_to_map_to_each_event_type": {
+    "assassination": [
+      "anti_hezbollah",
+      "assassination_or_targeted_strike",
+      "direct_hostility_trigger",
+      "obscure_name_watchlist"
+    ],
+    "drone_or_surveillance_incident": [
+      "drone_or_airspace_violation",
+      "direct_hostility_trigger",
+      "civilian_harm",
+      "obscure_name_watchlist"
+    ],
+    "ground_incursion_or_detention": [
+      "border_incursion_or_ground_activity",
+      "raid_or_kidnapping",
+      "anti_lebanese_state_or_state_failure",
+      "obscure_name_watchlist"
+    ],
+    "normalization_or_border_talk": [
+      "normalization_or_peace_branding",
+      "diplomacy_or_mediation",
+      "palestine_topic_suppression_or_avoidance_relevance",
+      "rhetoric_or_speech_trigger"
+    ],
+    "christian_party_or_historical_reference": [
+      "christian_militias_or_historical_cooperation",
+      "anti_hezbollah",
+      "rhetoric_or_speech_trigger"
+    ],
+    "gaza_shock_or_ceasefire_shift": [
+      "palestine_or_gaza_context",
+      "palestine_topic_suppression_or_avoidance_relevance",
+      "direct_hostility_trigger"
+    ],
+    "iran_or_syria_spillover": [
+      "anti_iran",
+      "iran_spillover",
+      "syria_spillover",
+      "direct_hostility_trigger"
+    ],
+    "civic_worker_or_municipal_target": [
+      "civilian_harm",
+      "anti_lebanese_state_or_state_failure",
+      "direct_hostility_trigger"
+    ]
+  },
+  "obscure_name_logic": {
+    "core_principle": "Treat named people, villages, roads, organizations, and historical references that appear mainly in local or regional reporting as higher-value downstream join keys than already-famous figures like Nasrallah.",
+    "high_signal_conditions": [
+      "Name/place appears in SOURCE_INVENTORY categories prioritized for daily violations (local Lebanese Arabic/French/English or Arabic regional).",
+      "Name/place is absent or rare in major international-wire coverage.",
+      "Name/place appears on the subreddit within +/- 3 days of the logged event.",
+      "Name/place appears with transliteration drift but still refers to the same village/person/road.",
+      "Name/place co-occurs with the same incident_type or organization as in the event registry."
+    ],
+    "suggested_scoring": {
+      "local_only_named_person_match": 3,
+      "local_only_village_or_road_match": 3,
+      "organization_match": 2,
+      "historical_reference_match": 2,
+      "match_within_plus_minus_1_day": 2,
+      "match_within_plus_minus_3_days": 1,
+      "match_with_same_topic_label_cluster": 1
+    },
+    "transliteration_rules": [
+      "Normalize Dahiyeh / Dahieh / southern suburbs of Beirut.",
+      "Normalize Meis el-Jabal / Mais al-Jabal / Mays al-Jabal.",
+      "Normalize Tallouseh / Tallousa.",
+      "Normalize Yohmor al-Shaqif / Yohmor al-Shakif.",
+      "Preserve alternate person-name spellings such as Mohammad Youssef / Mohamad Assaf."
+    ],
+    "caveat": "An obscure-name match is a lead, not proof of coordination or deception."
+  },
+  "local_vs_global_source_weighting_logic": {
+    "window_b_priority_order": [
+      "local_lebanese_arabic",
+      "local_lebanese_french",
+      "local_lebanese_english",
+      "arab_regional",
+      "international_wire"
+    ],
+    "recommended_weights": {
+      "local_lebanese_arabic": 1.0,
+      "local_lebanese_french": 0.95,
+      "local_lebanese_english": 0.9,
+      "arab_regional": 0.8,
+      "international_wire_for_major_shocks": 0.9,
+      "international_wire_for_micro_incidents": 0.6
+    },
+    "logic": [
+      "For Window B, trust local outlets more for whether a small incident happened at all, what village it occurred in, and which names were attached to it.",
+      "Use international wires mainly to confirm major shocks, diplomatic milestones, or casualty benchmarks.",
+      "When local and wire sources disagree on small details, preserve the local detail in the row but downgrade corroboration_level and explain uncertainty in confidence_notes.",
+      "Do not discard a local incident only because it never became a global headline."
+    ]
+  },
+  "suggested_join_keys": {
+    "temporal": [
+      "exact_date",
+      "plus_minus_1_day",
+      "plus_minus_3_days",
+      "month",
+      "ceasefire_phase",
+      "holiday_or_anniversary_marker"
+    ],
+    "entity_fields": [
+      "people_named",
+      "name_or_place from OBSCURE_WATCHLIST",
+      "location_city_town_village_or_neighborhood",
+      "organizations_named",
+      "target_type"
+    ],
+    "event_structure": [
+      "incident_type",
+      "violation_type_if_applicable",
+      "cross_border_relevance",
+      "topic_labels"
+    ],
+    "text_processing_keys": [
+      "Arabic/French/English transliteration-normalized location tokens",
+      "Semicolon-split named entities",
+      "Neighborhood aliases (Dahiyeh/Dahieh, southern suburbs, Haret Hreik, Burj al-Barajneh)",
+      "Organization aliases (Jihad al-Bina, al-Rissala, Lebanese Forces, Kataeb)"
+    ],
+    "subreddit_side_features_to_join_against": [
+      "daily post count",
+      "daily comment count",
+      "comment z-score by month/day",
+      "Hebrew-bearing content frequency",
+      "flair composition",
+      "author-level participation bursts",
+      "named-entity mentions",
+      "topic label mix",
+      "fight/hostility density"
+    ]
+  },
+  "matching_heuristics": [
+    "Prefer exact-date and plus-minus-1-day joins for assassination, targeted-killing, or Beirut-strike events.",
+    "Prefer plus-minus-3-day joins for speeches, normalization rumors, and Christian-party rhetoric.",
+    "Use month-level joins for chronic violation accumulation, especially when discussion centers on generalized blame rather than a single strike.",
+    "Promote rows where an obscure watchlist item appears together with the same incident_type or organization in subreddit text.",
+    "When a subreddit spike follows a Gaza event but discussion avoids Gaza and pivots to peace-branding or Hezbollah blame, inspect rows labeled palestine_topic_suppression_or_avoidance_relevance."
+  ]
+}

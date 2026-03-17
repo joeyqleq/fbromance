@@ -1,0 +1,138 @@
+{
+  "posts": {
+    "input_path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_posts.json",
+    "output_path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_posts.cleaned.ndjson",
+    "rows": 4895,
+    "valid_rows_written": 4895,
+    "size_bytes": 3144642,
+    "size_mb": 3.0,
+    "fields": [
+      "id",
+      "name",
+      "author",
+      "author_flair_text",
+      "created_utc",
+      "title",
+      "selftext",
+      "score",
+      "num_comments",
+      "permalink",
+      "subreddit"
+    ],
+    "samples": [
+      {
+        "id": "d9j3uy",
+        "name": "t3_d9j3uy",
+        "author": "cha3bghachim",
+        "author_flair_text": "Lebanese",
+        "created_utc": 1569501748,
+        "title": "Israel + Lebanon = <3 has been created",
+        "selftext": "While Israel and Lebanon are political enemies, many people on both sides feel no animosity toward the opposing side, and want our two states to be frenz.\n\nThis subreddit is for Lebanese and Israeli redditors who want to be bros and show the world that nothing stands in the way of true love.",
+        "score": 21,
+        "num_comments": 17,
+        "permalink": "/r/ForbiddenBromance/comments/d9j3uy/israel_lebanon_3_has_been_created/",
+        "subreddit": "ForbiddenBromance"
+      },
+      {
+        "id": "d9jbm5",
+        "name": "t3_d9jbm5",
+        "author": "cha3bghachim",
+        "author_flair_text": "Lebanese",
+        "created_utc": 1569502865,
+        "title": "Hiring Mods",
+        "selftext": "Any bros (of all genders) interested in moderating r/ForbiddenBromance ? Comment below to apply :)",
+        "score": 8,
+        "num_comments": 20,
+        "permalink": "/r/ForbiddenBromance/comments/d9jbm5/hiring_mods/",
+        "subreddit": "ForbiddenBromance"
+      },
+      {
+        "id": "d9ocft",
+        "name": "t3_d9ocft",
+        "author": "cha3bghachim",
+        "author_flair_text": "Lebanese",
+        "created_utc": 1569525338,
+        "title": "Necessary precautions for Lebanese redditors",
+        "selftext": "Since it is technically illegal for Lebanese citizens to talk to Isrealis, make sure you do the follwoing:\n\n* Use an anonymous account (i.e. don't use your real name) from which you never post any personally identifying information.\n* Don't use the same account across multiple topics/subreddits, that way you'd be easier to identify.\n* Don't trust anyone who's asking questions about you. Don't try to meet people IRL.\n\nFor extra anonymity use the Tor browser [https://www.torproject.org/](https://www.torproject.org/) and avoid using the Reddit app. Alternatively, use Private/Incognito mode in your browser with only Reddit sessions inside, to avoid leaking information about your other social media accounts.",
+        "score": 63,
+        "num_comments": 38,
+        "permalink": "/r/ForbiddenBromance/comments/d9ocft/necessary_precautions_for_lebanese_redditors/",
+        "subreddit": "ForbiddenBromance"
+      }
+    ]
+  },
+  "comments": {
+    "input_path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_comments.json",
+    "output_path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_comments.cleaned.ndjson",
+    "rows": 88094,
+    "valid_rows_written": 88094,
+    "size_bytes": 35959611,
+    "size_mb": 34.29,
+    "fields": [
+      "id",
+      "author",
+      "author_flair_text",
+      "created_utc",
+      "body",
+      "score",
+      "parent_id",
+      "link_id"
+    ],
+    "samples": [
+      {
+        "id": "f1iw3zl",
+        "author": "kataphract_byzantium",
+        "author_flair_text": "Lebanese",
+        "created_utc": 1569515624,
+        "body": "Try advertising this sub on both israeli and lebanese subs. Good luck!",
+        "score": 7,
+        "parent_id": "t3_d9j3uy",
+        "link_id": "t3_d9j3uy"
+      },
+      {
+        "id": "f1j6979",
+        "author": "amazing9999",
+        "author_flair_text": "Hummus wars veteran",
+        "created_utc": 1569519277,
+        "body": "Sure. Why not?",
+        "score": 3,
+        "parent_id": "t3_d9jbm5",
+        "link_id": "t3_d9jbm5"
+      },
+      {
+        "id": "f1j7otk",
+        "author": "cha3bghachim",
+        "author_flair_text": "Lebanese",
+        "created_utc": 1569519791,
+        "body": "Invite sent!",
+        "score": 3,
+        "parent_id": "t1_f1j6979",
+        "link_id": "t3_d9jbm5"
+      }
+    ]
+  },
+  "validation": {
+    "posts_ndjson": {
+      "path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_posts.cleaned.ndjson",
+      "rows": 4895
+    },
+    "comments_ndjson": {
+      "path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_comments.cleaned.ndjson",
+      "rows": 88094
+    },
+    "comments_under_50_mb": true,
+    "post_row_count_preserved": true,
+    "comment_row_count_preserved": true,
+    "all_comment_link_ids_present_in_posts": true,
+    "sample_post_join_ok": true,
+    "sample_post_join": {
+      "comment_id": "f1iw3zl",
+      "link_id": "t3_d9j3uy"
+    },
+    "sample_reply_chain_ok": true,
+    "sample_reply_chain": {
+      "comment_id": "f1j7otk",
+      "parent_id": "t1_f1j6979"
+    }
+  }
+}

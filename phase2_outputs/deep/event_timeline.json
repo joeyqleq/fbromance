@@ -1,0 +1,106 @@
+[
+  {
+    "window_month": "2020-08",
+    "event_date": "2020-08-04",
+    "label": "Beirut port explosion",
+    "description": "Massive explosion in Beirut created a regional shock window that the subreddit then discussed alongside sympathy, aid, and normalization themes.",
+    "source_title": "AP / Massive explosion tears through Lebanese capital Beirut",
+    "source_url": "https://www.ap.org/news-highlights/best-of-the-week/2020/massive-explosion-tears-through-lebanese-capital-beirut/"
+  },
+  {
+    "window_month": "2020-08",
+    "event_date": "2020-08-06",
+    "label": "Israeli aid offer after Beirut blast",
+    "description": "Israel publicly offered aid after the Beirut blast, creating a politically charged opening for discussion about humanitarian help and normalization.",
+    "source_title": "Washington Post / After days of tension, Israel offers aid for devastated Beirut",
+    "source_url": "https://www.washingtonpost.com/world/middle_east/after-days-of-tension-israel-offers-aid-for-devastated-beirut/2020/08/06/585cddd2-d7b8-11ea-a788-2ce86ce81129_story.html"
+  },
+  {
+    "window_month": "2021-05",
+    "event_date": "2021-05-13",
+    "label": "Rockets fired from southern Lebanon during Gaza war spillover",
+    "description": "The 2021 Gaza war spilled toward the northern front, with rockets fired from southern Lebanon and the conflict entering Lebanon-Israel discourse directly.",
+    "source_title": "AP mirror / Several rockets fired from south Lebanon toward Israel",
+    "source_url": "https://www.wmdt.com/i/lebanese-security-officials-say-several-rockets-fired-from-south-lebanon-toward-israel/"
+  },
+  {
+    "window_month": "2023-10",
+    "event_date": "2023-10-08",
+    "label": "Hezbollah opens northern front after Oct. 7",
+    "description": "Hezbollah attacks on October 8, 2023 linked the subreddit directly to the regional war cycle and a harder anti-Hezbollah and atrocity-driven discourse.",
+    "source_title": "AP / Hezbollah attacks on Oct. 8, 2023",
+    "source_url": "https://apnews.com/article/cd7b26f890bf4cae32491721506ec0a1"
+  },
+  {
+    "window_month": "2024-06",
+    "event_date": "2024-06-11",
+    "label": "Taleb Abdullah killed in Israeli strike",
+    "description": "The killing of senior Hezbollah commander Taleb Abdullah triggered one of the strongest 2024 escalation windows on the Lebanon-Israel border.",
+    "source_title": "AP / Killing of senior Hezbollah commander Taleb Abdullah",
+    "source_url": "https://apnews.com/article/a404a607c3f96850d0dde1a5cc70c41b"
+  },
+  {
+    "window_month": "2024-09",
+    "event_date": "2024-09-17",
+    "label": "Pager and walkie-talkie attack fallout",
+    "description": "The exploding devices attack created a major escalation window and preceded the subreddit’s highest activity peak.",
+    "source_title": "AP / Background on the exploding devices attack",
+    "source_url": "https://apnews.com/article/b8506471525e3848023b1d6a863827e8"
+  },
+  {
+    "window_month": "2024-09",
+    "event_date": "2024-09-23",
+    "label": "Deadliest day for Lebanon since 2006",
+    "description": "September 23, 2024 was described by AP as the deadliest day for Lebanon since the 2006 war, aligning with the subreddit’s largest volume spike.",
+    "source_title": "AP / Sept. 23, 2024 deadliest day for Lebanon since 2006",
+    "source_url": "https://apnews.com/article/e3ca9c83642056f962fdf76319e3b8de"
+  },
+  {
+    "window_month": "2024-09",
+    "event_date": "2024-09-27",
+    "label": "Nasrallah targeted in Beirut strike",
+    "description": "Israel targeted Hassan Nasrallah in Beirut on September 27, 2024, intensifying both volume and tone inside the subreddit.",
+    "source_title": "AP / Nasrallah targeted in Beirut strike on Sept. 27, 2024",
+    "source_url": "https://apnews.com/article/617575d9c5d7c711bc02e7b81d2ba4ad"
+  },
+  {
+    "window_month": "2024-09",
+    "event_date": "2024-09-28",
+    "label": "Hezbollah confirms Nasrallah killed",
+    "description": "Hezbollah confirmed Nasrallah’s death on September 28, 2024, extending the same high-intensity narrative window into October.",
+    "source_title": "AP / Hezbollah confirms Nasrallah killed on Sept. 28, 2024",
+    "source_url": "https://apnews.com/article/c4751957433ff944c4eb06027885a973"
+  },
+  {
+    "window_month": "2025-03",
+    "event_date": "2025-03-11",
+    "label": "US announces Lebanon-Israel border talks",
+    "description": "The White House announced border and dispute talks, marking a diplomacy-heavy window distinct from the pure battlefield spikes.",
+    "source_title": "Al Arabiya / US announces Lebanon-Israel talks to resolve border demarcation and other disputes",
+    "source_url": "https://english.alarabiya.net/News/middle-east/2025/03/11/us-announces-lebanon-israel-talks-to-resolve-border-demarcation-other-disputes"
+  },
+  {
+    "window_month": "2025-03",
+    "event_date": "2025-03-28",
+    "label": "First Beirut strike since ceasefire",
+    "description": "Israel struck Beirut on March 28, 2025 in the first such strike since the ceasefire, blending diplomacy discourse with renewed escalation.",
+    "source_title": "AP / First Beirut strike since ceasefire",
+    "source_url": "https://apnews.com/article/1652bc0f69f2c635980432abc7671a41"
+  },
+  {
+    "window_month": "2026-03",
+    "event_date": "2026-03-05",
+    "label": "Renewed Beirut strikes after Hezbollah resumed attacks",
+    "description": "Renewed Beirut strikes in March 2026 intersect with a partial-month spike in the archive and a discourse mix focused on regional war and Lebanese state action.",
+    "source_title": "AP / Beirut strikes after Hezbollah resumed attacks",
+    "source_url": "https://apnews.com/article/55b660c3e8cc071078533d8d2a8f93a2"
+  },
+  {
+    "window_month": "2026-03",
+    "event_date": "2026-03-04",
+    "label": "Lebanese army arrest campaign targeting non-state actors",
+    "description": "The Lebanese army launched an arrest campaign targeting non-state actors including Hezbollah, adding an internal-state dimension to the same discussion period.",
+    "source_title": "The National / Lebanese army conducts arrest campaign targeting non-state actors including Hezbollah",
+    "source_url": "https://www.thenationalnews.com/news/mena/2026/03/04/lebanese-army-conducts-arrest-campaign-targeting-non-state-actors-including-hezbollah/"
+  }
+]

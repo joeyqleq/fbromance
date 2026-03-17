@@ -1,0 +1,10 @@
+{
+  "skills": [
+    {
+      "source": "jeremylongshore/claude-code-plugins-plus-skills",
+      "skills": [
+        "ascii-art-diagram-creator"
+      ]
+    }
+  ]
+}

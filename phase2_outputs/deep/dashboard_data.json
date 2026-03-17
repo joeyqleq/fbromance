@@ -1,0 +1,5502 @@
+{
+  "overview": {
+    "posts": 4895,
+    "comments": 88094,
+    "hebrew_posts": 77,
+    "hebrew_comments": 1192,
+    "downloaded_user_histories": 28
+  },
+  "spike_months": [
+    {
+      "month": "2024-09",
+      "posts": 293,
+      "comments": 6634,
+      "total": 6927,
+      "hebrew_posts": 0,
+      "hebrew_comments": 54,
+      "post_zscore": 4.939,
+      "comment_zscore": 4.611
+    },
+    {
+      "month": "2024-10",
+      "posts": 197,
+      "comments": 6509,
+      "total": 6706,
+      "hebrew_posts": 0,
+      "hebrew_comments": 90,
+      "post_zscore": 2.887,
+      "comment_zscore": 4.507
+    },
+    {
+      "month": "2024-06",
+      "posts": 134,
+      "comments": 3893,
+      "total": 4027,
+      "hebrew_posts": 2,
+      "hebrew_comments": 41,
+      "post_zscore": 1.54,
+      "comment_zscore": 2.321
+    },
+    {
+      "month": "2024-11",
+      "posts": 99,
+      "comments": 3032,
+      "total": 3131,
+      "hebrew_posts": 1,
+      "hebrew_comments": 33,
+      "post_zscore": 0.792,
+      "comment_zscore": 1.602
+    },
+    {
+      "month": "2023-11",
+      "posts": 130,
+      "comments": 2975,
+      "total": 3105,
+      "hebrew_posts": 2,
+      "hebrew_comments": 38,
+      "post_zscore": 1.454,
+      "comment_zscore": 1.554
+    },
+    {
+      "month": "2024-08",
+      "posts": 125,
+      "comments": 2910,
+      "total": 3035,
+      "hebrew_posts": 3,
+      "hebrew_comments": 41,
+      "post_zscore": 1.348,
+      "comment_zscore": 1.5
+    },
+    {
+      "month": "2024-01",
+      "posts": 151,
+      "comments": 2762,
+      "total": 2913,
+      "hebrew_posts": 1,
+      "hebrew_comments": 25,
+      "post_zscore": 1.903,
+      "comment_zscore": 1.376
+    },
+    {
+      "month": "2024-12",
+      "posts": 103,
+      "comments": 2621,
+      "total": 2724,
+      "hebrew_posts": 3,
+      "hebrew_comments": 45,
+      "post_zscore": 0.877,
+      "comment_zscore": 1.258
+    },
+    {
+      "month": "2023-10",
+      "posts": 129,
+      "comments": 2361,
+      "total": 2490,
+      "hebrew_posts": 2,
+      "hebrew_comments": 15,
+      "post_zscore": 1.433,
+      "comment_zscore": 1.041
+    },
+    {
+      "month": "2024-02",
+      "posts": 122,
+      "comments": 2197,
+      "total": 2319,
+      "hebrew_posts": 0,
+      "hebrew_comments": 30,
+      "post_zscore": 1.283,
+      "comment_zscore": 0.904
+    },
+    {
+      "month": "2025-03",
+      "posts": 77,
+      "comments": 2172,
+      "total": 2249,
+      "hebrew_posts": 3,
+      "hebrew_comments": 29,
+      "post_zscore": 0.321,
+      "comment_zscore": 0.883
+    },
+    {
+      "month": "2024-07",
+      "posts": 79,
+      "comments": 2080,
+      "total": 2159,
+      "hebrew_posts": 0,
+      "hebrew_comments": 35,
+      "post_zscore": 0.364,
+      "comment_zscore": 0.806
+    }
+  ],
+  "event_timeline": [
+    {
+      "window_month": "2020-08",
+      "event_date": "2020-08-04",
+      "label": "Beirut port explosion",
+      "description": "Massive explosion in Beirut created a regional shock window that the subreddit then discussed alongside sympathy, aid, and normalization themes.",
+      "source_title": "AP / Massive explosion tears through Lebanese capital Beirut",
+      "source_url": "https://www.ap.org/news-highlights/best-of-the-week/2020/massive-explosion-tears-through-lebanese-capital-beirut/"
+    },
+    {
+      "window_month": "2020-08",
+      "event_date": "2020-08-06",
+      "label": "Israeli aid offer after Beirut blast",
+      "description": "Israel publicly offered aid after the Beirut blast, creating a politically charged opening for discussion about humanitarian help and normalization.",
+      "source_title": "Washington Post / After days of tension, Israel offers aid for devastated Beirut",
+      "source_url": "https://www.washingtonpost.com/world/middle_east/after-days-of-tension-israel-offers-aid-for-devastated-beirut/2020/08/06/585cddd2-d7b8-11ea-a788-2ce86ce81129_story.html"
+    },
+    {
+      "window_month": "2021-05",
+      "event_date": "2021-05-13",
+      "label": "Rockets fired from southern Lebanon during Gaza war spillover",
+      "description": "The 2021 Gaza war spilled toward the northern front, with rockets fired from southern Lebanon and the conflict entering Lebanon-Israel discourse directly.",
+      "source_title": "AP mirror / Several rockets fired from south Lebanon toward Israel",
+      "source_url": "https://www.wmdt.com/i/lebanese-security-officials-say-several-rockets-fired-from-south-lebanon-toward-israel/"
+    },
+    {
+      "window_month": "2023-10",
+      "event_date": "2023-10-08",
+      "label": "Hezbollah opens northern front after Oct. 7",
+      "description": "Hezbollah attacks on October 8, 2023 linked the subreddit directly to the regional war cycle and a harder anti-Hezbollah and atrocity-driven discourse.",
+      "source_title": "AP / Hezbollah attacks on Oct. 8, 2023",
+      "source_url": "https://apnews.com/article/cd7b26f890bf4cae32491721506ec0a1"
+    },
+    {
+      "window_month": "2024-06",
+      "event_date": "2024-06-11",
+      "label": "Taleb Abdullah killed in Israeli strike",
+      "description": "The killing of senior Hezbollah commander Taleb Abdullah triggered one of the strongest 2024 escalation windows on the Lebanon-Israel border.",
+      "source_title": "AP / Killing of senior Hezbollah commander Taleb Abdullah",
+      "source_url": "https://apnews.com/article/a404a607c3f96850d0dde1a5cc70c41b"
+    },
+    {
+      "window_month": "2024-09",
+      "event_date": "2024-09-17",
+      "label": "Pager and walkie-talkie attack fallout",
+      "description": "The exploding devices attack created a major escalation window and preceded the subreddit’s highest activity peak.",
+      "source_title": "AP / Background on the exploding devices attack",
+      "source_url": "https://apnews.com/article/b8506471525e3848023b1d6a863827e8"
+    },
+    {
+      "window_month": "2024-09",
+      "event_date": "2024-09-23",
+      "label": "Deadliest day for Lebanon since 2006",
+      "description": "September 23, 2024 was described by AP as the deadliest day for Lebanon since the 2006 war, aligning with the subreddit’s largest volume spike.",
+      "source_title": "AP / Sept. 23, 2024 deadliest day for Lebanon since 2006",
+      "source_url": "https://apnews.com/article/e3ca9c83642056f962fdf76319e3b8de"
+    },
+    {
+      "window_month": "2024-09",
+      "event_date": "2024-09-27",
+      "label": "Nasrallah targeted in Beirut strike",
+      "description": "Israel targeted Hassan Nasrallah in Beirut on September 27, 2024, intensifying both volume and tone inside the subreddit.",
+      "source_title": "AP / Nasrallah targeted in Beirut strike on Sept. 27, 2024",
+      "source_url": "https://apnews.com/article/617575d9c5d7c711bc02e7b81d2ba4ad"
+    },
+    {
+      "window_month": "2024-09",
+      "event_date": "2024-09-28",
+      "label": "Hezbollah confirms Nasrallah killed",
+      "description": "Hezbollah confirmed Nasrallah’s death on September 28, 2024, extending the same high-intensity narrative window into October.",
+      "source_title": "AP / Hezbollah confirms Nasrallah killed on Sept. 28, 2024",
+      "source_url": "https://apnews.com/article/c4751957433ff944c4eb06027885a973"
+    },
+    {
+      "window_month": "2025-03",
+      "event_date": "2025-03-11",
+      "label": "US announces Lebanon-Israel border talks",
+      "description": "The White House announced border and dispute talks, marking a diplomacy-heavy window distinct from the pure battlefield spikes.",
+      "source_title": "Al Arabiya / US announces Lebanon-Israel talks to resolve border demarcation and other disputes",
+      "source_url": "https://english.alarabiya.net/News/middle-east/2025/03/11/us-announces-lebanon-israel-talks-to-resolve-border-demarcation-other-disputes"
+    },
+    {
+      "window_month": "2025-03",
+      "event_date": "2025-03-28",
+      "label": "First Beirut strike since ceasefire",
+      "description": "Israel struck Beirut on March 28, 2025 in the first such strike since the ceasefire, blending diplomacy discourse with renewed escalation.",
+      "source_title": "AP / First Beirut strike since ceasefire",
+      "source_url": "https://apnews.com/article/1652bc0f69f2c635980432abc7671a41"
+    },
+    {
+      "window_month": "2026-03",
+      "event_date": "2026-03-05",
+      "label": "Renewed Beirut strikes after Hezbollah resumed attacks",
+      "description": "Renewed Beirut strikes in March 2026 intersect with a partial-month spike in the archive and a discourse mix focused on regional war and Lebanese state action.",
+      "source_title": "AP / Beirut strikes after Hezbollah resumed attacks",
+      "source_url": "https://apnews.com/article/55b660c3e8cc071078533d8d2a8f93a2"
+    },
+    {
+      "window_month": "2026-03",
+      "event_date": "2026-03-04",
+      "label": "Lebanese army arrest campaign targeting non-state actors",
+      "description": "The Lebanese army launched an arrest campaign targeting non-state actors including Hezbollah, adding an internal-state dimension to the same discussion period.",
+      "source_title": "The National / Lebanese army conducts arrest campaign targeting non-state actors including Hezbollah",
+      "source_url": "https://www.thenationalnews.com/news/mena/2026/03/04/lebanese-army-conducts-arrest-campaign-targeting-non-state-actors-including-hezbollah/"
+    }
+  ],
+  "review_queue": [
+    {
+      "author": "EmperorChaos",
+      "all_posts": 19,
+      "all_comments": 14153,
+      "all_total": 14172,
+      "active_subreddits": 101,
+      "top_subreddits": "lebanon:9820; ForbiddenBromance:962; worldnews:608; europe:411; canada:405; OnePiece:389; Israel:327; halo:206",
+      "first_seen_utc": 1546579323,
+      "last_seen_utc": 1773277166,
+      "fb_posts": 2,
+      "fb_comments": 960,
+      "fb_total": 962,
+      "fb_top_flair": "Diaspora Lebanese",
+      "fb_hebrew_items": 0,
+      "outside_forbidden_bromance_posts": 17,
+      "outside_forbidden_bromance_comments": 13193,
+      "outside_israel_related_comments": 327,
+      "outside_lebanon_related_comments": 9884,
+      "outside_hebrew_items": 2,
+      "fb_focus_ratio": 0.0679,
+      "manual_review_score": 60,
+      "manual_review_reasons": "claimed Lebanese flair merits closer consistency review; heavy outside activity in Israel-related subreddits; high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    },
+    {
+      "author": "victoryismind",
+      "all_posts": 207,
+      "all_comments": 10294,
+      "all_total": 10501,
+      "active_subreddits": 255,
+      "top_subreddits": "lebanon:3211; ForbiddenBromance:3145; photocritique:903; photography:400; UrbanHell:391; photographycirclejerk:267; linux:233; worldnews:211",
+      "first_seen_utc": 1563105584,
+      "last_seen_utc": 1773304597,
+      "fb_posts": 74,
+      "fb_comments": 3063,
+      "fb_total": 3137,
+      "fb_top_flair": "Lebanese",
+      "fb_hebrew_items": 3,
+      "outside_forbidden_bromance_posts": 133,
+      "outside_forbidden_bromance_comments": 7223,
+      "outside_israel_related_comments": 45,
+      "outside_lebanon_related_comments": 3195,
+      "outside_hebrew_items": 2,
+      "fb_focus_ratio": 0.2987,
+      "manual_review_score": 35,
+      "manual_review_reasons": "claimed Lebanese flair merits closer consistency review; high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    },
+    {
+      "author": "cha3bghachim",
+      "all_posts": 172,
+      "all_comments": 3765,
+      "all_total": 3937,
+      "active_subreddits": 29,
+      "top_subreddits": "lebanon:2011; ForbiddenBromance:1124; Lebanese:663; lebaneseatheists:39; Israel:25; lebanon_uncensored:16; lebanonmemes:16; MiddleEastAtheists:6",
+      "first_seen_utc": 1567352720,
+      "last_seen_utc": 1773083768,
+      "fb_posts": 78,
+      "fb_comments": 1046,
+      "fb_total": 1124,
+      "fb_top_flair": "Lebanese",
+      "fb_hebrew_items": 0,
+      "outside_forbidden_bromance_posts": 94,
+      "outside_forbidden_bromance_comments": 2719,
+      "outside_israel_related_comments": 26,
+      "outside_lebanon_related_comments": 2661,
+      "outside_hebrew_items": 0,
+      "fb_focus_ratio": 0.2855,
+      "manual_review_score": 35,
+      "manual_review_reasons": "claimed Lebanese flair merits closer consistency review; high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    },
+    {
+      "author": "IbnEzra613",
+      "all_posts": 324,
+      "all_comments": 47324,
+      "all_total": 47648,
+      "active_subreddits": 108,
+      "top_subreddits": "Judaism:22097; Israel:8339; hebrew:4710; IsraelPalestine:3557; Jewish:2782; Israel_Palestine:1493; ForbiddenBromance:903; learn_arabic:652",
+      "first_seen_utc": 1546318006,
+      "last_seen_utc": 1773164565,
+      "fb_posts": 36,
+      "fb_comments": 867,
+      "fb_total": 903,
+      "fb_top_flair": "Diaspora Jew",
+      "fb_hebrew_items": 48,
+      "outside_forbidden_bromance_posts": 288,
+      "outside_forbidden_bromance_comments": 46457,
+      "outside_israel_related_comments": 38766,
+      "outside_lebanon_related_comments": 6,
+      "outside_hebrew_items": 2924,
+      "fb_focus_ratio": 0.019,
+      "manual_review_score": 30,
+      "manual_review_reasons": "high Hebrew activity cluster; high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    },
+    {
+      "author": "Tamtumtam",
+      "all_posts": 566,
+      "all_comments": 30573,
+      "all_total": 31139,
+      "active_subreddits": 334,
+      "top_subreddits": "PoliticalCompassMemes:6184; ani_bm:5343; Israel:2436; HistoryMemes:1758; Jewdank:1398; PoliticalCompass:1177; vexillology:1010; Polcompball:793",
+      "first_seen_utc": 1565079294,
+      "last_seen_utc": 1664242243,
+      "fb_posts": 8,
+      "fb_comments": 457,
+      "fb_total": 465,
+      "fb_top_flair": "Israeli",
+      "fb_hebrew_items": 19,
+      "outside_forbidden_bromance_posts": 558,
+      "outside_forbidden_bromance_comments": 30116,
+      "outside_israel_related_comments": 9105,
+      "outside_lebanon_related_comments": 16,
+      "outside_hebrew_items": 6598,
+      "fb_focus_ratio": 0.0149,
+      "manual_review_score": 30,
+      "manual_review_reasons": "high Hebrew activity cluster; high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    },
+    {
+      "author": "DaDerpyDude",
+      "all_posts": 864,
+      "all_comments": 5963,
+      "all_total": 6827,
+      "active_subreddits": 185,
+      "top_subreddits": "Israel:1805; AskMiddleEast:1203; ForbiddenBromance:452; nba:423; worldnews:409; ani_bm:332; MapPorn:281; Judaism:236",
+      "first_seen_utc": 1546381780,
+      "last_seen_utc": 1773240316,
+      "fb_posts": 74,
+      "fb_comments": 378,
+      "fb_total": 452,
+      "fb_top_flair": "Israeli",
+      "fb_hebrew_items": 21,
+      "outside_forbidden_bromance_posts": 790,
+      "outside_forbidden_bromance_comments": 5585,
+      "outside_israel_related_comments": 2233,
+      "outside_lebanon_related_comments": 99,
+      "outside_hebrew_items": 647,
+      "fb_focus_ratio": 0.0662,
+      "manual_review_score": 30,
+      "manual_review_reasons": "high Hebrew activity cluster; high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    },
+    {
+      "author": "levnon14",
+      "all_posts": 83,
+      "all_comments": 1151,
+      "all_total": 1234,
+      "active_subreddits": 21,
+      "top_subreddits": "ForbiddenBromance:982; lebanon:79; federallebanon:58; Israel:39; NewIran:28; Lebanese:15; personalfinance:7; Assyria:5",
+      "first_seen_utc": 1628790045,
+      "last_seen_utc": 1727422173,
+      "fb_posts": 64,
+      "fb_comments": 918,
+      "fb_total": 982,
+      "fb_top_flair": "Diaspora Lebanese",
+      "fb_hebrew_items": 0,
+      "outside_forbidden_bromance_posts": 19,
+      "outside_forbidden_bromance_comments": 233,
+      "outside_israel_related_comments": 37,
+      "outside_lebanon_related_comments": 141,
+      "outside_hebrew_items": 0,
+      "fb_focus_ratio": 0.7958,
+      "manual_review_score": 25,
+      "manual_review_reasons": "claimed Lebanese flair merits closer consistency review; high-volume presence inside ForbiddenBromance"
+    },
+    {
+      "author": "Glad-Difference-3238",
+      "all_posts": 31,
+      "all_comments": 1033,
+      "all_total": 1064,
+      "active_subreddits": 38,
+      "top_subreddits": "ForbiddenBromance:474; lebanon:437; lebanesegirlies:39; 2mediterranean4u:27; 23andme:10; AskMiddleEast:9; cocktails:8; RunningShoeGeeks:6",
+      "first_seen_utc": 1696868615,
+      "last_seen_utc": 1760061813,
+      "fb_posts": 6,
+      "fb_comments": 468,
+      "fb_total": 474,
+      "fb_top_flair": "Lebanese",
+      "fb_hebrew_items": 0,
+      "outside_forbidden_bromance_posts": 25,
+      "outside_forbidden_bromance_comments": 565,
+      "outside_israel_related_comments": 1,
+      "outside_lebanon_related_comments": 470,
+      "outside_hebrew_items": 1,
+      "fb_focus_ratio": 0.4455,
+      "manual_review_score": 25,
+      "manual_review_reasons": "claimed Lebanese flair merits closer consistency review; high-volume presence inside ForbiddenBromance"
+    },
+    {
+      "author": "Current-Meal9360",
+      "all_posts": 12,
+      "all_comments": 474,
+      "all_total": 486,
+      "active_subreddits": 8,
+      "top_subreddits": "ForbiddenBromance:413; lebanon:51; lebanesegirlies:10; Funnymemes:7; lebaneseinfluencers:2; Palestinian_Violence:1; PromptEngineering:1; israel_bm:1",
+      "first_seen_utc": 1727206234,
+      "last_seen_utc": 1772741616,
+      "fb_posts": 8,
+      "fb_comments": 405,
+      "fb_total": 413,
+      "fb_top_flair": "Lebanese",
+      "fb_hebrew_items": 0,
+      "outside_forbidden_bromance_posts": 4,
+      "outside_forbidden_bromance_comments": 69,
+      "outside_israel_related_comments": 1,
+      "outside_lebanon_related_comments": 59,
+      "outside_hebrew_items": 1,
+      "fb_focus_ratio": 0.8498,
+      "manual_review_score": 25,
+      "manual_review_reasons": "claimed Lebanese flair merits closer consistency review; high-volume presence inside ForbiddenBromance"
+    },
+    {
+      "author": "LevantinePlantCult",
+      "all_posts": 45,
+      "all_comments": 5402,
+      "all_total": 5447,
+      "active_subreddits": 67,
+      "top_subreddits": "neoliberal:2257; ForbiddenBromance:944; Israel:514; 2ndYomKippurWar:308; Indiemakeupandmore:281; MultipleSclerosis:267; Judaism:194; metaNL:187",
+      "first_seen_utc": 1671912955,
+      "last_seen_utc": 1773274664,
+      "fb_posts": 11,
+      "fb_comments": 929,
+      "fb_total": 940,
+      "fb_top_flair": "Unflaired/Unknown",
+      "fb_hebrew_items": 20,
+      "outside_forbidden_bromance_posts": 34,
+      "outside_forbidden_bromance_comments": 4469,
+      "outside_israel_related_comments": 779,
+      "outside_lebanon_related_comments": 2,
+      "outside_hebrew_items": 39,
+      "fb_focus_ratio": 0.1726,
+      "manual_review_score": 20,
+      "manual_review_reasons": "high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    },
+    {
+      "author": "FriendlyJewThrowaway",
+      "all_posts": 4,
+      "all_comments": 5695,
+      "all_total": 5699,
+      "active_subreddits": 133,
+      "top_subreddits": "IsraelPalestine:1465; ForbiddenBromance:804; lebanon:675; singularity:596; worldnews:397; KanePixelsBackrooms:279; accelerate:142; Pomeranians:98",
+      "first_seen_utc": 1592164795,
+      "last_seen_utc": 1773297983,
+      "fb_posts": 0,
+      "fb_comments": 803,
+      "fb_total": 803,
+      "fb_top_flair": "Diaspora Jew",
+      "fb_hebrew_items": 0,
+      "outside_forbidden_bromance_posts": 4,
+      "outside_forbidden_bromance_comments": 4891,
+      "outside_israel_related_comments": 1519,
+      "outside_lebanon_related_comments": 674,
+      "outside_hebrew_items": 0,
+      "fb_focus_ratio": 0.1409,
+      "manual_review_score": 20,
+      "manual_review_reasons": "high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    },
+    {
+      "author": "MajorTechnology8827",
+      "all_posts": 133,
+      "all_comments": 6931,
+      "all_total": 7064,
+      "active_subreddits": 232,
+      "top_subreddits": "worldnews:914; 2mediterranean4u:908; NewIran:762; ForbiddenBromance:551; slaythespire:416; EnoughCommieSpam:390; thinkpad:361; ani_bm:317",
+      "first_seen_utc": 1703275044,
+      "last_seen_utc": 1772787130,
+      "fb_posts": 19,
+      "fb_comments": 532,
+      "fb_total": 551,
+      "fb_top_flair": "Israeli",
+      "fb_hebrew_items": 11,
+      "outside_forbidden_bromance_posts": 114,
+      "outside_forbidden_bromance_comments": 6399,
+      "outside_israel_related_comments": 434,
+      "outside_lebanon_related_comments": 8,
+      "outside_hebrew_items": 446,
+      "fb_focus_ratio": 0.078,
+      "manual_review_score": 20,
+      "manual_review_reasons": "high-volume presence inside ForbiddenBromance; large outside Reddit history available for comparison"
+    }
+  ],
+  "dense_threads": [
+    {
+      "link_id": "t3_eh3o63",
+      "post_id": "eh3o63",
+      "month": "2019-12",
+      "title": "Lebanon 60 years ago",
+      "post_author": "[deleted]",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 40,
+      "unique_authors": 2,
+      "reply_comments": 38,
+      "comments_per_author": 20.0,
+      "reply_ratio": 0.95
+    },
+    {
+      "link_id": "t3_ev0xmb",
+      "post_id": "ev0xmb",
+      "month": "2020-01",
+      "title": "Arab and Israeli duet (in Arabic and Hebrew)",
+      "post_author": "c9joe",
+      "post_flair": "Israeli",
+      "comments": 70,
+      "unique_authors": 6,
+      "reply_comments": 66,
+      "comments_per_author": 11.667,
+      "reply_ratio": 0.943
+    },
+    {
+      "link_id": "t3_pm49br",
+      "post_id": "pm49br",
+      "month": "2021-09",
+      "title": "Ban speedrun attempt number 1",
+      "post_author": "[deleted]",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 195,
+      "unique_authors": 17,
+      "reply_comments": 191,
+      "comments_per_author": 11.471,
+      "reply_ratio": 0.979
+    },
+    {
+      "link_id": "t3_j5vb6a",
+      "post_id": "j5vb6a",
+      "month": "2020-10",
+      "title": "Is it legal to talk to someone living in Europe who has Lebanese passport?",
+      "post_author": "[deleted]",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 43,
+      "unique_authors": 5,
+      "reply_comments": 38,
+      "comments_per_author": 8.6,
+      "reply_ratio": 0.884
+    },
+    {
+      "link_id": "t3_1fl0vm5",
+      "post_id": "1fl0vm5",
+      "month": "2024-09",
+      "title": "This sub aware of Maronite’s spreading blood libel throughout the region ",
+      "post_author": "Exciting_Wrangler_31",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 51,
+      "unique_authors": 6,
+      "reply_comments": 48,
+      "comments_per_author": 8.5,
+      "reply_ratio": 0.941
+    },
+    {
+      "link_id": "t3_1otbyc4",
+      "post_id": "1otbyc4",
+      "month": "2025-11",
+      "title": "Salam: My generation and I made mistakes in the past.",
+      "post_author": "pornchavo",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 91,
+      "unique_authors": 11,
+      "reply_comments": 87,
+      "comments_per_author": 8.273,
+      "reply_ratio": 0.956
+    },
+    {
+      "link_id": "t3_ew8svr",
+      "post_id": "ew8svr",
+      "month": "2020-01",
+      "title": "Qannoubine Valley of the Saints",
+      "post_author": "[deleted]",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 22,
+      "unique_authors": 3,
+      "reply_comments": 20,
+      "comments_per_author": 7.333,
+      "reply_ratio": 0.909
+    },
+    {
+      "link_id": "t3_j3kp5q",
+      "post_id": "j3kp5q",
+      "month": "2020-10",
+      "title": "Everyone in this is a traitor",
+      "post_author": "Jolly_Independence69",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 115,
+      "unique_authors": 16,
+      "reply_comments": 102,
+      "comments_per_author": 7.188,
+      "reply_ratio": 0.887
+    },
+    {
+      "link_id": "t3_vrx4le",
+      "post_id": "vrx4le",
+      "month": "2022-07",
+      "title": "so how do you guys justify israel violating lebanese airspace every week almost",
+      "post_author": "Lil_jayye",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 192,
+      "unique_authors": 27,
+      "reply_comments": 177,
+      "comments_per_author": 7.111,
+      "reply_ratio": 0.922
+    },
+    {
+      "link_id": "t3_n9uno7",
+      "post_id": "n9uno7",
+      "month": "2021-05",
+      "title": "The terror of Israel",
+      "post_author": "ANAS-SH",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 28,
+      "unique_authors": 4,
+      "reply_comments": 25,
+      "comments_per_author": 7.0,
+      "reply_ratio": 0.893
+    },
+    {
+      "link_id": "t3_i3ph6w",
+      "post_id": "i3ph6w",
+      "month": "2020-08",
+      "title": "Beirut Explosion Updates/News Thread",
+      "post_author": "cha3bghachim",
+      "post_flair": "Lebanese",
+      "comments": 94,
+      "unique_authors": 14,
+      "reply_comments": 57,
+      "comments_per_author": 6.714,
+      "reply_ratio": 0.606
+    },
+    {
+      "link_id": "t3_18b8z4y",
+      "post_id": "18b8z4y",
+      "month": "2023-12",
+      "title": "Israeli Christian-Lebanese gives a speech at a pro Israel rally in Canada",
+      "post_author": "traumaking4eva",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 100,
+      "unique_authors": 15,
+      "reply_comments": 92,
+      "comments_per_author": 6.667,
+      "reply_ratio": 0.92
+    },
+    {
+      "link_id": "t3_irxm1d",
+      "post_id": "irxm1d",
+      "month": "2020-09",
+      "title": "How do you all feel that the Balad party in Israel has a summer camp for kids?",
+      "post_author": "[deleted]",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 60,
+      "unique_authors": 9,
+      "reply_comments": 55,
+      "comments_per_author": 6.667,
+      "reply_ratio": 0.917
+    },
+    {
+      "link_id": "t3_p29iwd",
+      "post_id": "p29iwd",
+      "month": "2021-08",
+      "title": "Imagine loving israel niggas.You are literally betraying the people that died in 2000 and 2006 forgetting israeli war crimes and supporting war crimes agaist arabs and even jewsih mistreated people.I am ashamed by this sub reddit.And its creator.I hope you all get a piece of justice.Goodbye fuckers.",
+      "post_author": "Carlos_The_Roach",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 117,
+      "unique_authors": 18,
+      "reply_comments": 107,
+      "comments_per_author": 6.5,
+      "reply_ratio": 0.915
+    },
+    {
+      "link_id": "t3_hijy5r",
+      "post_id": "hijy5r",
+      "month": "2020-06",
+      "title": "Secular visions need to win over Shi'a // A post by a secular Shi'ite",
+      "post_author": "zbatouik",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 52,
+      "unique_authors": 8,
+      "reply_comments": 45,
+      "comments_per_author": 6.5,
+      "reply_ratio": 0.865
+    },
+    {
+      "link_id": "t3_1e6ptjt",
+      "post_id": "1e6ptjt",
+      "month": "2024-07",
+      "title": "Do you think Israel will be any kinder to Lebanon?",
+      "post_author": "Narrow_Pumpkin5948",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 52,
+      "unique_authors": 8,
+      "reply_comments": 49,
+      "comments_per_author": 6.5,
+      "reply_ratio": 0.942
+    },
+    {
+      "link_id": "t3_1hagn59",
+      "post_id": "1hagn59",
+      "month": "2024-12",
+      "title": "Congratulations to my Israeli neighbors ",
+      "post_author": "price_of_sleep",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 71,
+      "unique_authors": 11,
+      "reply_comments": 62,
+      "comments_per_author": 6.455,
+      "reply_ratio": 0.873
+    },
+    {
+      "link_id": "t3_gm2rgf",
+      "post_id": "gm2rgf",
+      "month": "2020-05",
+      "title": "Have any of you Lebanese bros seen the film \"The Insult\"? I was wondering if any of you can explain the context.",
+      "post_author": "briskt",
+      "post_flair": "Diaspora Jew",
+      "comments": 45,
+      "unique_authors": 7,
+      "reply_comments": 43,
+      "comments_per_author": 6.429,
+      "reply_ratio": 0.956
+    },
+    {
+      "link_id": "t3_ngc3o2",
+      "post_id": "ngc3o2",
+      "month": "2021-05",
+      "title": "STOP ACTING LIKE THE VICTIM !!!!!",
+      "post_author": "BreakYourAnkles",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 32,
+      "unique_authors": 5,
+      "reply_comments": 29,
+      "comments_per_author": 6.4,
+      "reply_ratio": 0.906
+    },
+    {
+      "link_id": "t3_i1cbqr",
+      "post_id": "i1cbqr",
+      "month": "2020-07",
+      "title": "Visibility of Israel’s Borders from Space #4",
+      "post_author": "IbnEzra613",
+      "post_flair": "Diaspora Jew",
+      "comments": 31,
+      "unique_authors": 5,
+      "reply_comments": 28,
+      "comments_per_author": 6.2,
+      "reply_ratio": 0.903
+    }
+  ],
+  "top_interactions": [
+    {
+      "source_author": "victoryismind",
+      "target_author": "[deleted]",
+      "count": 189
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "victoryismind",
+      "count": 111
+    },
+    {
+      "source_author": "ForbiddenBromance-ModTeam",
+      "target_author": "[deleted]",
+      "count": 105
+    },
+    {
+      "source_author": "Tamtumtam",
+      "target_author": "[deleted]",
+      "count": 86
+    },
+    {
+      "source_author": "cha3bghachim",
+      "target_author": "[deleted]",
+      "count": 71
+    },
+    {
+      "source_author": "FriendlyJewThrowaway",
+      "target_author": "KimoZ_2006",
+      "count": 68
+    },
+    {
+      "source_author": "DaDerpyDude",
+      "target_author": "[deleted]",
+      "count": 65
+    },
+    {
+      "source_author": "KimoZ_2006",
+      "target_author": "FriendlyJewThrowaway",
+      "count": 65
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "DaDerpyDude",
+      "count": 62
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "Small_Watch",
+      "count": 62
+    },
+    {
+      "source_author": "IbnEzra613",
+      "target_author": "[deleted]",
+      "count": 61
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "cha3bghachim",
+      "count": 60
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "Tamtumtam",
+      "count": 60
+    },
+    {
+      "source_author": "EmperorChaos",
+      "target_author": "[deleted]",
+      "count": 58
+    },
+    {
+      "source_author": "FriendlyJewThrowaway",
+      "target_author": "[deleted]",
+      "count": 58
+    },
+    {
+      "source_author": "Shachar2like",
+      "target_author": "cha3bghachim",
+      "count": 58
+    },
+    {
+      "source_author": "victoryismind",
+      "target_author": "IbnEzra613",
+      "count": 56
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "IbnEzra613",
+      "count": 55
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "EmperorChaos",
+      "count": 53
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "t-vishni",
+      "count": 51
+    },
+    {
+      "source_author": "t-vishni",
+      "target_author": "[deleted]",
+      "count": 47
+    },
+    {
+      "source_author": "IbnEzra613",
+      "target_author": "victoryismind",
+      "count": 46
+    },
+    {
+      "source_author": "Shachar2like",
+      "target_author": "victoryismind",
+      "count": 45
+    },
+    {
+      "source_author": "victoryismind",
+      "target_author": "Shachar2like",
+      "count": 45
+    },
+    {
+      "source_author": "raaly123",
+      "target_author": "[deleted]",
+      "count": 45
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "Tako_402",
+      "count": 44
+    },
+    {
+      "source_author": "AutoModerator",
+      "target_author": "[deleted]",
+      "count": 44
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "raaly123",
+      "count": 43
+    },
+    {
+      "source_author": "[deleted]",
+      "target_author": "gettling",
+      "count": 42
+    },
+    {
+      "source_author": "SeeShark",
+      "target_author": "[deleted]",
+      "count": 42
+    }
+  ],
+  "flair_breakdown": [
+    {
+      "month": "2019-09",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 4,
+      "total": 5
+    },
+    {
+      "month": "2019-09",
+      "flair": "Falafel Sahyoun",
+      "posts": 2,
+      "comments": 6,
+      "total": 8
+    },
+    {
+      "month": "2019-09",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2019-09",
+      "flair": "Israeli",
+      "posts": 2,
+      "comments": 29,
+      "total": 31
+    },
+    {
+      "month": "2019-09",
+      "flair": "Lebanese",
+      "posts": 11,
+      "comments": 64,
+      "total": 75
+    },
+    {
+      "month": "2019-09",
+      "flair": "Unflaired/Unknown",
+      "posts": 14,
+      "comments": 35,
+      "total": 49
+    },
+    {
+      "month": "2019-10",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 17,
+      "total": 17
+    },
+    {
+      "month": "2019-10",
+      "flair": "Falafel Sahyoun",
+      "posts": 6,
+      "comments": 5,
+      "total": 11
+    },
+    {
+      "month": "2019-10",
+      "flair": "Hummus wars veteran",
+      "posts": 7,
+      "comments": 6,
+      "total": 13
+    },
+    {
+      "month": "2019-10",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2019-10",
+      "flair": "Israeli",
+      "posts": 13,
+      "comments": 81,
+      "total": 94
+    },
+    {
+      "month": "2019-10",
+      "flair": "Lebanese",
+      "posts": 16,
+      "comments": 136,
+      "total": 152
+    },
+    {
+      "month": "2019-10",
+      "flair": "Unflaired/Unknown",
+      "posts": 13,
+      "comments": 72,
+      "total": 85
+    },
+    {
+      "month": "2019-11",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 10,
+      "total": 10
+    },
+    {
+      "month": "2019-11",
+      "flair": "Hummus wars veteran",
+      "posts": 3,
+      "comments": 15,
+      "total": 18
+    },
+    {
+      "month": "2019-11",
+      "flair": "Israeli",
+      "posts": 12,
+      "comments": 78,
+      "total": 90
+    },
+    {
+      "month": "2019-11",
+      "flair": "Lebanese",
+      "posts": 7,
+      "comments": 140,
+      "total": 147
+    },
+    {
+      "month": "2019-11",
+      "flair": "Unflaired/Unknown",
+      "posts": 12,
+      "comments": 83,
+      "total": 95
+    },
+    {
+      "month": "2019-12",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 9,
+      "total": 9
+    },
+    {
+      "month": "2019-12",
+      "flair": "Hummus wars veteran",
+      "posts": 1,
+      "comments": 5,
+      "total": 6
+    },
+    {
+      "month": "2019-12",
+      "flair": "Israeli",
+      "posts": 7,
+      "comments": 77,
+      "total": 84
+    },
+    {
+      "month": "2019-12",
+      "flair": "Lebanese",
+      "posts": 8,
+      "comments": 130,
+      "total": 138
+    },
+    {
+      "month": "2019-12",
+      "flair": "Unflaired/Unknown",
+      "posts": 9,
+      "comments": 132,
+      "total": 141
+    },
+    {
+      "month": "2020-01",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 35,
+      "total": 36
+    },
+    {
+      "month": "2020-01",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 13,
+      "total": 13
+    },
+    {
+      "month": "2020-01",
+      "flair": "Israeli",
+      "posts": 16,
+      "comments": 148,
+      "total": 164
+    },
+    {
+      "month": "2020-01",
+      "flair": "Lebanese",
+      "posts": 32,
+      "comments": 347,
+      "total": 379
+    },
+    {
+      "month": "2020-01",
+      "flair": "Unflaired/Unknown",
+      "posts": 21,
+      "comments": 418,
+      "total": 439
+    },
+    {
+      "month": "2020-02",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 64,
+      "total": 65
+    },
+    {
+      "month": "2020-02",
+      "flair": "Hummus wars veteran",
+      "posts": 1,
+      "comments": 16,
+      "total": 17
+    },
+    {
+      "month": "2020-02",
+      "flair": "Israeli",
+      "posts": 14,
+      "comments": 146,
+      "total": 160
+    },
+    {
+      "month": "2020-02",
+      "flair": "Lebanese",
+      "posts": 31,
+      "comments": 304,
+      "total": 335
+    },
+    {
+      "month": "2020-02",
+      "flair": "Unflaired/Unknown",
+      "posts": 13,
+      "comments": 99,
+      "total": 112
+    },
+    {
+      "month": "2020-03",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 20,
+      "total": 21
+    },
+    {
+      "month": "2020-03",
+      "flair": "Falafel Sahyoun",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2020-03",
+      "flair": "Hummus wars veteran",
+      "posts": 1,
+      "comments": 22,
+      "total": 23
+    },
+    {
+      "month": "2020-03",
+      "flair": "Israeli",
+      "posts": 11,
+      "comments": 137,
+      "total": 148
+    },
+    {
+      "month": "2020-03",
+      "flair": "Lebanese",
+      "posts": 6,
+      "comments": 99,
+      "total": 105
+    },
+    {
+      "month": "2020-03",
+      "flair": "Unflaired/Unknown",
+      "posts": 17,
+      "comments": 104,
+      "total": 121
+    },
+    {
+      "month": "2020-04",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 16,
+      "total": 18
+    },
+    {
+      "month": "2020-04",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2020-04",
+      "flair": "Israeli",
+      "posts": 2,
+      "comments": 97,
+      "total": 99
+    },
+    {
+      "month": "2020-04",
+      "flair": "Lebanese",
+      "posts": 7,
+      "comments": 117,
+      "total": 124
+    },
+    {
+      "month": "2020-04",
+      "flair": "Unflaired/Unknown",
+      "posts": 20,
+      "comments": 109,
+      "total": 129
+    },
+    {
+      "month": "2020-05",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 0,
+      "total": 1
+    },
+    {
+      "month": "2020-05",
+      "flair": "Diaspora Jew",
+      "posts": 6,
+      "comments": 17,
+      "total": 23
+    },
+    {
+      "month": "2020-05",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2020-05",
+      "flair": "Israeli",
+      "posts": 9,
+      "comments": 107,
+      "total": 116
+    },
+    {
+      "month": "2020-05",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 107,
+      "total": 109
+    },
+    {
+      "month": "2020-05",
+      "flair": "Unflaired/Unknown",
+      "posts": 13,
+      "comments": 155,
+      "total": 168
+    },
+    {
+      "month": "2020-06",
+      "flair": "Diaspora Israeli",
+      "posts": 3,
+      "comments": 6,
+      "total": 9
+    },
+    {
+      "month": "2020-06",
+      "flair": "Diaspora Jew",
+      "posts": 5,
+      "comments": 47,
+      "total": 52
+    },
+    {
+      "month": "2020-06",
+      "flair": "Falafel Sahyoun",
+      "posts": 1,
+      "comments": 2,
+      "total": 3
+    },
+    {
+      "month": "2020-06",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2020-06",
+      "flair": "Israeli",
+      "posts": 8,
+      "comments": 287,
+      "total": 295
+    },
+    {
+      "month": "2020-06",
+      "flair": "Lebanese",
+      "posts": 10,
+      "comments": 201,
+      "total": 211
+    },
+    {
+      "month": "2020-06",
+      "flair": "Unflaired/Unknown",
+      "posts": 19,
+      "comments": 332,
+      "total": 351
+    },
+    {
+      "month": "2020-07",
+      "flair": "Diaspora Israeli",
+      "posts": 2,
+      "comments": 19,
+      "total": 21
+    },
+    {
+      "month": "2020-07",
+      "flair": "Diaspora Jew",
+      "posts": 9,
+      "comments": 70,
+      "total": 79
+    },
+    {
+      "month": "2020-07",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 27,
+      "total": 27
+    },
+    {
+      "month": "2020-07",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2020-07",
+      "flair": "Israeli",
+      "posts": 5,
+      "comments": 206,
+      "total": 211
+    },
+    {
+      "month": "2020-07",
+      "flair": "Lebanese",
+      "posts": 4,
+      "comments": 91,
+      "total": 95
+    },
+    {
+      "month": "2020-07",
+      "flair": "Unflaired/Unknown",
+      "posts": 33,
+      "comments": 325,
+      "total": 358
+    },
+    {
+      "month": "2020-08",
+      "flair": "Arab",
+      "posts": 0,
+      "comments": 12,
+      "total": 12
+    },
+    {
+      "month": "2020-08",
+      "flair": "Diaspora Israeli",
+      "posts": 5,
+      "comments": 34,
+      "total": 39
+    },
+    {
+      "month": "2020-08",
+      "flair": "Diaspora Jew",
+      "posts": 9,
+      "comments": 285,
+      "total": 294
+    },
+    {
+      "month": "2020-08",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 21,
+      "total": 21
+    },
+    {
+      "month": "2020-08",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2020-08",
+      "flair": "Israeli",
+      "posts": 33,
+      "comments": 254,
+      "total": 287
+    },
+    {
+      "month": "2020-08",
+      "flair": "Lebanese",
+      "posts": 10,
+      "comments": 113,
+      "total": 123
+    },
+    {
+      "month": "2020-08",
+      "flair": "Non-Canaanite",
+      "posts": 2,
+      "comments": 23,
+      "total": 25
+    },
+    {
+      "month": "2020-08",
+      "flair": "Unflaired/Unknown",
+      "posts": 66,
+      "comments": 676,
+      "total": 742
+    },
+    {
+      "month": "2020-09",
+      "flair": "Arab",
+      "posts": 2,
+      "comments": 5,
+      "total": 7
+    },
+    {
+      "month": "2020-09",
+      "flair": "Diaspora Israeli",
+      "posts": 5,
+      "comments": 49,
+      "total": 54
+    },
+    {
+      "month": "2020-09",
+      "flair": "Diaspora Jew",
+      "posts": 3,
+      "comments": 59,
+      "total": 62
+    },
+    {
+      "month": "2020-09",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 36,
+      "total": 36
+    },
+    {
+      "month": "2020-09",
+      "flair": "Hummus wars veteran",
+      "posts": 1,
+      "comments": 3,
+      "total": 4
+    },
+    {
+      "month": "2020-09",
+      "flair": "Israeli",
+      "posts": 6,
+      "comments": 91,
+      "total": 97
+    },
+    {
+      "month": "2020-09",
+      "flair": "Lebanese",
+      "posts": 5,
+      "comments": 103,
+      "total": 108
+    },
+    {
+      "month": "2020-09",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 0,
+      "total": 1
+    },
+    {
+      "month": "2020-09",
+      "flair": "Unflaired/Unknown",
+      "posts": 47,
+      "comments": 376,
+      "total": 423
+    },
+    {
+      "month": "2020-10",
+      "flair": "Arab",
+      "posts": 1,
+      "comments": 1,
+      "total": 2
+    },
+    {
+      "month": "2020-10",
+      "flair": "Diaspora Israeli",
+      "posts": 4,
+      "comments": 18,
+      "total": 22
+    },
+    {
+      "month": "2020-10",
+      "flair": "Diaspora Jew",
+      "posts": 5,
+      "comments": 64,
+      "total": 69
+    },
+    {
+      "month": "2020-10",
+      "flair": "Diaspora Lebanese",
+      "posts": 3,
+      "comments": 42,
+      "total": 45
+    },
+    {
+      "month": "2020-10",
+      "flair": "Hummus wars veteran",
+      "posts": 1,
+      "comments": 0,
+      "total": 1
+    },
+    {
+      "month": "2020-10",
+      "flair": "Israeli",
+      "posts": 15,
+      "comments": 190,
+      "total": 205
+    },
+    {
+      "month": "2020-10",
+      "flair": "Lebanese",
+      "posts": 5,
+      "comments": 77,
+      "total": 82
+    },
+    {
+      "month": "2020-10",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2020-10",
+      "flair": "Unflaired/Unknown",
+      "posts": 36,
+      "comments": 394,
+      "total": 430
+    },
+    {
+      "month": "2020-11",
+      "flair": "Arab",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2020-11",
+      "flair": "Diaspora Israeli",
+      "posts": 4,
+      "comments": 18,
+      "total": 22
+    },
+    {
+      "month": "2020-11",
+      "flair": "Diaspora Jew",
+      "posts": 8,
+      "comments": 54,
+      "total": 62
+    },
+    {
+      "month": "2020-11",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2020-11",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2020-11",
+      "flair": "Israeli",
+      "posts": 8,
+      "comments": 114,
+      "total": 122
+    },
+    {
+      "month": "2020-11",
+      "flair": "Lebanese",
+      "posts": 7,
+      "comments": 42,
+      "total": 49
+    },
+    {
+      "month": "2020-11",
+      "flair": "Unflaired/Unknown",
+      "posts": 19,
+      "comments": 178,
+      "total": 197
+    },
+    {
+      "month": "2020-12",
+      "flair": "Arab",
+      "posts": 1,
+      "comments": 6,
+      "total": 7
+    },
+    {
+      "month": "2020-12",
+      "flair": "Diaspora Israeli",
+      "posts": 5,
+      "comments": 11,
+      "total": 16
+    },
+    {
+      "month": "2020-12",
+      "flair": "Diaspora Jew",
+      "posts": 3,
+      "comments": 44,
+      "total": 47
+    },
+    {
+      "month": "2020-12",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 2,
+      "total": 3
+    },
+    {
+      "month": "2020-12",
+      "flair": "Israeli",
+      "posts": 4,
+      "comments": 99,
+      "total": 103
+    },
+    {
+      "month": "2020-12",
+      "flair": "Lebanese",
+      "posts": 4,
+      "comments": 81,
+      "total": 85
+    },
+    {
+      "month": "2020-12",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 2,
+      "total": 3
+    },
+    {
+      "month": "2020-12",
+      "flair": "Unflaired/Unknown",
+      "posts": 49,
+      "comments": 339,
+      "total": 388
+    },
+    {
+      "month": "2021-01",
+      "flair": "Arab",
+      "posts": 2,
+      "comments": 2,
+      "total": 4
+    },
+    {
+      "month": "2021-01",
+      "flair": "Diaspora Israeli",
+      "posts": 6,
+      "comments": 77,
+      "total": 83
+    },
+    {
+      "month": "2021-01",
+      "flair": "Diaspora Jew",
+      "posts": 6,
+      "comments": 74,
+      "total": 80
+    },
+    {
+      "month": "2021-01",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 33,
+      "total": 34
+    },
+    {
+      "month": "2021-01",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2021-01",
+      "flair": "Israeli",
+      "posts": 11,
+      "comments": 297,
+      "total": 308
+    },
+    {
+      "month": "2021-01",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-01",
+      "flair": "Lebanese",
+      "posts": 13,
+      "comments": 160,
+      "total": 173
+    },
+    {
+      "month": "2021-01",
+      "flair": "Non-Canaanite",
+      "posts": 2,
+      "comments": 3,
+      "total": 5
+    },
+    {
+      "month": "2021-01",
+      "flair": "Unflaired/Unknown",
+      "posts": 73,
+      "comments": 577,
+      "total": 650
+    },
+    {
+      "month": "2021-02",
+      "flair": "Arab",
+      "posts": 2,
+      "comments": 3,
+      "total": 5
+    },
+    {
+      "month": "2021-02",
+      "flair": "Diaspora Israeli",
+      "posts": 7,
+      "comments": 33,
+      "total": 40
+    },
+    {
+      "month": "2021-02",
+      "flair": "Diaspora Jew",
+      "posts": 5,
+      "comments": 34,
+      "total": 39
+    },
+    {
+      "month": "2021-02",
+      "flair": "Diaspora Lebanese",
+      "posts": 6,
+      "comments": 27,
+      "total": 33
+    },
+    {
+      "month": "2021-02",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-02",
+      "flair": "Iranian/Persian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-02",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2021-02",
+      "flair": "Israeli",
+      "posts": 13,
+      "comments": 178,
+      "total": 191
+    },
+    {
+      "month": "2021-02",
+      "flair": "Lebanese",
+      "posts": 8,
+      "comments": 123,
+      "total": 131
+    },
+    {
+      "month": "2021-02",
+      "flair": "Non-Canaanite",
+      "posts": 3,
+      "comments": 3,
+      "total": 6
+    },
+    {
+      "month": "2021-02",
+      "flair": "Unflaired/Unknown",
+      "posts": 40,
+      "comments": 247,
+      "total": 287
+    },
+    {
+      "month": "2021-03",
+      "flair": "Arab",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-03",
+      "flair": "Diaspora Israeli",
+      "posts": 5,
+      "comments": 48,
+      "total": 53
+    },
+    {
+      "month": "2021-03",
+      "flair": "Diaspora Jew",
+      "posts": 6,
+      "comments": 67,
+      "total": 73
+    },
+    {
+      "month": "2021-03",
+      "flair": "Diaspora Lebanese",
+      "posts": 3,
+      "comments": 20,
+      "total": 23
+    },
+    {
+      "month": "2021-03",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-03",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-03",
+      "flair": "Israeli",
+      "posts": 14,
+      "comments": 143,
+      "total": 157
+    },
+    {
+      "month": "2021-03",
+      "flair": "Lebanese",
+      "posts": 4,
+      "comments": 122,
+      "total": 126
+    },
+    {
+      "month": "2021-03",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 0,
+      "total": 1
+    },
+    {
+      "month": "2021-03",
+      "flair": "Unflaired/Unknown",
+      "posts": 53,
+      "comments": 273,
+      "total": 326
+    },
+    {
+      "month": "2021-04",
+      "flair": "Diaspora Israeli",
+      "posts": 2,
+      "comments": 30,
+      "total": 32
+    },
+    {
+      "month": "2021-04",
+      "flair": "Diaspora Jew",
+      "posts": 8,
+      "comments": 35,
+      "total": 43
+    },
+    {
+      "month": "2021-04",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 32,
+      "total": 32
+    },
+    {
+      "month": "2021-04",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2021-04",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-04",
+      "flair": "Israeli",
+      "posts": 18,
+      "comments": 155,
+      "total": 173
+    },
+    {
+      "month": "2021-04",
+      "flair": "Lebanese",
+      "posts": 6,
+      "comments": 96,
+      "total": 102
+    },
+    {
+      "month": "2021-04",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-04",
+      "flair": "Unflaired/Unknown",
+      "posts": 31,
+      "comments": 279,
+      "total": 310
+    },
+    {
+      "month": "2021-05",
+      "flair": "Arab",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2021-05",
+      "flair": "Diaspora Israeli",
+      "posts": 9,
+      "comments": 88,
+      "total": 97
+    },
+    {
+      "month": "2021-05",
+      "flair": "Diaspora Jew",
+      "posts": 3,
+      "comments": 80,
+      "total": 83
+    },
+    {
+      "month": "2021-05",
+      "flair": "Diaspora Lebanese",
+      "posts": 4,
+      "comments": 94,
+      "total": 98
+    },
+    {
+      "month": "2021-05",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-05",
+      "flair": "Israeli",
+      "posts": 16,
+      "comments": 432,
+      "total": 448
+    },
+    {
+      "month": "2021-05",
+      "flair": "Israeli Arab",
+      "posts": 1,
+      "comments": 0,
+      "total": 1
+    },
+    {
+      "month": "2021-05",
+      "flair": "Lebanese",
+      "posts": 8,
+      "comments": 186,
+      "total": 194
+    },
+    {
+      "month": "2021-05",
+      "flair": "Non-Canaanite",
+      "posts": 3,
+      "comments": 1,
+      "total": 4
+    },
+    {
+      "month": "2021-05",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2021-05",
+      "flair": "Unflaired/Unknown",
+      "posts": 89,
+      "comments": 1049,
+      "total": 1138
+    },
+    {
+      "month": "2021-06",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 7,
+      "total": 7
+    },
+    {
+      "month": "2021-06",
+      "flair": "Diaspora Jew",
+      "posts": 4,
+      "comments": 43,
+      "total": 47
+    },
+    {
+      "month": "2021-06",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 29,
+      "total": 30
+    },
+    {
+      "month": "2021-06",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-06",
+      "flair": "Israeli",
+      "posts": 6,
+      "comments": 158,
+      "total": 164
+    },
+    {
+      "month": "2021-06",
+      "flair": "Lebanese",
+      "posts": 11,
+      "comments": 96,
+      "total": 107
+    },
+    {
+      "month": "2021-06",
+      "flair": "Unflaired/Unknown",
+      "posts": 29,
+      "comments": 321,
+      "total": 350
+    },
+    {
+      "month": "2021-07",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 6,
+      "total": 7
+    },
+    {
+      "month": "2021-07",
+      "flair": "Diaspora Jew",
+      "posts": 6,
+      "comments": 94,
+      "total": 100
+    },
+    {
+      "month": "2021-07",
+      "flair": "Diaspora Lebanese",
+      "posts": 3,
+      "comments": 94,
+      "total": 97
+    },
+    {
+      "month": "2021-07",
+      "flair": "Iranian/Persian",
+      "posts": 0,
+      "comments": 22,
+      "total": 22
+    },
+    {
+      "month": "2021-07",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-07",
+      "flair": "Israeli",
+      "posts": 16,
+      "comments": 237,
+      "total": 253
+    },
+    {
+      "month": "2021-07",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 172,
+      "total": 174
+    },
+    {
+      "month": "2021-07",
+      "flair": "Non-Canaanite",
+      "posts": 6,
+      "comments": 1,
+      "total": 7
+    },
+    {
+      "month": "2021-07",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 22,
+      "total": 22
+    },
+    {
+      "month": "2021-07",
+      "flair": "Unflaired/Unknown",
+      "posts": 82,
+      "comments": 501,
+      "total": 583
+    },
+    {
+      "month": "2021-08",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 14,
+      "total": 15
+    },
+    {
+      "month": "2021-08",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 78,
+      "total": 80
+    },
+    {
+      "month": "2021-08",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 87,
+      "total": 88
+    },
+    {
+      "month": "2021-08",
+      "flair": "Iranian/Persian",
+      "posts": 2,
+      "comments": 63,
+      "total": 65
+    },
+    {
+      "month": "2021-08",
+      "flair": "Israeli",
+      "posts": 19,
+      "comments": 302,
+      "total": 321
+    },
+    {
+      "month": "2021-08",
+      "flair": "Lebanese",
+      "posts": 8,
+      "comments": 163,
+      "total": 171
+    },
+    {
+      "month": "2021-08",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 41,
+      "total": 42
+    },
+    {
+      "month": "2021-08",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2021-08",
+      "flair": "Unflaired/Unknown",
+      "posts": 41,
+      "comments": 721,
+      "total": 762
+    },
+    {
+      "month": "2021-09",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 18,
+      "total": 19
+    },
+    {
+      "month": "2021-09",
+      "flair": "Diaspora Jew",
+      "posts": 3,
+      "comments": 109,
+      "total": 112
+    },
+    {
+      "month": "2021-09",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 42,
+      "total": 43
+    },
+    {
+      "month": "2021-09",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-09",
+      "flair": "Iranian/Persian",
+      "posts": 2,
+      "comments": 126,
+      "total": 128
+    },
+    {
+      "month": "2021-09",
+      "flair": "Israeli",
+      "posts": 9,
+      "comments": 146,
+      "total": 155
+    },
+    {
+      "month": "2021-09",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 78,
+      "total": 80
+    },
+    {
+      "month": "2021-09",
+      "flair": "Non-Canaanite",
+      "posts": 4,
+      "comments": 0,
+      "total": 4
+    },
+    {
+      "month": "2021-09",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2021-09",
+      "flair": "Unflaired/Unknown",
+      "posts": 44,
+      "comments": 411,
+      "total": 455
+    },
+    {
+      "month": "2021-10",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2021-10",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 22,
+      "total": 24
+    },
+    {
+      "month": "2021-10",
+      "flair": "Diaspora Lebanese",
+      "posts": 2,
+      "comments": 34,
+      "total": 36
+    },
+    {
+      "month": "2021-10",
+      "flair": "Israeli",
+      "posts": 2,
+      "comments": 52,
+      "total": 54
+    },
+    {
+      "month": "2021-10",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 55,
+      "total": 58
+    },
+    {
+      "month": "2021-10",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 13,
+      "total": 13
+    },
+    {
+      "month": "2021-10",
+      "flair": "Unflaired/Unknown",
+      "posts": 29,
+      "comments": 243,
+      "total": 272
+    },
+    {
+      "month": "2021-11",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2021-11",
+      "flair": "Diaspora Jew",
+      "posts": 3,
+      "comments": 11,
+      "total": 14
+    },
+    {
+      "month": "2021-11",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 10,
+      "total": 10
+    },
+    {
+      "month": "2021-11",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2021-11",
+      "flair": "Israeli",
+      "posts": 5,
+      "comments": 94,
+      "total": 99
+    },
+    {
+      "month": "2021-11",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 9,
+      "total": 12
+    },
+    {
+      "month": "2021-11",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 110,
+      "total": 110
+    },
+    {
+      "month": "2021-11",
+      "flair": "Unflaired/Unknown",
+      "posts": 25,
+      "comments": 246,
+      "total": 271
+    },
+    {
+      "month": "2021-12",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2021-12",
+      "flair": "Diaspora Jew",
+      "posts": 3,
+      "comments": 35,
+      "total": 38
+    },
+    {
+      "month": "2021-12",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 34,
+      "total": 34
+    },
+    {
+      "month": "2021-12",
+      "flair": "Israeli",
+      "posts": 6,
+      "comments": 71,
+      "total": 77
+    },
+    {
+      "month": "2021-12",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 23,
+      "total": 25
+    },
+    {
+      "month": "2021-12",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-12",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2021-12",
+      "flair": "Unflaired/Unknown",
+      "posts": 33,
+      "comments": 230,
+      "total": 263
+    },
+    {
+      "month": "2022-01",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2022-01",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 51,
+      "total": 53
+    },
+    {
+      "month": "2022-01",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 27,
+      "total": 28
+    },
+    {
+      "month": "2022-01",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-01",
+      "flair": "Israeli",
+      "posts": 3,
+      "comments": 115,
+      "total": 118
+    },
+    {
+      "month": "2022-01",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 20,
+      "total": 23
+    },
+    {
+      "month": "2022-01",
+      "flair": "Unflaired/Unknown",
+      "posts": 53,
+      "comments": 402,
+      "total": 455
+    },
+    {
+      "month": "2022-02",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 7,
+      "total": 7
+    },
+    {
+      "month": "2022-02",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 7,
+      "total": 8
+    },
+    {
+      "month": "2022-02",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 15,
+      "total": 16
+    },
+    {
+      "month": "2022-02",
+      "flair": "Israeli",
+      "posts": 6,
+      "comments": 60,
+      "total": 66
+    },
+    {
+      "month": "2022-02",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 29,
+      "total": 31
+    },
+    {
+      "month": "2022-02",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2022-02",
+      "flair": "Unflaired/Unknown",
+      "posts": 25,
+      "comments": 250,
+      "total": 275
+    },
+    {
+      "month": "2022-03",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2022-03",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 8,
+      "total": 9
+    },
+    {
+      "month": "2022-03",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 31,
+      "total": 31
+    },
+    {
+      "month": "2022-03",
+      "flair": "Israeli",
+      "posts": 3,
+      "comments": 47,
+      "total": 50
+    },
+    {
+      "month": "2022-03",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 16,
+      "total": 19
+    },
+    {
+      "month": "2022-03",
+      "flair": "Unflaired/Unknown",
+      "posts": 13,
+      "comments": 115,
+      "total": 128
+    },
+    {
+      "month": "2022-04",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 12,
+      "total": 13
+    },
+    {
+      "month": "2022-04",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 32,
+      "total": 32
+    },
+    {
+      "month": "2022-04",
+      "flair": "Israeli",
+      "posts": 6,
+      "comments": 91,
+      "total": 97
+    },
+    {
+      "month": "2022-04",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 55,
+      "total": 57
+    },
+    {
+      "month": "2022-04",
+      "flair": "Unflaired/Unknown",
+      "posts": 19,
+      "comments": 221,
+      "total": 240
+    },
+    {
+      "month": "2022-05",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2022-05",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 20,
+      "total": 20
+    },
+    {
+      "month": "2022-05",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 47,
+      "total": 48
+    },
+    {
+      "month": "2022-05",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-05",
+      "flair": "Israeli",
+      "posts": 8,
+      "comments": 100,
+      "total": 108
+    },
+    {
+      "month": "2022-05",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 94,
+      "total": 96
+    },
+    {
+      "month": "2022-05",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2022-05",
+      "flair": "Unflaired/Unknown",
+      "posts": 16,
+      "comments": 188,
+      "total": 204
+    },
+    {
+      "month": "2022-06",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-06",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 21,
+      "total": 22
+    },
+    {
+      "month": "2022-06",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 29,
+      "total": 30
+    },
+    {
+      "month": "2022-06",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-06",
+      "flair": "Israeli",
+      "posts": 2,
+      "comments": 47,
+      "total": 49
+    },
+    {
+      "month": "2022-06",
+      "flair": "Lebanese",
+      "posts": 4,
+      "comments": 46,
+      "total": 50
+    },
+    {
+      "month": "2022-06",
+      "flair": "Unflaired/Unknown",
+      "posts": 16,
+      "comments": 129,
+      "total": 145
+    },
+    {
+      "month": "2022-07",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-07",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 2,
+      "total": 3
+    },
+    {
+      "month": "2022-07",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 32,
+      "total": 33
+    },
+    {
+      "month": "2022-07",
+      "flair": "Israeli",
+      "posts": 3,
+      "comments": 33,
+      "total": 36
+    },
+    {
+      "month": "2022-07",
+      "flair": "Lebanese",
+      "posts": 4,
+      "comments": 9,
+      "total": 13
+    },
+    {
+      "month": "2022-07",
+      "flair": "Unflaired/Unknown",
+      "posts": 8,
+      "comments": 245,
+      "total": 253
+    },
+    {
+      "month": "2022-08",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-08",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 2,
+      "total": 3
+    },
+    {
+      "month": "2022-08",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2022-08",
+      "flair": "Israeli",
+      "posts": 0,
+      "comments": 15,
+      "total": 15
+    },
+    {
+      "month": "2022-08",
+      "flair": "Lebanese",
+      "posts": 1,
+      "comments": 19,
+      "total": 20
+    },
+    {
+      "month": "2022-08",
+      "flair": "Unflaired/Unknown",
+      "posts": 8,
+      "comments": 74,
+      "total": 82
+    },
+    {
+      "month": "2022-09",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-09",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 8,
+      "total": 10
+    },
+    {
+      "month": "2022-09",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 25,
+      "total": 25
+    },
+    {
+      "month": "2022-09",
+      "flair": "Israeli",
+      "posts": 4,
+      "comments": 28,
+      "total": 32
+    },
+    {
+      "month": "2022-09",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 21,
+      "total": 24
+    },
+    {
+      "month": "2022-09",
+      "flair": "Palestinian",
+      "posts": 1,
+      "comments": 0,
+      "total": 1
+    },
+    {
+      "month": "2022-09",
+      "flair": "Unflaired/Unknown",
+      "posts": 10,
+      "comments": 173,
+      "total": 183
+    },
+    {
+      "month": "2022-10",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2022-10",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 33,
+      "total": 34
+    },
+    {
+      "month": "2022-10",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 16,
+      "total": 17
+    },
+    {
+      "month": "2022-10",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-10",
+      "flair": "Israeli",
+      "posts": 1,
+      "comments": 36,
+      "total": 37
+    },
+    {
+      "month": "2022-10",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 4,
+      "total": 6
+    },
+    {
+      "month": "2022-10",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2022-10",
+      "flair": "Unflaired/Unknown",
+      "posts": 27,
+      "comments": 257,
+      "total": 284
+    },
+    {
+      "month": "2022-11",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 18,
+      "total": 19
+    },
+    {
+      "month": "2022-11",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-11",
+      "flair": "Israeli",
+      "posts": 3,
+      "comments": 20,
+      "total": 23
+    },
+    {
+      "month": "2022-11",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 5,
+      "total": 8
+    },
+    {
+      "month": "2022-11",
+      "flair": "Unflaired/Unknown",
+      "posts": 11,
+      "comments": 119,
+      "total": 130
+    },
+    {
+      "month": "2022-12",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2022-12",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2022-12",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2022-12",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2022-12",
+      "flair": "Israeli",
+      "posts": 1,
+      "comments": 12,
+      "total": 13
+    },
+    {
+      "month": "2022-12",
+      "flair": "Lebanese",
+      "posts": 1,
+      "comments": 4,
+      "total": 5
+    },
+    {
+      "month": "2022-12",
+      "flair": "Unflaired/Unknown",
+      "posts": 7,
+      "comments": 91,
+      "total": 98
+    },
+    {
+      "month": "2023-01",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2023-01",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2023-01",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 10,
+      "total": 10
+    },
+    {
+      "month": "2023-01",
+      "flair": "Israeli",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2023-01",
+      "flair": "Lebanese",
+      "posts": 0,
+      "comments": 16,
+      "total": 16
+    },
+    {
+      "month": "2023-01",
+      "flair": "Unflaired/Unknown",
+      "posts": 8,
+      "comments": 113,
+      "total": 121
+    },
+    {
+      "month": "2023-02",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2023-02",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2023-02",
+      "flair": "Israeli",
+      "posts": 0,
+      "comments": 17,
+      "total": 17
+    },
+    {
+      "month": "2023-02",
+      "flair": "Lebanese",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2023-02",
+      "flair": "Unflaired/Unknown",
+      "posts": 6,
+      "comments": 60,
+      "total": 66
+    },
+    {
+      "month": "2023-03",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2023-03",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 19,
+      "total": 19
+    },
+    {
+      "month": "2023-03",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 7,
+      "total": 8
+    },
+    {
+      "month": "2023-03",
+      "flair": "Israeli",
+      "posts": 1,
+      "comments": 36,
+      "total": 37
+    },
+    {
+      "month": "2023-03",
+      "flair": "Lebanese",
+      "posts": 1,
+      "comments": 58,
+      "total": 59
+    },
+    {
+      "month": "2023-03",
+      "flair": "Unflaired/Unknown",
+      "posts": 21,
+      "comments": 278,
+      "total": 299
+    },
+    {
+      "month": "2023-04",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2023-04",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 18,
+      "total": 20
+    },
+    {
+      "month": "2023-04",
+      "flair": "Diaspora Lebanese",
+      "posts": 2,
+      "comments": 50,
+      "total": 52
+    },
+    {
+      "month": "2023-04",
+      "flair": "Iranian/Persian",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2023-04",
+      "flair": "Israeli",
+      "posts": 0,
+      "comments": 75,
+      "total": 75
+    },
+    {
+      "month": "2023-04",
+      "flair": "Lebanese",
+      "posts": 0,
+      "comments": 41,
+      "total": 41
+    },
+    {
+      "month": "2023-04",
+      "flair": "Maghrebi",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2023-04",
+      "flair": "Unflaired/Unknown",
+      "posts": 32,
+      "comments": 1032,
+      "total": 1064
+    },
+    {
+      "month": "2023-05",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 0,
+      "total": 1
+    },
+    {
+      "month": "2023-05",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 10,
+      "total": 11
+    },
+    {
+      "month": "2023-05",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 22,
+      "total": 22
+    },
+    {
+      "month": "2023-05",
+      "flair": "Israeli",
+      "posts": 2,
+      "comments": 33,
+      "total": 35
+    },
+    {
+      "month": "2023-05",
+      "flair": "Lebanese",
+      "posts": 1,
+      "comments": 28,
+      "total": 29
+    },
+    {
+      "month": "2023-05",
+      "flair": "Maghrebi",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2023-05",
+      "flair": "Syrian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2023-05",
+      "flair": "Unflaired/Unknown",
+      "posts": 12,
+      "comments": 723,
+      "total": 735
+    },
+    {
+      "month": "2023-06",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2023-06",
+      "flair": "Diaspora Jew",
+      "posts": 3,
+      "comments": 7,
+      "total": 10
+    },
+    {
+      "month": "2023-06",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 18,
+      "total": 18
+    },
+    {
+      "month": "2023-06",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2023-06",
+      "flair": "Israeli",
+      "posts": 2,
+      "comments": 43,
+      "total": 45
+    },
+    {
+      "month": "2023-06",
+      "flair": "Lebanese",
+      "posts": 0,
+      "comments": 14,
+      "total": 14
+    },
+    {
+      "month": "2023-06",
+      "flair": "Maghrebi",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2023-06",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2023-06",
+      "flair": "Unflaired/Unknown",
+      "posts": 8,
+      "comments": 202,
+      "total": 210
+    },
+    {
+      "month": "2023-07",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 7,
+      "total": 8
+    },
+    {
+      "month": "2023-07",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2023-07",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 11,
+      "total": 11
+    },
+    {
+      "month": "2023-07",
+      "flair": "Israeli",
+      "posts": 1,
+      "comments": 15,
+      "total": 16
+    },
+    {
+      "month": "2023-07",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 4,
+      "total": 7
+    },
+    {
+      "month": "2023-07",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2023-07",
+      "flair": "Unflaired/Unknown",
+      "posts": 7,
+      "comments": 144,
+      "total": 151
+    },
+    {
+      "month": "2023-08",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 37,
+      "total": 38
+    },
+    {
+      "month": "2023-08",
+      "flair": "Diaspora Lebanese",
+      "posts": 2,
+      "comments": 62,
+      "total": 64
+    },
+    {
+      "month": "2023-08",
+      "flair": "Israeli",
+      "posts": 1,
+      "comments": 22,
+      "total": 23
+    },
+    {
+      "month": "2023-08",
+      "flair": "Lebanese",
+      "posts": 9,
+      "comments": 18,
+      "total": 27
+    },
+    {
+      "month": "2023-08",
+      "flair": "Unflaired/Unknown",
+      "posts": 11,
+      "comments": 584,
+      "total": 595
+    },
+    {
+      "month": "2023-09",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2023-09",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2023-09",
+      "flair": "Israeli",
+      "posts": 1,
+      "comments": 15,
+      "total": 16
+    },
+    {
+      "month": "2023-09",
+      "flair": "Lebanese",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2023-09",
+      "flair": "Unflaired/Unknown",
+      "posts": 11,
+      "comments": 80,
+      "total": 91
+    },
+    {
+      "month": "2023-10",
+      "flair": "Diaspora Israeli",
+      "posts": 2,
+      "comments": 20,
+      "total": 22
+    },
+    {
+      "month": "2023-10",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 96,
+      "total": 96
+    },
+    {
+      "month": "2023-10",
+      "flair": "Diaspora Lebanese",
+      "posts": 3,
+      "comments": 111,
+      "total": 114
+    },
+    {
+      "month": "2023-10",
+      "flair": "Israeli",
+      "posts": 4,
+      "comments": 234,
+      "total": 238
+    },
+    {
+      "month": "2023-10",
+      "flair": "Lebanese",
+      "posts": 8,
+      "comments": 122,
+      "total": 130
+    },
+    {
+      "month": "2023-10",
+      "flair": "Maghrebi",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2023-10",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2023-10",
+      "flair": "Syrian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2023-10",
+      "flair": "Unflaired/Unknown",
+      "posts": 112,
+      "comments": 1773,
+      "total": 1885
+    },
+    {
+      "month": "2023-11",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 17,
+      "total": 18
+    },
+    {
+      "month": "2023-11",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 95,
+      "total": 96
+    },
+    {
+      "month": "2023-11",
+      "flair": "Diaspora Lebanese",
+      "posts": 5,
+      "comments": 141,
+      "total": 146
+    },
+    {
+      "month": "2023-11",
+      "flair": "Egyptian",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2023-11",
+      "flair": "Hummus wars veteran",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2023-11",
+      "flair": "Israeli",
+      "posts": 10,
+      "comments": 273,
+      "total": 283
+    },
+    {
+      "month": "2023-11",
+      "flair": "Lebanese",
+      "posts": 4,
+      "comments": 91,
+      "total": 95
+    },
+    {
+      "month": "2023-11",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 7,
+      "total": 7
+    },
+    {
+      "month": "2023-11",
+      "flair": "Unflaired/Unknown",
+      "posts": 109,
+      "comments": 2348,
+      "total": 2457
+    },
+    {
+      "month": "2023-12",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 5,
+      "total": 6
+    },
+    {
+      "month": "2023-12",
+      "flair": "Diaspora Jew",
+      "posts": 3,
+      "comments": 54,
+      "total": 57
+    },
+    {
+      "month": "2023-12",
+      "flair": "Diaspora Lebanese",
+      "posts": 7,
+      "comments": 107,
+      "total": 114
+    },
+    {
+      "month": "2023-12",
+      "flair": "Egyptian",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2023-12",
+      "flair": "Israeli",
+      "posts": 6,
+      "comments": 252,
+      "total": 258
+    },
+    {
+      "month": "2023-12",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2023-12",
+      "flair": "Lebanese",
+      "posts": 5,
+      "comments": 85,
+      "total": 90
+    },
+    {
+      "month": "2023-12",
+      "flair": "Non-Canaanite",
+      "posts": 2,
+      "comments": 27,
+      "total": 29
+    },
+    {
+      "month": "2023-12",
+      "flair": "Unflaired/Unknown",
+      "posts": 60,
+      "comments": 1480,
+      "total": 1540
+    },
+    {
+      "month": "2024-01",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 17,
+      "total": 17
+    },
+    {
+      "month": "2024-01",
+      "flair": "Diaspora Jew",
+      "posts": 5,
+      "comments": 78,
+      "total": 83
+    },
+    {
+      "month": "2024-01",
+      "flair": "Diaspora Lebanese",
+      "posts": 12,
+      "comments": 239,
+      "total": 251
+    },
+    {
+      "month": "2024-01",
+      "flair": "Israeli",
+      "posts": 20,
+      "comments": 468,
+      "total": 488
+    },
+    {
+      "month": "2024-01",
+      "flair": "Israeli Arab",
+      "posts": 1,
+      "comments": 10,
+      "total": 11
+    },
+    {
+      "month": "2024-01",
+      "flair": "Jordanian",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2024-01",
+      "flair": "Lebanese",
+      "posts": 34,
+      "comments": 55,
+      "total": 89
+    },
+    {
+      "month": "2024-01",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 17,
+      "total": 17
+    },
+    {
+      "month": "2024-01",
+      "flair": "Unflaired/Unknown",
+      "posts": 79,
+      "comments": 1876,
+      "total": 1955
+    },
+    {
+      "month": "2024-02",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 16,
+      "total": 17
+    },
+    {
+      "month": "2024-02",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 74,
+      "total": 76
+    },
+    {
+      "month": "2024-02",
+      "flair": "Diaspora Lebanese",
+      "posts": 7,
+      "comments": 149,
+      "total": 156
+    },
+    {
+      "month": "2024-02",
+      "flair": "Israeli",
+      "posts": 15,
+      "comments": 352,
+      "total": 367
+    },
+    {
+      "month": "2024-02",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2024-02",
+      "flair": "Lebanese",
+      "posts": 29,
+      "comments": 55,
+      "total": 84
+    },
+    {
+      "month": "2024-02",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2024-02",
+      "flair": "Unflaired/Unknown",
+      "posts": 68,
+      "comments": 1542,
+      "total": 1610
+    },
+    {
+      "month": "2024-03",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 22,
+      "total": 22
+    },
+    {
+      "month": "2024-03",
+      "flair": "Diaspora Jew",
+      "posts": 4,
+      "comments": 46,
+      "total": 50
+    },
+    {
+      "month": "2024-03",
+      "flair": "Diaspora Lebanese",
+      "posts": 4,
+      "comments": 118,
+      "total": 122
+    },
+    {
+      "month": "2024-03",
+      "flair": "Israeli",
+      "posts": 29,
+      "comments": 276,
+      "total": 305
+    },
+    {
+      "month": "2024-03",
+      "flair": "Lebanese",
+      "posts": 11,
+      "comments": 16,
+      "total": 27
+    },
+    {
+      "month": "2024-03",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2024-03",
+      "flair": "Unflaired/Unknown",
+      "posts": 42,
+      "comments": 742,
+      "total": 784
+    },
+    {
+      "month": "2024-04",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 19,
+      "total": 20
+    },
+    {
+      "month": "2024-04",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 72,
+      "total": 73
+    },
+    {
+      "month": "2024-04",
+      "flair": "Diaspora Lebanese",
+      "posts": 15,
+      "comments": 222,
+      "total": 237
+    },
+    {
+      "month": "2024-04",
+      "flair": "Israeli",
+      "posts": 8,
+      "comments": 314,
+      "total": 322
+    },
+    {
+      "month": "2024-04",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 7,
+      "total": 7
+    },
+    {
+      "month": "2024-04",
+      "flair": "Lebanese",
+      "posts": 7,
+      "comments": 101,
+      "total": 108
+    },
+    {
+      "month": "2024-04",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 10,
+      "total": 10
+    },
+    {
+      "month": "2024-04",
+      "flair": "Unflaired/Unknown",
+      "posts": 63,
+      "comments": 1290,
+      "total": 1353
+    },
+    {
+      "month": "2024-05",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 11,
+      "total": 12
+    },
+    {
+      "month": "2024-05",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 43,
+      "total": 44
+    },
+    {
+      "month": "2024-05",
+      "flair": "Diaspora Lebanese",
+      "posts": 8,
+      "comments": 129,
+      "total": 137
+    },
+    {
+      "month": "2024-05",
+      "flair": "Israeli",
+      "posts": 4,
+      "comments": 224,
+      "total": 228
+    },
+    {
+      "month": "2024-05",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 5,
+      "total": 8
+    },
+    {
+      "month": "2024-05",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2024-05",
+      "flair": "Unflaired/Unknown",
+      "posts": 58,
+      "comments": 1099,
+      "total": 1157
+    },
+    {
+      "month": "2024-06",
+      "flair": "Diaspora Israeli",
+      "posts": 4,
+      "comments": 54,
+      "total": 58
+    },
+    {
+      "month": "2024-06",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 60,
+      "total": 61
+    },
+    {
+      "month": "2024-06",
+      "flair": "Diaspora Lebanese",
+      "posts": 6,
+      "comments": 340,
+      "total": 346
+    },
+    {
+      "month": "2024-06",
+      "flair": "Iranian/Persian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2024-06",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 17,
+      "total": 17
+    },
+    {
+      "month": "2024-06",
+      "flair": "Israeli",
+      "posts": 16,
+      "comments": 844,
+      "total": 860
+    },
+    {
+      "month": "2024-06",
+      "flair": "Lebanese",
+      "posts": 10,
+      "comments": 183,
+      "total": 193
+    },
+    {
+      "month": "2024-06",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 11,
+      "total": 11
+    },
+    {
+      "month": "2024-06",
+      "flair": "Unflaired/Unknown",
+      "posts": 97,
+      "comments": 2383,
+      "total": 2480
+    },
+    {
+      "month": "2024-07",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 28,
+      "total": 28
+    },
+    {
+      "month": "2024-07",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 53,
+      "total": 55
+    },
+    {
+      "month": "2024-07",
+      "flair": "Diaspora Lebanese",
+      "posts": 6,
+      "comments": 118,
+      "total": 124
+    },
+    {
+      "month": "2024-07",
+      "flair": "Israeli",
+      "posts": 15,
+      "comments": 470,
+      "total": 485
+    },
+    {
+      "month": "2024-07",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2024-07",
+      "flair": "Lebanese",
+      "posts": 9,
+      "comments": 198,
+      "total": 207
+    },
+    {
+      "month": "2024-07",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 34,
+      "total": 35
+    },
+    {
+      "month": "2024-07",
+      "flair": "Syrian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2024-07",
+      "flair": "Unflaired/Unknown",
+      "posts": 46,
+      "comments": 1177,
+      "total": 1223
+    },
+    {
+      "month": "2024-08",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 19,
+      "total": 20
+    },
+    {
+      "month": "2024-08",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 44,
+      "total": 46
+    },
+    {
+      "month": "2024-08",
+      "flair": "Diaspora Lebanese",
+      "posts": 9,
+      "comments": 312,
+      "total": 321
+    },
+    {
+      "month": "2024-08",
+      "flair": "Israeli",
+      "posts": 23,
+      "comments": 648,
+      "total": 671
+    },
+    {
+      "month": "2024-08",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2024-08",
+      "flair": "Jordanian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2024-08",
+      "flair": "Lebanese",
+      "posts": 10,
+      "comments": 366,
+      "total": 376
+    },
+    {
+      "month": "2024-08",
+      "flair": "Non-Canaanite",
+      "posts": 2,
+      "comments": 6,
+      "total": 8
+    },
+    {
+      "month": "2024-08",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2024-08",
+      "flair": "Unflaired/Unknown",
+      "posts": 78,
+      "comments": 1509,
+      "total": 1587
+    },
+    {
+      "month": "2024-09",
+      "flair": "Diaspora Israeli",
+      "posts": 4,
+      "comments": 115,
+      "total": 119
+    },
+    {
+      "month": "2024-09",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 215,
+      "total": 217
+    },
+    {
+      "month": "2024-09",
+      "flair": "Diaspora Lebanese",
+      "posts": 13,
+      "comments": 303,
+      "total": 316
+    },
+    {
+      "month": "2024-09",
+      "flair": "Iraqi",
+      "posts": 2,
+      "comments": 13,
+      "total": 15
+    },
+    {
+      "month": "2024-09",
+      "flair": "Israeli",
+      "posts": 80,
+      "comments": 1564,
+      "total": 1644
+    },
+    {
+      "month": "2024-09",
+      "flair": "Israeli Arab",
+      "posts": 4,
+      "comments": 17,
+      "total": 21
+    },
+    {
+      "month": "2024-09",
+      "flair": "Lebanese",
+      "posts": 19,
+      "comments": 657,
+      "total": 676
+    },
+    {
+      "month": "2024-09",
+      "flair": "Non-Canaanite",
+      "posts": 3,
+      "comments": 25,
+      "total": 28
+    },
+    {
+      "month": "2024-09",
+      "flair": "Palestinian",
+      "posts": 2,
+      "comments": 23,
+      "total": 25
+    },
+    {
+      "month": "2024-09",
+      "flair": "Unflaired/Unknown",
+      "posts": 164,
+      "comments": 3702,
+      "total": 3866
+    },
+    {
+      "month": "2024-10",
+      "flair": "Diaspora Israeli",
+      "posts": 5,
+      "comments": 191,
+      "total": 196
+    },
+    {
+      "month": "2024-10",
+      "flair": "Diaspora Jew",
+      "posts": 4,
+      "comments": 153,
+      "total": 157
+    },
+    {
+      "month": "2024-10",
+      "flair": "Diaspora Lebanese",
+      "posts": 2,
+      "comments": 87,
+      "total": 89
+    },
+    {
+      "month": "2024-10",
+      "flair": "Iraqi",
+      "posts": 1,
+      "comments": 17,
+      "total": 18
+    },
+    {
+      "month": "2024-10",
+      "flair": "Israeli",
+      "posts": 28,
+      "comments": 1164,
+      "total": 1192
+    },
+    {
+      "month": "2024-10",
+      "flair": "Israeli Arab",
+      "posts": 1,
+      "comments": 37,
+      "total": 38
+    },
+    {
+      "month": "2024-10",
+      "flair": "Lebanese",
+      "posts": 14,
+      "comments": 779,
+      "total": 793
+    },
+    {
+      "month": "2024-10",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 28,
+      "total": 29
+    },
+    {
+      "month": "2024-10",
+      "flair": "Palestinian",
+      "posts": 3,
+      "comments": 98,
+      "total": 101
+    },
+    {
+      "month": "2024-10",
+      "flair": "Unflaired/Unknown",
+      "posts": 138,
+      "comments": 3955,
+      "total": 4093
+    },
+    {
+      "month": "2024-11",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 54,
+      "total": 54
+    },
+    {
+      "month": "2024-11",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 80,
+      "total": 82
+    },
+    {
+      "month": "2024-11",
+      "flair": "Diaspora Lebanese",
+      "posts": 3,
+      "comments": 54,
+      "total": 57
+    },
+    {
+      "month": "2024-11",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 28,
+      "total": 28
+    },
+    {
+      "month": "2024-11",
+      "flair": "Israeli",
+      "posts": 16,
+      "comments": 501,
+      "total": 517
+    },
+    {
+      "month": "2024-11",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 10,
+      "total": 10
+    },
+    {
+      "month": "2024-11",
+      "flair": "Lebanese",
+      "posts": 5,
+      "comments": 301,
+      "total": 306
+    },
+    {
+      "month": "2024-11",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2024-11",
+      "flair": "Unflaired/Unknown",
+      "posts": 73,
+      "comments": 1996,
+      "total": 2069
+    },
+    {
+      "month": "2024-12",
+      "flair": "Arab",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2024-12",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 47,
+      "total": 47
+    },
+    {
+      "month": "2024-12",
+      "flair": "Diaspora Jew",
+      "posts": 4,
+      "comments": 79,
+      "total": 83
+    },
+    {
+      "month": "2024-12",
+      "flair": "Diaspora Lebanese",
+      "posts": 4,
+      "comments": 58,
+      "total": 62
+    },
+    {
+      "month": "2024-12",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 1,
+      "comments": 21,
+      "total": 22
+    },
+    {
+      "month": "2024-12",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2024-12",
+      "flair": "Israeli",
+      "posts": 17,
+      "comments": 543,
+      "total": 560
+    },
+    {
+      "month": "2024-12",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2024-12",
+      "flair": "Jordanian",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2024-12",
+      "flair": "Lebanese",
+      "posts": 7,
+      "comments": 236,
+      "total": 243
+    },
+    {
+      "month": "2024-12",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 5,
+      "total": 5
+    },
+    {
+      "month": "2024-12",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2024-12",
+      "flair": "Syrian",
+      "posts": 1,
+      "comments": 8,
+      "total": 9
+    },
+    {
+      "month": "2024-12",
+      "flair": "Unflaired/Unknown",
+      "posts": 69,
+      "comments": 1591,
+      "total": 1660
+    },
+    {
+      "month": "2025-01",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 14,
+      "total": 14
+    },
+    {
+      "month": "2025-01",
+      "flair": "Diaspora Jew",
+      "posts": 2,
+      "comments": 52,
+      "total": 54
+    },
+    {
+      "month": "2025-01",
+      "flair": "Diaspora Lebanese",
+      "posts": 2,
+      "comments": 32,
+      "total": 34
+    },
+    {
+      "month": "2025-01",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 23,
+      "total": 23
+    },
+    {
+      "month": "2025-01",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2025-01",
+      "flair": "Israeli",
+      "posts": 10,
+      "comments": 356,
+      "total": 366
+    },
+    {
+      "month": "2025-01",
+      "flair": "Israeli Arab",
+      "posts": 2,
+      "comments": 16,
+      "total": 18
+    },
+    {
+      "month": "2025-01",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 217,
+      "total": 220
+    },
+    {
+      "month": "2025-01",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 15,
+      "total": 16
+    },
+    {
+      "month": "2025-01",
+      "flair": "Syrian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-01",
+      "flair": "Unflaired/Unknown",
+      "posts": 31,
+      "comments": 766,
+      "total": 797
+    },
+    {
+      "month": "2025-02",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 18,
+      "total": 19
+    },
+    {
+      "month": "2025-02",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 16,
+      "total": 16
+    },
+    {
+      "month": "2025-02",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 46,
+      "total": 47
+    },
+    {
+      "month": "2025-02",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2025-02",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 12,
+      "total": 12
+    },
+    {
+      "month": "2025-02",
+      "flair": "Israeli",
+      "posts": 3,
+      "comments": 215,
+      "total": 218
+    },
+    {
+      "month": "2025-02",
+      "flair": "Lebanese",
+      "posts": 4,
+      "comments": 128,
+      "total": 132
+    },
+    {
+      "month": "2025-02",
+      "flair": "Maghrebi",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-02",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 3,
+      "total": 4
+    },
+    {
+      "month": "2025-02",
+      "flair": "Unflaired/Unknown",
+      "posts": 39,
+      "comments": 550,
+      "total": 589
+    },
+    {
+      "month": "2025-03",
+      "flair": "Diaspora Israeli",
+      "posts": 2,
+      "comments": 21,
+      "total": 23
+    },
+    {
+      "month": "2025-03",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 48,
+      "total": 49
+    },
+    {
+      "month": "2025-03",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 58,
+      "total": 58
+    },
+    {
+      "month": "2025-03",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 37,
+      "total": 37
+    },
+    {
+      "month": "2025-03",
+      "flair": "Iraqi",
+      "posts": 1,
+      "comments": 21,
+      "total": 22
+    },
+    {
+      "month": "2025-03",
+      "flair": "Israeli",
+      "posts": 15,
+      "comments": 460,
+      "total": 475
+    },
+    {
+      "month": "2025-03",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-03",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 138,
+      "total": 141
+    },
+    {
+      "month": "2025-03",
+      "flair": "Maghrebi",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-03",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 15,
+      "total": 16
+    },
+    {
+      "month": "2025-03",
+      "flair": "Syrian",
+      "posts": 2,
+      "comments": 34,
+      "total": 36
+    },
+    {
+      "month": "2025-03",
+      "flair": "Unflaired/Unknown",
+      "posts": 52,
+      "comments": 1338,
+      "total": 1390
+    },
+    {
+      "month": "2025-04",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 23,
+      "total": 23
+    },
+    {
+      "month": "2025-04",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 32,
+      "total": 33
+    },
+    {
+      "month": "2025-04",
+      "flair": "Diaspora Lebanese",
+      "posts": 6,
+      "comments": 28,
+      "total": 34
+    },
+    {
+      "month": "2025-04",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-04",
+      "flair": "Israeli",
+      "posts": 5,
+      "comments": 233,
+      "total": 238
+    },
+    {
+      "month": "2025-04",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2025-04",
+      "flair": "Lebanese",
+      "posts": 11,
+      "comments": 57,
+      "total": 68
+    },
+    {
+      "month": "2025-04",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 13,
+      "total": 13
+    },
+    {
+      "month": "2025-04",
+      "flair": "Palestinian",
+      "posts": 1,
+      "comments": 3,
+      "total": 4
+    },
+    {
+      "month": "2025-04",
+      "flair": "Syrian",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2025-04",
+      "flair": "Unflaired/Unknown",
+      "posts": 34,
+      "comments": 583,
+      "total": 617
+    },
+    {
+      "month": "2025-05",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 27,
+      "total": 27
+    },
+    {
+      "month": "2025-05",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 28,
+      "total": 28
+    },
+    {
+      "month": "2025-05",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 23,
+      "total": 23
+    },
+    {
+      "month": "2025-05",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2025-05",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-05",
+      "flair": "Israeli",
+      "posts": 5,
+      "comments": 287,
+      "total": 292
+    },
+    {
+      "month": "2025-05",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2025-05",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 28,
+      "total": 30
+    },
+    {
+      "month": "2025-05",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 9,
+      "total": 9
+    },
+    {
+      "month": "2025-05",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2025-05",
+      "flair": "Syrian",
+      "posts": 1,
+      "comments": 11,
+      "total": 12
+    },
+    {
+      "month": "2025-05",
+      "flair": "Unflaired/Unknown",
+      "posts": 53,
+      "comments": 681,
+      "total": 734
+    },
+    {
+      "month": "2025-06",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 26,
+      "total": 26
+    },
+    {
+      "month": "2025-06",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 25,
+      "total": 25
+    },
+    {
+      "month": "2025-06",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 18,
+      "total": 18
+    },
+    {
+      "month": "2025-06",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2025-06",
+      "flair": "Iraqi",
+      "posts": 1,
+      "comments": 3,
+      "total": 4
+    },
+    {
+      "month": "2025-06",
+      "flair": "Israeli",
+      "posts": 10,
+      "comments": 292,
+      "total": 302
+    },
+    {
+      "month": "2025-06",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 24,
+      "total": 26
+    },
+    {
+      "month": "2025-06",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 9,
+      "total": 9
+    },
+    {
+      "month": "2025-06",
+      "flair": "Syrian",
+      "posts": 1,
+      "comments": 7,
+      "total": 8
+    },
+    {
+      "month": "2025-06",
+      "flair": "Unflaired/Unknown",
+      "posts": 39,
+      "comments": 757,
+      "total": 796
+    },
+    {
+      "month": "2025-07",
+      "flair": "Arab",
+      "posts": 0,
+      "comments": 33,
+      "total": 33
+    },
+    {
+      "month": "2025-07",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 52,
+      "total": 52
+    },
+    {
+      "month": "2025-07",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 52,
+      "total": 52
+    },
+    {
+      "month": "2025-07",
+      "flair": "Diaspora Jew/Lebanese",
+      "posts": 1,
+      "comments": 2,
+      "total": 3
+    },
+    {
+      "month": "2025-07",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 57,
+      "total": 58
+    },
+    {
+      "month": "2025-07",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2025-07",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2025-07",
+      "flair": "Israeli",
+      "posts": 9,
+      "comments": 269,
+      "total": 278
+    },
+    {
+      "month": "2025-07",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2025-07",
+      "flair": "Lebanese",
+      "posts": 8,
+      "comments": 79,
+      "total": 87
+    },
+    {
+      "month": "2025-07",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 11,
+      "total": 12
+    },
+    {
+      "month": "2025-07",
+      "flair": "Syrian",
+      "posts": 2,
+      "comments": 20,
+      "total": 22
+    },
+    {
+      "month": "2025-07",
+      "flair": "Unflaired/Unknown",
+      "posts": 29,
+      "comments": 594,
+      "total": 623
+    },
+    {
+      "month": "2025-08",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 19,
+      "total": 19
+    },
+    {
+      "month": "2025-08",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 25,
+      "total": 25
+    },
+    {
+      "month": "2025-08",
+      "flair": "Diaspora Jew/Lebanese",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2025-08",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 37,
+      "total": 38
+    },
+    {
+      "month": "2025-08",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-08",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 18,
+      "total": 18
+    },
+    {
+      "month": "2025-08",
+      "flair": "Israeli",
+      "posts": 21,
+      "comments": 334,
+      "total": 355
+    },
+    {
+      "month": "2025-08",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 129,
+      "total": 131
+    },
+    {
+      "month": "2025-08",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 12,
+      "total": 12
+    },
+    {
+      "month": "2025-08",
+      "flair": "Syrian",
+      "posts": 2,
+      "comments": 15,
+      "total": 17
+    },
+    {
+      "month": "2025-08",
+      "flair": "Unflaired/Unknown",
+      "posts": 45,
+      "comments": 690,
+      "total": 735
+    },
+    {
+      "month": "2025-09",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 16,
+      "total": 16
+    },
+    {
+      "month": "2025-09",
+      "flair": "Diaspora Jew",
+      "posts": 4,
+      "comments": 32,
+      "total": 36
+    },
+    {
+      "month": "2025-09",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 9,
+      "total": 9
+    },
+    {
+      "month": "2025-09",
+      "flair": "Iraqi",
+      "posts": 0,
+      "comments": 12,
+      "total": 12
+    },
+    {
+      "month": "2025-09",
+      "flair": "Israeli",
+      "posts": 1,
+      "comments": 128,
+      "total": 129
+    },
+    {
+      "month": "2025-09",
+      "flair": "Jordanian",
+      "posts": 1,
+      "comments": 7,
+      "total": 8
+    },
+    {
+      "month": "2025-09",
+      "flair": "Lebanese",
+      "posts": 4,
+      "comments": 87,
+      "total": 91
+    },
+    {
+      "month": "2025-09",
+      "flair": "Maghrebi",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2025-09",
+      "flair": "Non-Canaanite",
+      "posts": 1,
+      "comments": 8,
+      "total": 9
+    },
+    {
+      "month": "2025-09",
+      "flair": "Syrian",
+      "posts": 1,
+      "comments": 22,
+      "total": 23
+    },
+    {
+      "month": "2025-09",
+      "flair": "Unflaired/Unknown",
+      "posts": 41,
+      "comments": 424,
+      "total": 465
+    },
+    {
+      "month": "2025-10",
+      "flair": "Arab",
+      "posts": 1,
+      "comments": 3,
+      "total": 4
+    },
+    {
+      "month": "2025-10",
+      "flair": "Diaspora Israeli",
+      "posts": 1,
+      "comments": 12,
+      "total": 13
+    },
+    {
+      "month": "2025-10",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 32,
+      "total": 32
+    },
+    {
+      "month": "2025-10",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 10,
+      "total": 11
+    },
+    {
+      "month": "2025-10",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-10",
+      "flair": "Israeli",
+      "posts": 3,
+      "comments": 177,
+      "total": 180
+    },
+    {
+      "month": "2025-10",
+      "flair": "Jordanian",
+      "posts": 5,
+      "comments": 25,
+      "total": 30
+    },
+    {
+      "month": "2025-10",
+      "flair": "Lebanese",
+      "posts": 6,
+      "comments": 137,
+      "total": 143
+    },
+    {
+      "month": "2025-10",
+      "flair": "Maghrebi",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2025-10",
+      "flair": "Syrian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-10",
+      "flair": "Unflaired/Unknown",
+      "posts": 30,
+      "comments": 448,
+      "total": 478
+    },
+    {
+      "month": "2025-11",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 9,
+      "total": 9
+    },
+    {
+      "month": "2025-11",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 10,
+      "total": 10
+    },
+    {
+      "month": "2025-11",
+      "flair": "Diaspora Jew/Lebanese",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2025-11",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2025-11",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-11",
+      "flair": "Israeli",
+      "posts": 2,
+      "comments": 103,
+      "total": 105
+    },
+    {
+      "month": "2025-11",
+      "flair": "Jordanian",
+      "posts": 0,
+      "comments": 12,
+      "total": 12
+    },
+    {
+      "month": "2025-11",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 95,
+      "total": 98
+    },
+    {
+      "month": "2025-11",
+      "flair": "Unflaired/Unknown",
+      "posts": 40,
+      "comments": 500,
+      "total": 540
+    },
+    {
+      "month": "2025-12",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 19,
+      "total": 19
+    },
+    {
+      "month": "2025-12",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 40,
+      "total": 40
+    },
+    {
+      "month": "2025-12",
+      "flair": "Diaspora Jew/Lebanese",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2025-12",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 12,
+      "total": 13
+    },
+    {
+      "month": "2025-12",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2025-12",
+      "flair": "Israeli",
+      "posts": 4,
+      "comments": 202,
+      "total": 206
+    },
+    {
+      "month": "2025-12",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2025-12",
+      "flair": "Jordanian",
+      "posts": 1,
+      "comments": 5,
+      "total": 6
+    },
+    {
+      "month": "2025-12",
+      "flair": "Lebanese",
+      "posts": 7,
+      "comments": 112,
+      "total": 119
+    },
+    {
+      "month": "2025-12",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2025-12",
+      "flair": "Unflaired/Unknown",
+      "posts": 48,
+      "comments": 537,
+      "total": 585
+    },
+    {
+      "month": "2026-01",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2026-01",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 16,
+      "total": 16
+    },
+    {
+      "month": "2026-01",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 19,
+      "total": 19
+    },
+    {
+      "month": "2026-01",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2026-01",
+      "flair": "Israeli",
+      "posts": 2,
+      "comments": 82,
+      "total": 84
+    },
+    {
+      "month": "2026-01",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2026-01",
+      "flair": "Jordanian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2026-01",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 55,
+      "total": 58
+    },
+    {
+      "month": "2026-01",
+      "flair": "Unflaired/Unknown",
+      "posts": 30,
+      "comments": 263,
+      "total": 293
+    },
+    {
+      "month": "2026-02",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 3,
+      "total": 3
+    },
+    {
+      "month": "2026-02",
+      "flair": "Diaspora Jew",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2026-02",
+      "flair": "Diaspora Lebanese",
+      "posts": 1,
+      "comments": 4,
+      "total": 5
+    },
+    {
+      "month": "2026-02",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 6,
+      "total": 6
+    },
+    {
+      "month": "2026-02",
+      "flair": "Israeli",
+      "posts": 0,
+      "comments": 72,
+      "total": 72
+    },
+    {
+      "month": "2026-02",
+      "flair": "Israeli Arab",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2026-02",
+      "flair": "Jordanian",
+      "posts": 0,
+      "comments": 8,
+      "total": 8
+    },
+    {
+      "month": "2026-02",
+      "flair": "Lebanese",
+      "posts": 3,
+      "comments": 46,
+      "total": 49
+    },
+    {
+      "month": "2026-02",
+      "flair": "Palestinian",
+      "posts": 0,
+      "comments": 1,
+      "total": 1
+    },
+    {
+      "month": "2026-02",
+      "flair": "Unflaired/Unknown",
+      "posts": 25,
+      "comments": 327,
+      "total": 352
+    },
+    {
+      "month": "2026-03",
+      "flair": "Diaspora Israeli",
+      "posts": 0,
+      "comments": 84,
+      "total": 84
+    },
+    {
+      "month": "2026-03",
+      "flair": "Diaspora Jew",
+      "posts": 1,
+      "comments": 20,
+      "total": 21
+    },
+    {
+      "month": "2026-03",
+      "flair": "Diaspora Lebanese",
+      "posts": 0,
+      "comments": 4,
+      "total": 4
+    },
+    {
+      "month": "2026-03",
+      "flair": "I have an Avocado, and I’m not afraid to use it",
+      "posts": 0,
+      "comments": 12,
+      "total": 12
+    },
+    {
+      "month": "2026-03",
+      "flair": "Israeli",
+      "posts": 0,
+      "comments": 239,
+      "total": 239
+    },
+    {
+      "month": "2026-03",
+      "flair": "Israeli Arab",
+      "posts": 1,
+      "comments": 6,
+      "total": 7
+    },
+    {
+      "month": "2026-03",
+      "flair": "Jordanian",
+      "posts": 1,
+      "comments": 12,
+      "total": 13
+    },
+    {
+      "month": "2026-03",
+      "flair": "Lebanese",
+      "posts": 2,
+      "comments": 149,
+      "total": 151
+    },
+    {
+      "month": "2026-03",
+      "flair": "Non-Canaanite",
+      "posts": 0,
+      "comments": 2,
+      "total": 2
+    },
+    {
+      "month": "2026-03",
+      "flair": "Unflaired/Unknown",
+      "posts": 31,
+      "comments": 515,
+      "total": 546
+    }
+  ]
+}
