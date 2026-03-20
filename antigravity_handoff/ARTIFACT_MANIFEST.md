@@ -1,5 +1,10 @@
 # Artifact Manifest
 
+Historical note as of 2026-03-19:
+- any manifest entry that mentions `luro-ai/` refers to the earlier staging shell
+- the live app now lives at the repository root
+- `luro-ai/` has been removed
+
 ## Highest-priority reading order
 1. `/Users/joeyq/Desktop/bromance/antigravity_handoff/HANDOFF.md`
 2. `/Users/joeyq/Desktop/bromance/phase2_deep_report.md`

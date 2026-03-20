@@ -2,6 +2,11 @@
 
 This file is the authoritative handoff for continuing the project in Antigravity with Gemini 3.1 Pro.
 
+Historical note as of 2026-03-19:
+- references below to the nested `luro-ai` shell describe the earlier migration state
+- the Next.js app has since been promoted to the repository root
+- `luro-ai/` has been removed
+
 Open this project in Antigravity at:
 - `/Users/joeyq/Desktop/bromance`
 
