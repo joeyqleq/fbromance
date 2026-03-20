@@ -42,3 +42,13 @@ index.txt
 # large files
 r_ForbiddenBromance_comments.json
 r_ForbiddenBromance_comments copy.json
+r_ForbiddenBromance_comments.json_part_*
+
+# raw/archive data not needed for the website repo
+/raw/
+/external_research/raw/
+
+# local handoff/link scratch space
+/antigravity_handoff/links/raw
+/antigravity_handoff/links/external_research
+/antigravity_handoff/links/phase2_outputs
