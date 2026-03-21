@@ -4,6 +4,7 @@ import { body, display, mono } from "@/constants";
 import { Toaster } from "@/components/ui/sonner";
 import Providers from "@/components/global/providers";
 import { PoisonAnalytics } from "@/components/poison/analytics";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = generateMetadata();
 
@@ -30,6 +31,7 @@ export default function RootLayout({
                 <Providers>
                     <PoisonAnalytics />
                     {children}
+                    <Analytics />
                 </Providers>
             </body>
         </html>
