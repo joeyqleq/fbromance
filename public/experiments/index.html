@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASCII Demo Lab</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #05060c;
+        --panel: rgba(14, 18, 29, 0.86);
+        --line: rgba(255, 255, 255, 0.1);
+        --ink: #eef6ff;
+        --muted: #9fb0c7;
+        --pink: #ff2cb8;
+        --cyan: #61f5ff;
+        --lime: #b7ff5f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "SF Mono", "Menlo", "Monaco", monospace;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 18% 16%, rgba(183, 255, 95, 0.12), transparent 24%),
+          radial-gradient(circle at 82% 10%, rgba(97, 245, 255, 0.14), transparent 20%),
+          radial-gradient(circle at 50% 70%, rgba(255, 44, 184, 0.14), transparent 24%),
+          linear-gradient(180deg, #03040a 0%, #05060c 55%, #080a11 100%);
+      }
+
+      main {
+        width: min(1120px, calc(100vw - 32px));
+        margin: 0 auto;
+        padding: 48px 0 72px;
+      }
+
+      .hero {
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: var(--panel);
+        backdrop-filter: blur(24px);
+        box-shadow:
+          0 24px 80px rgba(0, 0, 0, 0.45),
+          inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid rgba(97, 245, 255, 0.32);
+        color: var(--cyan);
+        background: rgba(97, 245, 255, 0.08);
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 16px 0 10px;
+        font-size: clamp(32px, 5vw, 68px);
+        line-height: 0.94;
+      }
+
+      .gradient {
+        background: linear-gradient(120deg, #f7fbff 10%, var(--cyan) 35%, var(--pink) 70%, var(--lime) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      .lede {
+        max-width: 760px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 18px;
+        margin-top: 24px;
+      }
+
+      .card {
+        padding: 18px;
+        border-radius: 24px;
+        border: 1px solid var(--line);
+        background: rgba(10, 13, 22, 0.9);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+      }
+
+      .card h2 {
+        margin: 0 0 10px;
+        font-size: 18px;
+      }
+
+      .card p {
+        margin: 0 0 16px;
+        color: var(--muted);
+        line-height: 1.6;
+        min-height: 96px;
+      }
+
+      .tag {
+        display: inline-block;
+        margin-bottom: 12px;
+        color: #0b0d11;
+        background: var(--lime);
+        padding: 4px 8px;
+        border-radius: 999px;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 16px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: linear-gradient(135deg, rgba(97, 245, 255, 0.14), rgba(255, 44, 184, 0.16));
+      }
+
+      .notes {
+        margin-top: 24px;
+        padding: 20px 24px;
+        border-radius: 22px;
+        border: 1px dashed rgba(255, 255, 255, 0.14);
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      code {
+        color: var(--cyan);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <span class="eyebrow">Five live demos</span>
+        <h1><span class="gradient">ASCII Demo Lab</span></h1>
+        <p class="lede">
+          A small lab of ASCII experiments: local motion, a skill-backed render, a direct MCP export, and two color-preserving
+          <code>ASCII-Motion</code> imports built from an eye logo layered against animated wireframe meshes. The Codex host for
+          this thread still did not expose the <code>ascii-motion</code> namespace as a first-class tool, but the server itself
+          is present and working through raw JSON-RPC.
+        </p>
+
+        <div class="grid">
+          <article class="card">
+            <span class="tag">Demo 1</span>
+            <h2>ASCII Motion</h2>
+            <p>
+              Browser-side terminal animation built from a character field. This is the substitute for the unavailable ASCII
+              motion MCP path.
+            </p>
+            <a class="button" href="./ascii-motion.html">Open motion demo</a>
+          </article>
+
+          <article class="card">
+            <span class="tag">Demo 2</span>
+            <h2>ASCII Skill</h2>
+            <p>
+              Skill-backed text render using PlantUML’s Unicode text mode. It produces a diagram-like ASCII composition you can
+              inspect alongside the source.
+            </p>
+            <a class="button" href="./ascii-skill.html">Open ASCII skill demo</a>
+          </article>
+
+          <article class="card">
+            <span class="tag">Demo 3</span>
+            <h2>ASCII-Motion MCP</h2>
+            <p>
+              Real MCP output from <code>ascii-motion-mcp</code>: a generated radio-wave animation exported as a self-contained
+              HTML file, plus a frame-by-frame text dump.
+            </p>
+            <a class="button" href="./ascii-motion-real.html">Open real MCP demo</a>
+          </article>
+
+          <article class="card">
+            <span class="tag">Demo 4</span>
+            <h2>Eye + Mesh 4</h2>
+            <p>
+              Real <code>ASCII-Motion</code> image-import workflow: the eye logo stays in front while a cool blue wireframe loop
+              rotates softly behind it, with color preserved in the exported HTML animation.
+            </p>
+            <a class="button" href="./ascii-motion-eye-lines4.html">Open eye mesh demo</a>
+          </article>
+
+          <article class="card">
+            <span class="tag">Demo 5</span>
+            <h2>Eye + Mesh 5</h2>
+            <p>
+              A warmer variant using the second geometric mesh as a subdued amber halo behind the same eye mark, again exported
+              through the real MCP server as a self-contained player.
+            </p>
+            <a class="button" href="./ascii-motion-eye-lines5.html">Open second mesh demo</a>
+          </article>
+        </div>
+
+        <div class="notes">
+          Open this folder through any local static server. If you want, I can next turn the strongest one into a real Next route
+          inside this app instead of leaving it in <code>public/experiments</code>.
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

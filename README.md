@@ -53,3 +53,28 @@ Optional analytics environment variables:
 NEXT_PUBLIC_MATOMO_URL=
 NEXT_PUBLIC_MATOMO_SITE_ID=
 ```
+
+## Dataset Refresh
+
+Refresh the Reddit-backed local dataset and rebuild every downstream artifact used by the site:
+
+```bash
+python3 scripts/refresh_local_datasets.py
+```
+
+Optional window override:
+
+```bash
+python3 scripts/refresh_local_datasets.py --start-date 2026-03-01 --end-date 2026-03-23
+```
+
+This runner updates:
+
+- `raw/subreddits/*`
+- `r_ForbiddenBromance_posts.cleaned.ndjson`
+- `r_ForbiddenBromance_comments.cleaned.ndjson`
+- `phase2_outputs/deep/*`
+- `phase3_outputs/contradiction/*`
+- `phase2_outputs/site/poison_site_data.json`
+
+Note: the external web/news layer under `external_research/raw/` is still a curated input set. To automate that side cleanly, add a separate scraper + normalization step before rebuilding the site bundle.

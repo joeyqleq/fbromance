@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASCII Skill Demo</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #04050b;
+        --panel: rgba(8, 12, 22, 0.9);
+        --line: rgba(255, 255, 255, 0.1);
+        --ink: #eef6ff;
+        --muted: #96abc2;
+        --cyan: #61f5ff;
+        --lime: #b7ff5f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        padding: 24px;
+        font-family: "SF Mono", "Menlo", monospace;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 18% 18%, rgba(97, 245, 255, 0.12), transparent 22%),
+          radial-gradient(circle at 78% 14%, rgba(183, 255, 95, 0.14), transparent 24%),
+          linear-gradient(180deg, #03040a 0%, #05060d 100%);
+      }
+
+      .shell {
+        width: min(1180px, 100%);
+        margin: 0 auto;
+        border-radius: 28px;
+        border: 1px solid var(--line);
+        background: var(--panel);
+        overflow: hidden;
+        box-shadow: 0 32px 80px rgba(0, 0, 0, 0.48);
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 14px 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      a {
+        color: var(--cyan);
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.9fr);
+        gap: 0;
+      }
+
+      .panel {
+        min-width: 0;
+        padding: 20px;
+      }
+
+      .panel + .panel {
+        border-left: 1px solid var(--line);
+      }
+
+      h1, h2 {
+        margin: 0 0 14px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      h2 {
+        font-size: 15px;
+        color: var(--lime);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+
+      p {
+        margin: 0 0 14px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      pre {
+        margin: 0;
+        padding: 18px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 12%, transparent 88%, rgba(255, 255, 255, 0.02)),
+          rgba(5, 8, 14, 0.92);
+        color: var(--cyan);
+        overflow: auto;
+        line-height: 1.25;
+        font-size: 12px;
+        white-space: pre;
+      }
+
+      code {
+        color: #ffd8f4;
+      }
+
+      @media (max-width: 900px) {
+        .content {
+          grid-template-columns: 1fr;
+        }
+
+        .panel + .panel {
+          border-left: 0;
+          border-top: 1px solid var(--line);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="shell">
+      <div class="topbar">
+        <div class="meta">Skill-backed ASCII output via PlantUML Unicode text mode</div>
+        <div><a href="./index.html">back to lab</a></div>
+      </div>
+
+      <div class="content">
+        <section class="panel">
+          <h1>Signal Orbit</h1>
+          <p>
+            This demo uses the ASCII-oriented skill path that actually renders output in this environment: PlantUML text mode.
+            The generic ASCII skill on disk is mostly descriptive; this one produces real terminal-grade text diagrams.
+          </p>
+          <h2>Generated Output</h2>
+          <pre id="utxt">loading...</pre>
+        </section>
+
+        <aside class="panel">
+          <h2>Source</h2>
+          <p>The input is deliberately tiny so the transformation from source to ASCII stays obvious.</p>
+          <pre id="puml">loading...</pre>
+        </aside>
+      </div>
+    </section>
+
+    <script>
+      async function loadText(id, path) {
+        const response = await fetch(path);
+        const text = await response.text();
+        document.getElementById(id).textContent = text.trimEnd();
+      }
+
+      loadText("utxt", "./assets/signal-orbit.utxt");
+      loadText("puml", "./assets/signal-orbit.puml");
+    </script>
+  </body>
+</html>

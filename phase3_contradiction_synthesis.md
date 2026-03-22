@@ -1,12 +1,12 @@
 # Phase 3 Contradiction-Oriented Synthesis
 
-Generated: 2026-03-19T14:11:31.536185+00:00
+Generated: 2026-03-22T00:44:32.618978+00:00
 
 ## Intake Snapshot
 
-- ForbiddenBromance: 2409 clean rows across 2 shards; latest `2026-03-19T13:28:29+00:00`; status `clean`
-- Israel: 392298 clean rows across 34 shards; latest `2026-03-19T13:56:21+00:00`; status `clean`
-- lebanon: 501965 clean rows across 34 shards; latest `2026-03-19T14:05:06+00:00`; status `clean`
+- ForbiddenBromance: 2749 clean rows across 2 shards; latest `2026-03-22T00:41:27+00:00`; status `clean`
+- Israel: 394813 clean rows across 34 shards; latest `2026-03-22T00:40:30+00:00`; status `clean`
+- lebanon: 505204 clean rows across 34 shards; latest `2026-03-22T00:41:58+00:00`; status `clean`
 
 ## What Strengthens The Case
 
@@ -19,7 +19,7 @@ Generated: 2026-03-19T14:11:31.536185+00:00
 
 - In this tracked review sample, `6` users carry a dominant `Lebanese` or `Diaspora Lebanese` flair inside `r/ForbiddenBromance`. `0` of them comment more in Israel-related subreddits than in Lebanon-related ones outside the bromance sub.
 - Only `0` tracked Lebanese-flair users show heavy outside Hebrew activity (`>=25` items). That is weaker than the user’s strongest suspicion would predict.
-- Transliteration evidence is sparse: only `54` Lebanese-flair archive items matched the current high-confidence Arabizi / Lebanese transliteration heuristics. This is not enough to make a strong public identity claim yet.
+- Transliteration evidence is sparse: only `55` Lebanese-flair archive items matched the current high-confidence Arabizi / Lebanese transliteration heuristics. This is not enough to make a strong public identity claim yet.
 
 ## Top Context-Shift Users
 
@@ -52,11 +52,11 @@ Generated: 2026-03-19T14:11:31.536185+00:00
 - The current transliteration pass should be treated as weak evidence only.
 - It is useful for building a review queue, but the archive does not yet give a dense enough Lebanese-Arabizi sample to use this as a headline public claim.
 
+- `2026-03` | `SoftNoXOXO` | `arabizi` | For the first time in years, peace seems so close ! https://preview.redd.it/0xikl7lnw1pg1.png?width=1536&format=png&auto=webp&s=b8b42616a3cba66661a7b93a061841b23c9a9c33 As well ...
 - `2026-03` | `Current-Meal9360` | `arabizi` | Nshalla! Yel3an din hal harb
 - `2026-02` | `victoryismind` | `arabizi` | My dream is not to have Israel as ally, but as competitor (not enemy). Ya3ne that Lebanon would match it economically and militarily. My dream is that Lebanon actually starts to...
 - `2025-12` | `SoftNoXOXO` | `arabizi` | Hello, This answer is going to be very detailed, but I think it might bring more clarity on the subject for you. So for starters, Israel doesn't necessarily have a ban on Lebane...
 - `2025-12` | `SoftNoXOXO` | `arabizi` | Hello, Lebanese jew here, This answer is going to be very detailed, but I think it might bring more clarity on the subject for you. So for starters, Israel doesn't necessarily h...
-- `2025-10` | `Realistic_Half_6296` | `arabizi` | Inshallah
 
 ## Recommended Public Framing
 

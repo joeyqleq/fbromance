@@ -1,9 +1,9 @@
 {
   "overview": {
-    "posts": 4895,
-    "comments": 88094,
-    "hebrew_posts": 77,
-    "hebrew_comments": 1192,
+    "posts": 4950,
+    "comments": 89709,
+    "hebrew_posts": 78,
+    "hebrew_comments": 1205,
     "downloaded_user_histories": 28
   },
   "spike_months": [
@@ -14,8 +14,8 @@
       "total": 6927,
       "hebrew_posts": 0,
       "hebrew_comments": 54,
-      "post_zscore": 4.939,
-      "comment_zscore": 4.611
+      "post_zscore": 4.922,
+      "comment_zscore": 4.547
     },
     {
       "month": "2024-10",
@@ -24,8 +24,8 @@
       "total": 6706,
       "hebrew_posts": 0,
       "hebrew_comments": 90,
-      "post_zscore": 2.887,
-      "comment_zscore": 4.507
+      "post_zscore": 2.871,
+      "comment_zscore": 4.444
     },
     {
       "month": "2024-06",
@@ -34,8 +34,8 @@
       "total": 4027,
       "hebrew_posts": 2,
       "hebrew_comments": 41,
-      "post_zscore": 1.54,
-      "comment_zscore": 2.321
+      "post_zscore": 1.525,
+      "comment_zscore": 2.281
     },
     {
       "month": "2024-11",
@@ -44,8 +44,8 @@
       "total": 3131,
       "hebrew_posts": 1,
       "hebrew_comments": 33,
-      "post_zscore": 0.792,
-      "comment_zscore": 1.602
+      "post_zscore": 0.777,
+      "comment_zscore": 1.568
     },
     {
       "month": "2023-11",
@@ -54,8 +54,8 @@
       "total": 3105,
       "hebrew_posts": 2,
       "hebrew_comments": 38,
-      "post_zscore": 1.454,
-      "comment_zscore": 1.554
+      "post_zscore": 1.439,
+      "comment_zscore": 1.521
     },
     {
       "month": "2024-08",
@@ -64,8 +64,8 @@
       "total": 3035,
       "hebrew_posts": 3,
       "hebrew_comments": 41,
-      "post_zscore": 1.348,
-      "comment_zscore": 1.5
+      "post_zscore": 1.332,
+      "comment_zscore": 1.468
     },
     {
       "month": "2024-01",
@@ -74,8 +74,18 @@
       "total": 2913,
       "hebrew_posts": 1,
       "hebrew_comments": 25,
-      "post_zscore": 1.903,
-      "comment_zscore": 1.376
+      "post_zscore": 1.888,
+      "comment_zscore": 1.345
+    },
+    {
+      "month": "2026-03",
+      "posts": 91,
+      "comments": 2658,
+      "total": 2749,
+      "hebrew_posts": 1,
+      "hebrew_comments": 17,
+      "post_zscore": 0.606,
+      "comment_zscore": 1.259
     },
     {
       "month": "2024-12",
@@ -84,8 +94,8 @@
       "total": 2724,
       "hebrew_posts": 3,
       "hebrew_comments": 45,
-      "post_zscore": 0.877,
-      "comment_zscore": 1.258
+      "post_zscore": 0.862,
+      "comment_zscore": 1.229
     },
     {
       "month": "2023-10",
@@ -94,8 +104,8 @@
       "total": 2490,
       "hebrew_posts": 2,
       "hebrew_comments": 15,
-      "post_zscore": 1.433,
-      "comment_zscore": 1.041
+      "post_zscore": 1.418,
+      "comment_zscore": 1.014
     },
     {
       "month": "2024-02",
@@ -104,8 +114,8 @@
       "total": 2319,
       "hebrew_posts": 0,
       "hebrew_comments": 30,
-      "post_zscore": 1.283,
-      "comment_zscore": 0.904
+      "post_zscore": 1.268,
+      "comment_zscore": 0.878
     },
     {
       "month": "2025-03",
@@ -114,18 +124,8 @@
       "total": 2249,
       "hebrew_posts": 3,
       "hebrew_comments": 29,
-      "post_zscore": 0.321,
-      "comment_zscore": 0.883
-    },
-    {
-      "month": "2024-07",
-      "posts": 79,
-      "comments": 2080,
-      "total": 2159,
-      "hebrew_posts": 0,
-      "hebrew_comments": 35,
-      "post_zscore": 0.364,
-      "comment_zscore": 0.806
+      "post_zscore": 0.306,
+      "comment_zscore": 0.857
     }
   ],
   "event_timeline": [
@@ -232,6 +232,30 @@
       "description": "The Lebanese army launched an arrest campaign targeting non-state actors including Hezbollah, adding an internal-state dimension to the same discussion period.",
       "source_title": "The National / Lebanese army conducts arrest campaign targeting non-state actors including Hezbollah",
       "source_url": "https://www.thenationalnews.com/news/mena/2026/03/04/lebanese-army-conducts-arrest-campaign-targeting-non-state-actors-including-hezbollah/"
+    },
+    {
+      "window_month": "2026-03",
+      "event_date": "2026-03-17",
+      "label": "Lebanon proposes direct talks with Israel",
+      "description": "Lebanon proposed the first direct talks with Israel in decades, but officials insisted that the Hezbollah-Israel fighting had to stop first, turning diplomacy itself into part of the wartime discourse.",
+      "source_title": "AP / Lebanon offers talks with Israel but says fighting with Hezbollah must end first",
+      "source_url": "https://apnews.com/article/421cdb3123b43e5bb91b14f8954dec45"
+    },
+    {
+      "window_month": "2026-03",
+      "event_date": "2026-03-18",
+      "label": "UNIFIL reports Israeli ground incursions deeper into Lebanon",
+      "description": "AP reported that UNIFIL had seen IDF ground incursions at least 5 kilometers into Lebanese territory around Odaisseh and Khiam while Israeli officials acknowledged several thousand soldiers operating inside Lebanon.",
+      "source_title": "AP / Israel and Hezbollah's new war in Lebanon",
+      "source_url": "https://apnews.com/article/lebanon-israel-hezbollah-war-7af94276b5b0dd1e5ca3876d182bc202"
+    },
+    {
+      "window_month": "2026-03",
+      "event_date": "2026-03-19",
+      "label": "Lebanon displacement passes 1 million before Eid",
+      "description": "By March 19, 2026, AP reported that renewed Israeli strikes had displaced more than 1 million people in Lebanon, pushing the humanitarian crisis itself into the same discussion window.",
+      "source_title": "AP / In Lebanon, war and displacement mar run-up to Eid al-Fitr",
+      "source_url": "https://apnews.com/article/876809d5be8a8142739ad3cbb911f95d"
     }
   ],
   "review_queue": [
@@ -644,6 +668,19 @@
       "reply_ratio": 0.893
     },
     {
+      "link_id": "t3_1rue2xn",
+      "post_id": "1rue2xn",
+      "month": "2026-03",
+      "title": "Reports of IDF in Al Khiam",
+      "post_author": "SmartTrash7152",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 34,
+      "unique_authors": 5,
+      "reply_comments": 32,
+      "comments_per_author": 6.8,
+      "reply_ratio": 0.941
+    },
+    {
       "link_id": "t3_i3ph6w",
       "post_id": "i3ph6w",
       "month": "2020-08",
@@ -759,19 +796,6 @@
       "reply_comments": 29,
       "comments_per_author": 6.4,
       "reply_ratio": 0.906
-    },
-    {
-      "link_id": "t3_i1cbqr",
-      "post_id": "i1cbqr",
-      "month": "2020-07",
-      "title": "Visibility of Israel’s Borders from Space #4",
-      "post_author": "IbnEzra613",
-      "post_flair": "Diaspora Jew",
-      "comments": 31,
-      "unique_authors": 5,
-      "reply_comments": 28,
-      "comments_per_author": 6.2,
-      "reply_ratio": 0.903
     }
   ],
   "top_interactions": [
@@ -783,12 +807,12 @@
     {
       "source_author": "[deleted]",
       "target_author": "victoryismind",
-      "count": 111
+      "count": 112
     },
     {
       "source_author": "ForbiddenBromance-ModTeam",
       "target_author": "[deleted]",
-      "count": 105
+      "count": 106
     },
     {
       "source_author": "Tamtumtam",
@@ -876,19 +900,19 @@
       "count": 51
     },
     {
+      "source_author": "IbnEzra613",
+      "target_author": "victoryismind",
+      "count": 47
+    },
+    {
       "source_author": "t-vishni",
       "target_author": "[deleted]",
       "count": 47
     },
     {
-      "source_author": "IbnEzra613",
-      "target_author": "victoryismind",
-      "count": 46
-    },
-    {
       "source_author": "Shachar2like",
       "target_author": "victoryismind",
-      "count": 45
+      "count": 46
     },
     {
       "source_author": "victoryismind",
@@ -5430,38 +5454,52 @@
     },
     {
       "month": "2026-03",
+      "flair": "Arab",
+      "posts": 1,
+      "comments": 27,
+      "total": 28
+    },
+    {
+      "month": "2026-03",
       "flair": "Diaspora Israeli",
       "posts": 0,
-      "comments": 84,
-      "total": 84
+      "comments": 164,
+      "total": 164
     },
     {
       "month": "2026-03",
       "flair": "Diaspora Jew",
       "posts": 1,
-      "comments": 20,
-      "total": 21
+      "comments": 50,
+      "total": 51
+    },
+    {
+      "month": "2026-03",
+      "flair": "Diaspora Jew/Lebanese",
+      "posts": 2,
+      "comments": 5,
+      "total": 7
     },
     {
       "month": "2026-03",
       "flair": "Diaspora Lebanese",
-      "posts": 0,
-      "comments": 4,
-      "total": 4
+      "posts": 7,
+      "comments": 65,
+      "total": 72
     },
     {
       "month": "2026-03",
       "flair": "I have an Avocado, and I’m not afraid to use it",
       "posts": 0,
-      "comments": 12,
-      "total": 12
+      "comments": 26,
+      "total": 26
     },
     {
       "month": "2026-03",
       "flair": "Israeli",
-      "posts": 0,
-      "comments": 239,
-      "total": 239
+      "posts": 3,
+      "comments": 565,
+      "total": 568
     },
     {
       "month": "2026-03",
@@ -5480,23 +5518,23 @@
     {
       "month": "2026-03",
       "flair": "Lebanese",
-      "posts": 2,
-      "comments": 149,
-      "total": 151
+      "posts": 6,
+      "comments": 273,
+      "total": 279
     },
     {
       "month": "2026-03",
       "flair": "Non-Canaanite",
       "posts": 0,
-      "comments": 2,
-      "total": 2
+      "comments": 7,
+      "total": 7
     },
     {
       "month": "2026-03",
       "flair": "Unflaired/Unknown",
-      "posts": 31,
-      "comments": 515,
-      "total": 546
+      "posts": 69,
+      "comments": 1458,
+      "total": 1527
     }
   ]
 }

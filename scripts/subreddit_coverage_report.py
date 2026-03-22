@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-ROOT = Path("/Users/joeyq/Desktop/bromance")
+ROOT = Path(__file__).resolve().parents[1]
 RAW_ROOT = ROOT / "raw" / "subreddits"
 JSON_OUTPUT = RAW_ROOT / "coverage_summary.json"
 MARKDOWN_OUTPUT = RAW_ROOT / "coverage_summary.md"

@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-ROOT = Path("/Users/joeyq/Desktop/bromance")
+ROOT = Path(__file__).resolve().parents[1]
 OUT_ROOT = ROOT / "raw" / "subreddits"
 MANIFEST_PATH = OUT_ROOT / "manifest.json"
 API_BASE = "https://arctic-shift.photon-reddit.com"

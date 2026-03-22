@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
 
-ROOT = Path("/Users/joeyq/Desktop/bromance")
+ROOT = Path(__file__).resolve().parents[1]
 FETCH_SCRIPT = ROOT / "scripts" / "fetch_subreddit_windows.py"
 
 

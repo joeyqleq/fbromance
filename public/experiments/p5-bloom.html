@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>p5 Bloom Demo</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #04050b;
+        --panel: rgba(8, 12, 22, 0.9);
+        --line: rgba(255, 255, 255, 0.1);
+        --ink: #eef5ff;
+        --muted: #93a9c0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        font-family: "SF Mono", "Menlo", monospace;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 18% 16%, rgba(183, 255, 95, 0.1), transparent 22%),
+          radial-gradient(circle at 80% 14%, rgba(255, 44, 184, 0.12), transparent 24%),
+          radial-gradient(circle at 55% 80%, rgba(97, 245, 255, 0.12), transparent 26%),
+          linear-gradient(180deg, #03040a 0%, #05060d 100%);
+      }
+
+      .shell {
+        width: min(1120px, 100%);
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        overflow: hidden;
+        background: var(--panel);
+        box-shadow: 0 32px 80px rgba(0, 0, 0, 0.48);
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: center;
+        padding: 14px 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .controls {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      button, a {
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.04);
+        color: var(--ink);
+        border-radius: 999px;
+        padding: 10px 14px;
+        font: inherit;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      #sketch {
+        min-height: 640px;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  </head>
+  <body>
+    <section class="shell">
+      <div class="topbar">
+        <div class="meta">p5.js seeded bloom / seed <span id="seed-value">240321</span></div>
+        <div class="controls">
+          <button id="reseed" type="button">new seed</button>
+          <a href="./index.html">back to lab</a>
+        </div>
+      </div>
+      <div id="sketch"></div>
+    </section>
+
+    <script>
+      let seed = 240321;
+      let particles = [];
+      let noiseDrift = 0;
+      const hues = [318, 190, 91, 32];
+
+      function rebuildParticleField() {
+        particles = [];
+        randomSeed(seed);
+        noiseSeed(seed);
+
+        for (let i = 0; i < 1300; i += 1) {
+          particles.push({
+            angle: random(TWO_PI),
+            radius: random(40, min(width, height) * 0.42),
+            speed: random(0.001, 0.008),
+            offset: random(1000),
+            weight: random(0.7, 2.2),
+            hue: random(hues),
+          });
+        }
+      }
+
+      function setup() {
+        const canvas = createCanvas(min(window.innerWidth - 48, 1080), min(window.innerHeight - 96, 720));
+        canvas.parent("sketch");
+        pixelDensity(1);
+        colorMode(HSB, 360, 100, 100, 100);
+        strokeCap(ROUND);
+        background(228, 35, 5);
+        rebuildParticleField();
+      }
+
+      function drawBackdrop() {
+        noStroke();
+        fill(228, 35, 5, 10);
+        rect(0, 0, width, height);
+        fill(318, 80, 100, 4);
+        circle(width * 0.26, height * 0.24, width * 0.34);
+        fill(190, 72, 100, 4);
+        circle(width * 0.75, height * 0.2, width * 0.28);
+        fill(91, 70, 100, 4);
+        circle(width * 0.5, height * 0.76, width * 0.3);
+      }
+
+      function draw() {
+        drawBackdrop();
+        translate(width / 2, height / 2);
+        blendMode(ADD);
+        noiseDrift += 0.0035;
+
+        for (const particle of particles) {
+          const noiseAngle = noise(
+            cos(particle.angle) * 0.75 + 10 + particle.offset,
+            sin(particle.angle) * 0.75 + 20 + particle.offset,
+            noiseDrift
+          );
+
+          const twist = map(noiseAngle, 0, 1, -0.04, 0.04);
+          const breathing = 1 + 0.14 * sin(frameCount * 0.01 + particle.offset);
+          const ripple = 16 * sin(frameCount * 0.012 + particle.offset * 2.1);
+          const previousX = cos(particle.angle) * particle.radius * breathing;
+          const previousY = sin(particle.angle) * particle.radius * (1.06 + 0.12 * cos(frameCount * 0.013 + particle.offset));
+
+          particle.angle += particle.speed + twist;
+          particle.radius += map(noiseAngle, 0, 1, -0.35, 0.35) + sin(frameCount * 0.008 + particle.offset) * 0.1;
+
+          if (particle.radius < 24) particle.radius = min(width, height) * 0.4;
+          if (particle.radius > min(width, height) * 0.48) particle.radius = 26;
+
+          const nextX = cos(particle.angle) * (particle.radius + ripple) * breathing;
+          const nextY = sin(particle.angle) * (particle.radius - ripple * 0.4) * (1.06 + 0.12 * sin(frameCount * 0.01 + particle.offset));
+
+          stroke(particle.hue, 70, 100, 12);
+          strokeWeight(particle.weight);
+          line(previousX, previousY, nextX, nextY);
+        }
+
+        blendMode(BLEND);
+        noFill();
+        stroke(190, 55, 100, 18);
+        strokeWeight(1.5);
+        circle(0, 0, min(width, height) * (0.18 + 0.01 * sin(frameCount * 0.03)));
+      }
+
+      function windowResized() {
+        resizeCanvas(min(window.innerWidth - 48, 1080), min(window.innerHeight - 96, 720));
+        background(228, 35, 5);
+        rebuildParticleField();
+      }
+
+      document.getElementById("reseed").addEventListener("click", () => {
+        seed = Math.floor(Math.random() * 999999);
+        document.getElementById("seed-value").textContent = String(seed);
+        background(228, 35, 5);
+        rebuildParticleField();
+      });
+    </script>
+  </body>
+</html>

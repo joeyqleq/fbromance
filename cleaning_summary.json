@@ -1,11 +1,10 @@
 {
+  "source": "r_ForbiddenBromance monolith + raw/subreddits/ForbiddenBromance month shards",
   "posts": {
-    "input_path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_posts.json",
     "output_path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_posts.cleaned.ndjson",
-    "rows": 4895,
-    "valid_rows_written": 4895,
-    "size_bytes": 3144642,
-    "size_mb": 3.0,
+    "rows": 4950,
+    "size_bytes": 3183650,
+    "size_mb": 3.04,
     "fields": [
       "id",
       "name",
@@ -59,15 +58,14 @@
         "permalink": "/r/ForbiddenBromance/comments/d9ocft/necessary_precautions_for_lebanese_redditors/",
         "subreddit": "ForbiddenBromance"
       }
-    ]
+    ],
+    "latest_created_utc": 1774139851
   },
   "comments": {
-    "input_path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_comments.json",
     "output_path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_comments.cleaned.ndjson",
-    "rows": 88094,
-    "valid_rows_written": 88094,
-    "size_bytes": 35959611,
-    "size_mb": 34.29,
+    "rows": 89709,
+    "size_bytes": 36689520,
+    "size_mb": 34.99,
     "fields": [
       "id",
       "author",
@@ -109,30 +107,7 @@
         "parent_id": "t1_f1j6979",
         "link_id": "t3_d9jbm5"
       }
-    ]
-  },
-  "validation": {
-    "posts_ndjson": {
-      "path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_posts.cleaned.ndjson",
-      "rows": 4895
-    },
-    "comments_ndjson": {
-      "path": "/Users/joeyq/Desktop/bromance/r_ForbiddenBromance_comments.cleaned.ndjson",
-      "rows": 88094
-    },
-    "comments_under_50_mb": true,
-    "post_row_count_preserved": true,
-    "comment_row_count_preserved": true,
-    "all_comment_link_ids_present_in_posts": true,
-    "sample_post_join_ok": true,
-    "sample_post_join": {
-      "comment_id": "f1iw3zl",
-      "link_id": "t3_d9j3uy"
-    },
-    "sample_reply_chain_ok": true,
-    "sample_reply_chain": {
-      "comment_id": "f1j7otk",
-      "parent_id": "t1_f1j6979"
-    }
+    ],
+    "latest_created_utc": 1774140087
   }
 }

@@ -1,0 +1,445 @@
+# Frame 1: Wave 1 (100ms)
+i             i2HB9H2r:                           :r2H9BH2i             
+            i5G&S3s:                                 :s3S&G5i           
+          ;AH&S3r                                       r3S&HA;         
+         r3#9hs,                                         ,sh9#3r        
+        XMBS2;               iX23hHHHHHh32Xi               ;2SBMX       
+       XH&HA:            ,s5H#&9SHMhhhMHS9&#H5s,            :AH&HX      
+      sM&GA,           :Xh#BG3Ar:       :rA3GB#hX:           ,AG&Ms     
+     i39S2:           sh#9MA;               ;AM9#hs           :2S93i    
+    ,AG93i           XH&G2;                   ;2G&HX           i39GA,   
+    ihBGA,          XM&HA,                     ,AH&MX          ,AGBhi   
+    XH&Mr          i39S2:                       :2S93i          rM&HX   
+    AG93i          sH&Ms           isi           sM&Hs          i39GA   
+   ,AS93;          XHBhr          sM@Ms          rhBHX          ;39SA,  
+    AG93i          sH&Ms           isi           sM&Hs          i39GA   
+    XH&Mr          i39S2:                       :2S93i          rM&HX   
+    ihBGA,          XM&HA,                     ,AH&MX          ,AGBhi   
+    ,AG93i           XH&G2;                   ;2G&HX           i39GA,   
+     i39S2:           sh#9MA;               ;AM9#hs           :2S93i    
+      sM&GA,           :Xh#BG3Ar:       :rA3GB#hX:           ,AG&Ms     
+       XH&HA:            ,s5H#&9SHMhhhMHS9&#H5s,            :AH&HX      
+        XMBS2;               iX23hHHHHHh32Xi               ;2SBMX       
+         r3#9hs,                                         ,sh9#3r        
+          ;AH&S3r                                       r3S&HA;         
+            i5G&S3s:                                 :s3S&G5i           
+
+---
+
+# Frame 2: Frame 2 (80ms)
+            ;AM99H2r                                 r2H99MA;           
+          :AMB#hX:                                     :Xh#BMA:         
+         s3#9MX:                                         :XM9#3s        
+       :AH&G2;                ,irXAA2AAXri,                ;2G&HA:      
+      ;2GBMX              :s2MG9&&B999B&&9GM2s:              XMBG2;     
+     :2SBhs             r5HBBGh2Xri;;;irX2hGBBH5r             shBS2:    
+    ,AGBhs            r3S&G5s:             :s5G&S3r            shBGA,   
+    sM&HX           :AH&G2i                   i2G&HA:           XH&Ms   
+   ;5##5;          ;2SBhs                       shBS2;          ;5##5;  
+   sM&Ms          ,AGBhr                         rhBGA,          sM&Ms  
+  ,AG93i          rM&HX                           XH&Mr          i39GA, 
+  :2##5:          AGB3i          ;2MGM2;          i3BGA          :5##2: 
+  ;5#S2:         ,2S95;          XGBhBGX          ;59S2,         :2S#5; 
+  :2##5:          AGB3i          ;2MGM2;          i3BGA          :5##2: 
+  ,AG93i          rM&HX                           XH&Mr          i39GA, 
+   sM&Ms          ,AGBhr                         rhBGA,          sM&Ms  
+   ;5##5;          ;2SBhs                       shBS2;          ;5##5;  
+    sM&HX           :AH&G2i                   i2G&HA:           XH&Ms   
+    ,AGBhs            r3S&G5s:             :s5G&S3r            shBGA,   
+     :2SBhs             r5HBBGh2Xri;;;irX2hGBBH5r             shBS2:    
+      ;2GBMX              :s2MG9&&B999B&&9GM2s:              XMBG2;     
+       :AH&G2;                ,irXAA2AAXri,                ;2G&HA:      
+         s3#9MX:                                         :XM9#3s        
+          :AMB#hX:                                     :Xh#BMA:         
+
+---
+
+# Frame 3: Frame 3 (80ms)
+          ,Xh#BH2r                                     r2HB#hX,         
+         r3#BHA;                                         ;AHB#3r        
+       :AH&G2i                   ,:;;;:,                   i2G&HA:      
+      i5#9hs               :rA5hHS#####SHh5Ar:               sh9#5i     
+     r39#5i             ;X3G9&#GM3522253MG#&9G3X;             i5#93r    
+    r39S5;            i2HB9H5s;           ;s5H9BH2i            ;5S93r   
+   ;5##5i           ;2H&S3s:                 :s3S&H2;           i5##5;  
+  ,AGBhr           r3#9hs                       sh9#3r           rhBGA, 
+  rhBGA,          rh9S5i                         i5S9hr          ,AGBhr 
+  AGBhr          ;5##5;                           ;5##5;          rhBGA 
+ :5##2:          XH&Mr           ,rA2Ar,           rM&HX          :2##5:
+ i39GA,         :2##5;          rh#B9B#hr          ;5##2:         ,AG93i
+ i3BGA          ;5#S2:         ,2S95;59S2,         :2S#5;          AGB3i
+ i39GA,         :2##5;          rh#B9B#hr          ;5##2:         ,AG93i
+ :5##2:          XH&Mr           ,rA2Ar,           rM&HX          :2##5:
+  AGBhr          ;5##5;                           ;5##5;          rhBGA 
+  rhBGA,          rh9S5i                         i5S9hr          ,AGBhr 
+  ,AGBhr           r3#9hs                       sh9#3r           rhBGA, 
+   ;5##5i           ;2H&S3s:                 :s3S&H2;           i5##5;  
+    r39S5;            i2HB9H5s;           ;s5H9BH2i            ;5S93r   
+     r39#5i             ;X3G9&#GM3522253MG#&9G3X;             i5#93r    
+      i5#9hs               :rA5hHS#####SHh5Ar:               sh9#5i     
+       :AH&G2i                   ,:;;;:,                   i2G&HA:      
+         r3#BHA;                                         ;AHB#3r        
+
+---
+
+# Frame 4: Frame 4 (80ms)
+         r5G&G5r                                         r5G&G5r        
+       ;AH&S5r                                             r5S&HA;      
+      r3#9hs                 ;rX2533h3352Xr;                 sh9#3r     
+     XMBS2;              iX3H#B&9#SGGGS#9&B#H3Xi              ;2SBMX    
+    XH&HA:            :XhS&#H3Asi:,   ,:isA3H#&ShX:            :AH&HX   
+   XM&HA,           :AM99M2r,               ,r2M99MA:           ,AH&MX  
+  rhBGA:           sh#9MX:                     :XM9#hs           :AGBhr 
+ ;5##5;          ,XH&G2;                         ;2G&HX,          ;5##5;
+ sM&Ms           XH&HX,                           ,XH&HX           sM&Ms
+:2S#5;          rhBGA,             :;:             ,AGBhr          ;5#S2
+i39GA          ,2S93i           r5H#9#H5r           i39S2,          AG93
+rh&HX          i39SA,          XH&G525G&HX          ,AS93i          XH&h
+sM&Ms          ihBGX          ;59S2, ,2S95;          XGBhi          sM&M
+rh&HX          i39SA,          XH&G525G&HX          ,AS93i          XH&h
+i39GA          ,2S93i           r5H#9#H5r           i39S2,          AG93
+:2S#5;          rhBGA,             :;:             ,AGBhr          ;5#S2
+ sM&Ms           XH&HX,                           ,XH&HX           sM&Ms
+ ;5##5;          ,XH&G2;                         ;2G&HX,          ;5##5;
+  rhBGA:           sh#9MX:                     :XM9#hs           :AGBhr 
+   XM&HA,           :AM99M2r,               ,r2M99MA:           ,AH&MX  
+    XH&HA:            :XhS&#H3Asi:,   ,:isA3H#&ShX:            :AH&HX   
+     XMBS2;              iX3H#B&9#SGGGS#9&B#H3Xi              ;2SBMX    
+      r3#9hs                 ;rX2533h3352Xr;                 sh9#3r     
+       ;AH&S5r                                             r5S&HA;      
+
+---
+
+# Frame 5: Frame 5 (80ms)
+       :AMB#hs,                                           ,sh#BMA:      
+      s3#9hX,                  :;irsssri;:                  ,Xh9#3s     
+    :AH&G2;               ;s2hHS#B&&&&&B#SHh2s;               ;2G&HA:   
+   ;2GBMX              iAhSB9SM32AXsssXA23MS9BShAi              XMBG2;  
+  ;2SBhs            ,s3S&Sh2r:             :r2hS&S3s,            shBS2; 
+ :2GBhr            s3#BH2r                     r2HB#3s            rhBG2:
+ XH&Ms           :AH&G2i                         i2G&HA:           sM&HX
+i39S2:          ;5SBhs                             shBS5;          :2S93
+AGBhr          :2S9hr                               rh9S2:          rhBG
+39S2,          XH&Ms            ;X23h32X;            sM&HX          ,2S9
+M&Hs          ;5#S2:          ;2HB9SGS9BH2;          :2S#5;          sH&
+H&hr          rh&HX          :2S9hs: :sh9S2:          XH&hr          rh&
+HBhr          sM&Ms          ihBGX     XGBhi          sM&Ms          rhB
+H&hr          rh&HX          :2S9hs: :sh9S2:          XH&hr          rh&
+M&Hs          ;5#S2:          ;2HB9SGS9BH2;          :2S#5;          sH&
+39S2,          XH&Ms            ;X23h32X;            sM&HX          ,2S9
+AGBhr          :2S9hr                               rh9S2:          rhBG
+i39S2:          ;5SBhs                             shBS5;          :2S93
+ XH&Ms           :AH&G2i                         i2G&HA:           sM&HX
+ :2GBhr            s3#BH2r                     r2HB#3s            rhBG2:
+  ;2SBhs            ,s3S&Sh2r:             :r2hS&S3s,            shBS2; 
+   ;2GBMX              iAhSB9SM32AXsssXA23MS9BShAi              XMBG2;  
+    :AH&G2;               ;s2hHS#B&&&&&B#SHh2s;               ;2G&HA:   
+      s3#9hX,                  :;irsssri;:                  ,Xh9#3s     
+
+---
+
+# Frame 6: Frame 6 (80ms)
+      r3#BMA;                                               ;AMB#3r     
+    :AH&G2i                :iX25hMHHHHHMh52Xi:                i2G&HA:   
+   i5#9hs              ,rAhG9&9SGMMhhhMMGS9&9GhAr,              sh9#5i  
+  r39#5i             i2M#&SM5Xi:         :iX5MS&#M2i             i5#93r 
+ rh9S5;            r5G&ShAi                   iAhS&G5r            ;5S9hr
+i3##5;           ;2H&S5r                         r5S&H2;           ;5##3
+2S93i           r3#9hs                             sh9#3r           i39S
+M&HX           rh9S5i                               i5S9hr           XH&
+##5;          i39S5;             :irsri:             ;5S93i          ;5#
+BHX          :2S93i           :XhG9&@&9GhX:           i39S2:          XH
+&hr          rhBGA           rh99M2XsX2M99hr           AGBhr          rh
+93i          XH&Mr          i39S2;     ;2S93i          rM&HX          i3
+93;          XHBhr          sM@Ms       sM@Ms          rhBHX          ;3
+93i          XH&Mr          i39S2;     ;2S93i          rM&HX          i3
+&hr          rhBGA           rh99M2XsX2M99hr           AGBhr          rh
+BHX          :2S93i           :XhG9&@&9GhX:           i39S2:          XH
+##5;          i39S5;             :irsri:             ;5S93i          ;5#
+M&HX           rh9S5i                               i5S9hr           XH&
+2S93i           r3#9hs                             sh9#3r           i39S
+i3##5;           ;2H&S5r                         r5S&H2;           ;5##3
+ rh9S5;            r5G&ShAi                   iAhS&G5r            ;5S9hr
+  r39#5i             i2M#&SM5Xi:         :iX5MS&#M2i             i5#93r 
+   i5#9hs              ,rAhG9&9SGMMhhhMMGS9&9GhAr,              sh9#5i  
+    :AH&G2i                :iX25hMHHHHHMh52Xi:                i2G&HA:   
+
+---
+
+# Frame 7: Frame 7 (80ms)
+    ;AH&S5r                  ,;rsXAA2AAXsr;,                  r5S&HA;   
+   r3#9hs               ,iX5MG#B&B99999B&B#GM5Xi,               sh9#3r  
+  XMBS2;             ,s5H#&#Hh5Asri;;;irsA5hH#&#H5s,             ;2SBMX 
+,XH&HA:            ;AM#BG3Xi,               ,iX3GB#MA;            :AH&HX
+XH&HX,           :AMB#hA;                       ;Ah#BMA:           ,XH&H
+MBGA,           sh#9hX:                           :Xh9#hs           ,AGB
+9S2;          ,XH&G2;                               ;2G&HX,          ;2S
+Bhr           XH&HX,                                 ,XH&HX           rh
+SA,          sM&HA,            iA3MHGHM3Ai            ,AH&Ms          ,A
+Mr          ;5##5;           s3S&#HhhhH#&S3s           ;5##5;          r
+3;          sM&Ms          ,AH&G2i     i2G&HA,          sM&Ms          ;
+2:          AG93i          sM&HX         XH&Ms          i39GA          :
+2:         ,2S95;          XGBhi         ihBGX          ;59S2,         :
+2:          AG93i          sM&HX         XH&Ms          i39GA          :
+3;          sM&Ms          ,AH&G2i     i2G&HA,          sM&Ms          ;
+Mr          ;5##5;           s3S&#HhhhH#&S3s           ;5##5;          r
+SA,          sM&HA,            iA3MHGHM3Ai            ,AH&Ms          ,A
+Bhr           XH&HX,                                 ,XH&HX           rh
+9S2;          ,XH&G2;                               ;2G&HX,          ;2S
+MBGA,           sh#9hX:                           :Xh9#hs           ,AGB
+XH&HX,           :AMB#hA;                       ;Ah#BMA:           ,XH&H
+,XH&HA:            ;AM#BG3Xi,               ,iX3GB#MA;            :AH&HX
+  XMBS2;             ,s5H#&#Hh5Asri;;;irsA5hH#&#H5s,             ;2SBMX 
+   r3#9hs               ,iX5MG#B&B99999B&B#GM5Xi,               sh9#3r  
+
+---
+
+# Frame 8: Frame 8 (80ms)
+   r3#9hX,                ;rA5hHGS#####SGHh5Ar;                ,Xh9#3r  
+ :AH&G2;              :s5MSBB#GMh5522255hMG#BBSM5s:              ;2G&HA:
+;2GBMX             ,s5H9BGhAs;,           ,;sAhGB9H5s,             XMBG2
+5S9hs            ,Xh#BG5s:                     :s5GB#hX,            sh9S
+S9hr            s3#BHA;                           ;AHB#3s            rh9
+&Ms           :AH&G2;                               ;2G&HA:           sM
+GA           ;5SBhs                                   shBS5;           A
+5;          ;2S9hr              ;sXA2AXs;              rh9S2;          ;
+X          ,AGBhs            i2M#BB999BB#M2i            shBGA,          
+i          rhBGA,          ;2H&ShAri;irAhS&H2;          ,AGBhr          
+:          AGBhi          ;5#9hs         sh9#5;          ihBGA          
+          :2##5:          XHBhr           rhBHX          :5##2:         
+          ;5#S2:         ,2S95;           ;59S2,         :2S#5;         
+          :2##5:          XHBhr           rhBHX          :5##2:         
+:          AGBhi          ;5#9hs         sh9#5;          ihBGA          
+i          rhBGA,          ;2H&ShAri;irAhS&H2;          ,AGBhr          
+X          ,AGBhs            i2M#BB999BB#M2i            shBGA,          
+5;          ;2S9hr              ;sXA2AXs;              rh9S2;          ;
+GA           ;5SBhs                                   shBS5;           A
+&Ms           :AH&G2;                               ;2G&HA:           sM
+S9hr            s3#BHA;                           ;AHB#3s            rh9
+5S9hs            ,Xh#BG5s:                     :s5GB#hX,            sh9S
+;2GBMX             ,s5H9BGhAs;,           ,;sAhGB9H5s,             XMBG2
+ :AH&G2;              :s5MSBB#GMh5522255hMG#BBSM5s:              ;2G&HA:
+
+---
+
+# Frame 9: Frame 9 (80ms)
+ :AH&G2i               :r2hH#B&B#SGGGGGS#B&B#Hh2r:               i2G&HA:
+i5#9hs              ;X3G9BSM5Asi;:,   ,:;isA5MSB9G3X;              sh9#5
+h9#5i             r5HB9H5s;                   ;s5H9BH5r             i5#9
+9S5;            r5S&G3s:                         :s3G&S5r            ;5S
+S5;           ;2H&G5r                               r5G&H2;           ;5
+3i           r3#9hs                                   sh9#3r           i
+s           rh9S5i                :;;;:                i5S9hr           
+,          rh9S2;            ,r2hHS#9#SHh2r,            ;2S9hr          
+          ;5##5i           ;AM9BSM32223MSB9MA;           i5##5;         
+          XH&Ms           rh99hX;       ;Xh99hr           sM&HX         
+         :2##5;          rhBS2;           ;2SBhr          ;5##2:        
+         i39GA,         :2S93;             ;39S2:         ,AG93i        
+         ihBGX          ;59S2,             ,2S95;          XGBhi        
+         i39GA,         :2S93;             ;39S2:         ,AG93i        
+         :2##5;          rhBS2;           ;2SBhr          ;5##2:        
+          XH&Ms           rh99hX;       ;Xh99hr           sM&HX         
+          ;5##5i           ;AM9BSM32223MSB9MA;           i5##5;         
+,          rh9S2;            ,r2hHS#9#SHh2r,            ;2S9hr          
+s           rh9S5i                :;;;:                i5S9hr           
+3i           r3#9hs                                   sh9#3r           i
+S5;           ;2H&G5r                               r5G&H2;           ;5
+9S5;            r5S&G3s:                         :s3G&S5r            ;5S
+h9#5i             r5HB9H5s;                   ;s5H9BH5r             i5#9
+i5#9hs              ;X3G9BSM5Asi;:,   ,:;isA5MSB9G3X;              sh9#5
+
+---
+
+# Frame 10: Frame 10 (80ms)
+r3#9hs               ;X3H#&9SM35AXXsssXXA53MS9&#H3X;               sh9#3
+MBS5;             ;XhS&#H5Xi:               :iX5H#&ShX;             ;5SB
+&HA:            i2HB9M2r,                       ,r2M9BH2i            :AH
+HX,           ;AHB#hX:                             :Xh#BHA;           ,X
+A,           sh#9hX,                                 ,Xh9#hs           ,
+:          ,XH&G2;                                     ;2G&HX,          
+          ,AH&HX,             ,iX253h352Xi,             ,XH&HA,         
+          XH&HX            ,s5H9&9SGGGS9&9H5s,            XH&HX         
+         rhBS2:           s3#BG5Xi:   :iX5GB#3s           :2SBhr        
+        ,AGB3i          ,AH&G2i           i2G&HA,          i3BGA,       
+        i39SA,          XH&HX               XH&HX          ,AS93i       
+        rh&HX          ;59S2:               :2S95;          XH&hr       
+        sM&Ms          ihBGX                 XGBhi          sM&Ms       
+        rh&HX          ;59S2:               :2S95;          XH&hr       
+        i39SA,          XH&HX               XH&HX          ,AS93i       
+        ,AGB3i          ,AH&G2i           i2G&HA,          i3BGA,       
+         rhBS2:           s3#BG5Xi:   :iX5GB#3s           :2SBhr        
+          XH&HX            ,s5H9&9SGGGS9&9H5s,            XH&HX         
+          ,AH&HX,             ,iX253h352Xi,             ,XH&HA,         
+:          ,XH&G2;                                     ;2G&HX,          
+A,           sh#9hX,                                 ,Xh9#hs           ,
+HX,           ;AHB#hX:                             :Xh#BHA;           ,X
+&HA:            i2HB9M2r,                       ,r2M9BH2i            :AH
+MBS5;             ;XhS&#H5Xi:               :iX5H#&ShX;             ;5SB
+
+---
+
+# Frame 11: Frame 11 (80ms)
+H&G2;              iAhS&9Gh2Xr;,         ,;rX2hG9&ShAi              ;2G&
+BMX,            :X3S&Sh2r:                     :r2hS&S3X:            ,XM
+hr            :Xh9BH2r                             r2HB9hX:            r
+r            s3#BMA;                                 ;AMB#3s            
+           :AH&G2;                                     ;2G&HA:          
+          ;5SBhs                :irsssri:                shBS5;         
+         ;5S93r             ;X5MS9B&@&B9SM5X;             r39S5;        
+        :2SBhr            r5GB9H32XsssX23H9BG5r            rhBS2:       
+        sM&HX           ;2G&G5s:         :s5G&G2;           XH&Ms       
+       ;5##5;          i5#9hs               sh9#5i          ;5##5;      
+       rh&HX          :2S93r                 r39S2:          XH&hr      
+       XH&hr          rhBHX                   XHBhr          rh&HX      
+       XHBhr          sM@Ms                   sM@Ms          rhBHX      
+       XH&hr          rhBHX                   XHBhr          rh&HX      
+       rh&HX          :2S93r                 r39S2:          XH&hr      
+       ;5##5;          i5#9hs               sh9#5i          ;5##5;      
+        sM&HX           ;2G&G5s:         :s5G&G2;           XH&Ms       
+        :2SBhr            r5GB9H32XsssX23H9BG5r            rhBS2:       
+         ;5S93r             ;X5MS9B&@&B9SM5X;             r39S5;        
+          ;5SBhs                :irsssri:                shBS5;         
+           :AH&G2;                                     ;2G&HA:          
+r            s3#BMA;                                 ;AMB#3s            
+hr            :Xh9BH2r                             r2HB9hX:            r
+BMX,            :X3S&Sh2r:                     :r2hS&S3X:            ,XM
+
+---
+
+# Frame 12: Frame 12 (80ms)
+9hs              i2M#&SM2s;                   ;s2MS&#M2i              sh
+5i             s3G&ShAi                           iAhS&G3s             i
+;            r3S&G5r                                 r5G&S3r            
+           ;2H&G5i                                     i5G&H2;          
+          r3#9hs                                         sh9#3r         
+         sh9S5i              ;sA3hHHGHHh3As;              i5S9hs        
+        rhBS2;            ;XhGBBSHMhhhMHSBBGhX;            ;2SBhr       
+       i3##5;           ;AHB9M2s;       ;s2M9BHA;           ;5##3i      
+      ,AGBhr           rh99hX:             :Xh99hr           rhBGA,     
+      i3BGA,          shBS2;                 ;2SBhs          ,AGB3i     
+      XH&Mr          ;39S5;                   ;5S93;          rM&HX     
+     ,AG93i          sH&Ms                     sM&Hs          i39GA,    
+     ,2S95;          XGBhi                     ihBGX          ;59S2,    
+     ,AG93i          sH&Ms                     sM&Hs          i39GA,    
+      XH&Mr          ;39S5;                   ;5S93;          rM&HX     
+      i3BGA,          shBS2;                 ;2SBhs          ,AGB3i     
+      ,AGBhr           rh99hX:             :Xh99hr           rhBGA,     
+       i3##5;           ;AHB9M2s;       ;s2M9BHA;           ;5##3i      
+        rhBS2;            ;XhGBBSHMhhhMHSBBGhX;            ;2SBhr       
+         sh9S5i              ;sA3hHHGHHh3As;              i5S9hs        
+          r3#9hs                                         sh9#3r         
+           ;2H&G5i                                     i5G&H2;          
+;            r3S&G5r                                 r5G&S3r            
+5i             s3G&ShAi                           iAhS&G3s             i
+
+---
+
+# Frame 13: Frame 13 (80ms)
+5;             iAM#BG3Xi                         iX3GB#MAi             ;
+:            i2HB#hX;                               ;Xh#BH2i            
+           ;AHBS3s,                                   ,s3SBHA;          
+          sh#9hs,                                       ,sh9#hs         
+        ,XH&G2;               ,;rXA222AXr;,               ;2G&HX,       
+       ,AH&HX,             iA3H#B&B999B&B#H3Ai             ,XH&HA,      
+       XH&HX            :XhS&#M5Asi;;;isA5M#&ShX:            XH&HX      
+      shBGA,           sh#BH2i             i2HB#hs           ,AGBhs     
+     ;5##5;          ,AH&G2;                 ;2G&HA,          ;5##5;    
+     sM&Hs          ,AH&MX                     XM&HA,          sH&Ms    
+    ,AG93i          rhBGA,                     ,AGBhr          i39GA,   
+    :5##2:          AGB3i                       i3BGA          :2##5:   
+    ;5#S2:         ,2S95;                       ;59S2,         :2S#5;   
+    :5##2:          AGB3i                       i3BGA          :2##5:   
+    ,AG93i          rhBGA,                     ,AGBhr          i39GA,   
+     sM&Hs          ,AH&MX                     XM&HA,          sH&Ms    
+     ;5##5;          ,AH&G2;                 ;2G&HA,          ;5##5;    
+      shBGA,           sh#BH2i             i2HB#hs           ,AGBhs     
+       XH&HX            :XhS&#M5Asi;;;isA5M#&ShX:            XH&HX      
+       ,AH&HX,             iA3H#B&B999B&B#H3Ai             ,XH&HA,      
+        ,XH&G2;               ,;rXA222AXr;,               ;2G&HX,       
+          sh#9hs,                                       ,sh9#hs         
+           ;AHBS3s,                                   ,s3SBHA;          
+:            i2HB#hX;                               ;Xh#BH2i            
+
+---
+
+# Frame 14: Frame 14 (80ms)
+,            :Xh#BG5s:                             :s5GB#hX:            
+           :XM99MA;                                   ;AM99MX:          
+          s3#9MX:                                       :XM9#3s         
+        :AH&G2;                  ,:;;;:,                  ;2G&HA:       
+       ;5SBhs               iX5hHS##9##SHh5Xi               shBS5;      
+      ;5#93r             i2M#&9GM3522253MG9&#M2i             r39#5;     
+     :2S93r            r5S&ShAi,         ,iAhS&S5r            r39S2:    
+     XH&Ms           ;2G&G5r                 r5G&G2;           sM&HX    
+    i3BGA,          i5#9hs                     sh9#5i          ,AGB3i   
+    XGBhr          ;5S93i                       i39S5;          rhBGX   
+   :5##2:          XH&Ms                         sM&HX          :2##5:  
+   i39GA          :2##5;          ;X2X;          ;5##2:          AG93i  
+   ihBGX          ;59S2,         :2S#S2:         ,2S95;          XGBhi  
+   i39GA          :2##5;          ;X2X;          ;5##2:          AG93i  
+   :5##2:          XH&Ms                         sM&HX          :2##5:  
+    XGBhr          ;5S93i                       i39S5;          rhBGX   
+    i3BGA,          i5#9hs                     sh9#5i          ,AGB3i   
+     XH&Ms           ;2G&G5r                 r5G&G2;           sM&HX    
+     :2S93r            r5S&ShAi,         ,iAhS&S5r            r39S2:    
+      ;5#93r             i2M#&9GM3522253MG9&#M2i             r39#5;     
+       ;5SBhs               iX5hHS##9##SHh5Xi               shBS5;      
+        :AH&G2;                  ,:;;;:,                  ;2G&HA:       
+          s3#9MX:                                       :XM9#3s         
+           :XM99MA;                                   ;AM99MX:          
+
+---
+
+# Frame 15: Frame 15 (80ms)
+           ,s3S&G5s:                                 :s5G&S3s,          
+          r3SBH2i                                       i2HBS3r         
+        ;2H&G5i                                           i5G&H2;       
+       r3#9hs                :rXA533h335AXr:                sh9#3r      
+      shBS5i             ,r2MS9&9#SGGGS#9&9SM2r,             i5SBhs     
+     shBS2;            iAM9BSh2si:,   ,:is2hSB9MAi            ;2SBhs    
+    i39S2;           ;AHB#hX;               ;Xh#BHA;           ;2S93i   
+   :2S93i           r399hs,                   ,sh993r           i39S2:  
+   sM&HX           sMBS2;                       ;2SBMs           XH&Ms  
+  :2S95;          r39S2:                         :2S93r          ;59S2: 
+  i3BGA          ,AS93i            :;:            i39SA,          AGB3i 
+  rM&Hs          i39SA,          shS9Shs          ,AS93i          sH&Mr 
+  sM&Ms          ihBGX          ;59S2S95;          XGBhi          sM&Ms 
+  rM&Hs          i39SA,          shS9Shs          ,AS93i          sH&Mr 
+  i3BGA          ,AS93i            :;:            i39SA,          AGB3i 
+  :2S95;          r39S2:                         :2S93r          ;59S2: 
+   sM&HX           sMBS2;                       ;2SBMs           XH&Ms  
+   :2S93i           r399hs,                   ,sh993r           i39S2:  
+    i39S2;           ;AHB#hX;               ;Xh#BHA;           ;2S93i   
+     shBS2;            iAM9BSh2si:,   ,:is2hSB9MAi            ;2SBhs    
+      shBS5i             ,r2MS9&9#SGGGS#9&9SM2r,             i5SBhs     
+       r3#9hs                :rXA533h335AXr:                sh9#3r      
+        ;2H&G5i                                           i5G&H2;       
+          r3SBH2i                                       i2HBS3r         
+
+---
+
+# Frame 16: Frame 16 (80ms)
+          i5G&S3s:                                     :s3S&G5i         
+        ;AH&S3r                                           r3S&HA;       
+       r3#9hs,                 ,;irsssri;,                 ,sh9#3r      
+     ,XH&G2;              ,rA3MS#B&&@&&B#SM3Ar,              ;2G&HX,    
+    ,AH&HX,            ,s5H9&#H32AXsssXA23H#&9H5s,            ,XH&HA,   
+   ,AH&MX            :Xh#BG3X;             ;X3GB#hX:            XM&HA,  
+   sM&HX            sh#9MA;                   ;AM9#hs            XH&Ms  
+  i39S2:          ,AH&G2;                       ;2G&HA,          :2S93i 
+  AGBhr          ,AG&MX                           XM&GA,          rhBGA 
+ ;39S2:          sM&HX                             XH&Ms          :2S93;
+ rM&Hs          ;5##2:           rA3h3Ar           :2##5;          sH&Mr
+ XH&hr          rh&HX          :AG&SHS&GA:          XH&hr          rh&HX
+ XHBhr          sM@Ms          rhBHX XHBhr          sM@Ms          rhBHX
+ XH&hr          rh&HX          :AG&SHS&GA:          XH&hr          rh&HX
+ rM&Hs          ;5##2:           rA3h3Ar           :2##5;          sH&Mr
+ ;39S2:          sM&HX                             XH&Ms          :2S93;
+  AGBhr          ,AG&MX                           XM&GA,          rhBGA 
+  i39S2:          ,AH&G2;                       ;2G&HA,          :2S93i 
+   sM&HX            sh#9MA;                   ;AM9#hs            XH&Ms  
+   ,AH&MX            :Xh#BG3X;             ;X3GB#hX:            XM&HA,  
+    ,AH&HX,            ,s5H9&#H32AXsssXA23H#&9H5s,            ,XH&HA,   
+     ,XH&G2;              ,rA3MS#B&&@&&B#SM3Ar,              ;2G&HX,    
+       r3#9hs,                 ,;irsssri;,                 ,sh9#3r      
+        ;AH&S3r                                           r3S&HA;       

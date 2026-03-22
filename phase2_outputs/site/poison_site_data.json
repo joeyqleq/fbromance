@@ -1,9 +1,9 @@
 {
   "overview": {
-    "posts": 4895,
-    "comments": 88094,
-    "hebrew_posts": 77,
-    "hebrew_comments": 1192,
+    "posts": 4950,
+    "comments": 89709,
+    "hebrew_posts": 78,
+    "hebrew_comments": 1205,
     "downloaded_user_histories": 28
   },
   "spike_months": [
@@ -14,8 +14,8 @@
       "total": 6927,
       "hebrew_posts": 0,
       "hebrew_comments": 54,
-      "post_zscore": 4.939,
-      "comment_zscore": 4.611
+      "post_zscore": 4.922,
+      "comment_zscore": 4.547
     },
     {
       "month": "2024-10",
@@ -24,8 +24,8 @@
       "total": 6706,
       "hebrew_posts": 0,
       "hebrew_comments": 90,
-      "post_zscore": 2.887,
-      "comment_zscore": 4.507
+      "post_zscore": 2.871,
+      "comment_zscore": 4.444
     },
     {
       "month": "2024-06",
@@ -34,8 +34,8 @@
       "total": 4027,
       "hebrew_posts": 2,
       "hebrew_comments": 41,
-      "post_zscore": 1.54,
-      "comment_zscore": 2.321
+      "post_zscore": 1.525,
+      "comment_zscore": 2.281
     },
     {
       "month": "2024-11",
@@ -44,8 +44,8 @@
       "total": 3131,
       "hebrew_posts": 1,
       "hebrew_comments": 33,
-      "post_zscore": 0.792,
-      "comment_zscore": 1.602
+      "post_zscore": 0.777,
+      "comment_zscore": 1.568
     },
     {
       "month": "2023-11",
@@ -54,8 +54,8 @@
       "total": 3105,
       "hebrew_posts": 2,
       "hebrew_comments": 38,
-      "post_zscore": 1.454,
-      "comment_zscore": 1.554
+      "post_zscore": 1.439,
+      "comment_zscore": 1.521
     },
     {
       "month": "2024-08",
@@ -64,8 +64,8 @@
       "total": 3035,
       "hebrew_posts": 3,
       "hebrew_comments": 41,
-      "post_zscore": 1.348,
-      "comment_zscore": 1.5
+      "post_zscore": 1.332,
+      "comment_zscore": 1.468
     },
     {
       "month": "2024-01",
@@ -74,8 +74,18 @@
       "total": 2913,
       "hebrew_posts": 1,
       "hebrew_comments": 25,
-      "post_zscore": 1.903,
-      "comment_zscore": 1.376
+      "post_zscore": 1.888,
+      "comment_zscore": 1.345
+    },
+    {
+      "month": "2026-03",
+      "posts": 91,
+      "comments": 2658,
+      "total": 2749,
+      "hebrew_posts": 1,
+      "hebrew_comments": 17,
+      "post_zscore": 0.606,
+      "comment_zscore": 1.259
     },
     {
       "month": "2024-12",
@@ -84,8 +94,8 @@
       "total": 2724,
       "hebrew_posts": 3,
       "hebrew_comments": 45,
-      "post_zscore": 0.877,
-      "comment_zscore": 1.258
+      "post_zscore": 0.862,
+      "comment_zscore": 1.229
     },
     {
       "month": "2023-10",
@@ -94,8 +104,8 @@
       "total": 2490,
       "hebrew_posts": 2,
       "hebrew_comments": 15,
-      "post_zscore": 1.433,
-      "comment_zscore": 1.041
+      "post_zscore": 1.418,
+      "comment_zscore": 1.014
     },
     {
       "month": "2024-02",
@@ -104,8 +114,8 @@
       "total": 2319,
       "hebrew_posts": 0,
       "hebrew_comments": 30,
-      "post_zscore": 1.283,
-      "comment_zscore": 0.904
+      "post_zscore": 1.268,
+      "comment_zscore": 0.878
     },
     {
       "month": "2025-03",
@@ -114,18 +124,8 @@
       "total": 2249,
       "hebrew_posts": 3,
       "hebrew_comments": 29,
-      "post_zscore": 0.321,
-      "comment_zscore": 0.883
-    },
-    {
-      "month": "2024-07",
-      "posts": 79,
-      "comments": 2080,
-      "total": 2159,
-      "hebrew_posts": 0,
-      "hebrew_comments": 35,
-      "post_zscore": 0.364,
-      "comment_zscore": 0.806
+      "post_zscore": 0.306,
+      "comment_zscore": 0.857
     }
   ],
   "event_timeline": [
@@ -232,6 +232,30 @@
       "description": "The Lebanese army launched an arrest campaign targeting non-state actors including Hezbollah, adding an internal-state dimension to the same discussion period.",
       "source_title": "The National / Lebanese army conducts arrest campaign targeting non-state actors including Hezbollah",
       "source_url": "https://www.thenationalnews.com/news/mena/2026/03/04/lebanese-army-conducts-arrest-campaign-targeting-non-state-actors-including-hezbollah/"
+    },
+    {
+      "window_month": "2026-03",
+      "event_date": "2026-03-17",
+      "label": "Lebanon proposes direct talks with Israel",
+      "description": "Lebanon proposed the first direct talks with Israel in decades, but officials insisted that the Hezbollah-Israel fighting had to stop first, turning diplomacy itself into part of the wartime discourse.",
+      "source_title": "AP / Lebanon offers talks with Israel but says fighting with Hezbollah must end first",
+      "source_url": "https://apnews.com/article/421cdb3123b43e5bb91b14f8954dec45"
+    },
+    {
+      "window_month": "2026-03",
+      "event_date": "2026-03-18",
+      "label": "UNIFIL reports Israeli ground incursions deeper into Lebanon",
+      "description": "AP reported that UNIFIL had seen IDF ground incursions at least 5 kilometers into Lebanese territory around Odaisseh and Khiam while Israeli officials acknowledged several thousand soldiers operating inside Lebanon.",
+      "source_title": "AP / Israel and Hezbollah's new war in Lebanon",
+      "source_url": "https://apnews.com/article/lebanon-israel-hezbollah-war-7af94276b5b0dd1e5ca3876d182bc202"
+    },
+    {
+      "window_month": "2026-03",
+      "event_date": "2026-03-19",
+      "label": "Lebanon displacement passes 1 million before Eid",
+      "description": "By March 19, 2026, AP reported that renewed Israeli strikes had displaced more than 1 million people in Lebanon, pushing the humanitarian crisis itself into the same discussion window.",
+      "source_title": "AP / In Lebanon, war and displacement mar run-up to Eid al-Fitr",
+      "source_url": "https://apnews.com/article/876809d5be8a8142739ad3cbb911f95d"
     }
   ],
   "review_queue": [
@@ -644,6 +668,19 @@
       "reply_ratio": 0.893
     },
     {
+      "link_id": "t3_1rue2xn",
+      "post_id": "1rue2xn",
+      "month": "2026-03",
+      "title": "Reports of IDF in Al Khiam",
+      "post_author": "SmartTrash7152",
+      "post_flair": "Unflaired/Unknown",
+      "comments": 34,
+      "unique_authors": 5,
+      "reply_comments": 32,
+      "comments_per_author": 6.8,
+      "reply_ratio": 0.941
+    },
+    {
       "link_id": "t3_i3ph6w",
       "post_id": "i3ph6w",
       "month": "2020-08",
@@ -759,19 +796,6 @@
       "reply_comments": 29,
       "comments_per_author": 6.4,
       "reply_ratio": 0.906
-    },
-    {
-      "link_id": "t3_i1cbqr",
-      "post_id": "i1cbqr",
-      "month": "2020-07",
-      "title": "Visibility of Israel’s Borders from Space #4",
-      "post_author": "IbnEzra613",
-      "post_flair": "Diaspora Jew",
-      "comments": 31,
-      "unique_authors": 5,
-      "reply_comments": 28,
-      "comments_per_author": 6.2,
-      "reply_ratio": 0.903
     }
   ],
   "top_interactions": [
@@ -783,12 +807,12 @@
     {
       "source_author": "[deleted]",
       "target_author": "victoryismind",
-      "count": 111
+      "count": 112
     },
     {
       "source_author": "ForbiddenBromance-ModTeam",
       "target_author": "[deleted]",
-      "count": 105
+      "count": 106
     },
     {
       "source_author": "Tamtumtam",
@@ -876,19 +900,19 @@
       "count": 51
     },
     {
+      "source_author": "IbnEzra613",
+      "target_author": "victoryismind",
+      "count": 47
+    },
+    {
       "source_author": "t-vishni",
       "target_author": "[deleted]",
       "count": 47
     },
     {
-      "source_author": "IbnEzra613",
-      "target_author": "victoryismind",
-      "count": 46
-    },
-    {
       "source_author": "Shachar2like",
       "target_author": "victoryismind",
-      "count": 45
+      "count": 46
     },
     {
       "source_author": "victoryismind",
@@ -5430,38 +5454,52 @@
     },
     {
       "month": "2026-03",
+      "flair": "Arab",
+      "posts": 1,
+      "comments": 27,
+      "total": 28
+    },
+    {
+      "month": "2026-03",
       "flair": "Diaspora Israeli",
       "posts": 0,
-      "comments": 84,
-      "total": 84
+      "comments": 164,
+      "total": 164
     },
     {
       "month": "2026-03",
       "flair": "Diaspora Jew",
       "posts": 1,
-      "comments": 20,
-      "total": 21
+      "comments": 50,
+      "total": 51
+    },
+    {
+      "month": "2026-03",
+      "flair": "Diaspora Jew/Lebanese",
+      "posts": 2,
+      "comments": 5,
+      "total": 7
     },
     {
       "month": "2026-03",
       "flair": "Diaspora Lebanese",
-      "posts": 0,
-      "comments": 4,
-      "total": 4
+      "posts": 7,
+      "comments": 65,
+      "total": 72
     },
     {
       "month": "2026-03",
       "flair": "I have an Avocado, and I’m not afraid to use it",
       "posts": 0,
-      "comments": 12,
-      "total": 12
+      "comments": 26,
+      "total": 26
     },
     {
       "month": "2026-03",
       "flair": "Israeli",
-      "posts": 0,
-      "comments": 239,
-      "total": 239
+      "posts": 3,
+      "comments": 565,
+      "total": 568
     },
     {
       "month": "2026-03",
@@ -5480,23 +5518,23 @@
     {
       "month": "2026-03",
       "flair": "Lebanese",
-      "posts": 2,
-      "comments": 149,
-      "total": 151
+      "posts": 6,
+      "comments": 273,
+      "total": 279
     },
     {
       "month": "2026-03",
       "flair": "Non-Canaanite",
       "posts": 0,
-      "comments": 2,
-      "total": 2
+      "comments": 7,
+      "total": 7
     },
     {
       "month": "2026-03",
       "flair": "Unflaired/Unknown",
-      "posts": 31,
-      "comments": 515,
-      "total": 546
+      "posts": 69,
+      "comments": 1458,
+      "total": 1527
     }
   ],
   "keyword_series": [
@@ -7588,27 +7626,6 @@
       ]
     },
     {
-      "id": "1hod5ek",
-      "kind": "post",
-      "month": "2024-12",
-      "created_utc": 1735414034,
-      "author": "imjust_areader245",
-      "author_flair_text": "Israeli",
-      "score": 43,
-      "link_id": "t3_1hod5ek",
-      "parent_id": "",
-      "title": "The Risitas, الله يرحمو/ז\"ל، talks about the war",
-      "text": "Have a fantastic week, y'all!",
-      "language_mode": "hebrew-arabic-english",
-      "english_gloss": "Uses the Jewish memorial abbreviation z\"l alongside Arabic prayer wording.",
-      "investigation_note": "Cross-script blending of Arabic and Hebrew honorific language. More useful for identity-performance than for hostility.",
-      "signal_tags": [
-        "mixed-script",
-        "identity-performance",
-        "symbolic-language"
-      ]
-    },
-    {
       "id": "lptr1f8",
       "kind": "comment",
       "month": "2024-10",
@@ -7627,27 +7644,6 @@
         "insult",
         "slang",
         "reply-pair"
-      ]
-    },
-    {
-      "id": "m1m8ok0",
-      "kind": "comment",
-      "month": "2024-12",
-      "created_utc": 1733963999,
-      "author": "JPM_R",
-      "author_flair_text": "Unflaired/Unknown",
-      "score": 38,
-      "link_id": "t3_1hc86an",
-      "parent_id": "t3_1hc86an",
-      "title": "",
-      "text": "That’s a good question. I believe Assad’s fall has further bolstered Hezbollah’s opponents and it will also bring Hezbollah’s feet back to the ground as they’ve internally lost that leverage. We’re witnessing a big transition of power in the ME, just like Netanyahu said. \nLet us see how things evolve, but I’m hopeful they’ll set the stage for peace between Lebanon and Israel. \nשלום מאחיך הלבנוני 🙃",
-      "language_mode": "mixed-hebrew-english",
-      "english_gloss": "Peace from your Lebanese brother.",
-      "investigation_note": "Identity-performance item: explicitly presents as Lebanese while using Hebrew farewell language in a peace-branding context.",
-      "signal_tags": [
-        "peace-branding",
-        "identity-claim",
-        "mixed-language"
       ]
     },
     {
@@ -7688,27 +7684,6 @@
         "identity-challenge",
         "meta-discourse",
         "hebrew-only"
-      ]
-    },
-    {
-      "id": "m1dc1ur",
-      "kind": "comment",
-      "month": "2024-12",
-      "created_utc": 1733844409,
-      "author": "LevantinePlantCult",
-      "author_flair_text": "I have an Avocado, and I’m not afraid to use it",
-      "score": 33,
-      "link_id": "t3_1hb3set",
-      "parent_id": "t3_1hb3set",
-      "title": "",
-      "text": "אתה גיבור!\n\nYou're a hero, mate, particularly regarding the protocols you want to put in safe for online safety for Lebanese folks. \n\nThanks for writing this.",
-      "language_mode": "mixed-hebrew-english",
-      "english_gloss": "You are a hero!",
-      "investigation_note": "Praise in Hebrew attached to operational-safety advice for Lebanese users. Useful because OPSEC talk is one of the project’s red-flag themes.",
-      "signal_tags": [
-        "opsec",
-        "praise",
-        "mixed-language"
       ]
     },
     {
@@ -7845,6 +7820,63 @@
       "title": "",
       "text": "It's considered ווסאח",
       "language_mode": "mixed-hebrew-english",
+      "english_gloss": "Original preserved for bilingual review; translation/gloss pending manual pass.",
+      "investigation_note": "Preserved as a high-score Hebrew or mixed-language item for later close reading.",
+      "signal_tags": [
+        "hebrew-review"
+      ]
+    },
+    {
+      "id": "kil5176",
+      "kind": "comment",
+      "month": "2024-01",
+      "created_utc": 1705672136,
+      "author": "Boring_Animal",
+      "author_flair_text": "Unflaired/Unknown",
+      "score": 20,
+      "link_id": "t3_19aj6s4",
+      "parent_id": "t3_19aj6s4",
+      "title": "",
+      "text": "הפוסט הזה לא ממש עוזר לך עם הטענה שאתה לא בסדר נפשית אחי",
+      "language_mode": "hebrew",
+      "english_gloss": "Original preserved for bilingual review; translation/gloss pending manual pass.",
+      "investigation_note": "Preserved as a high-score Hebrew or mixed-language item for later close reading.",
+      "signal_tags": [
+        "hebrew-review"
+      ]
+    },
+    {
+      "id": "lzfgg8v",
+      "kind": "comment",
+      "month": "2024-11",
+      "created_utc": 1732812623,
+      "author": "CruntyMcNugget",
+      "author_flair_text": "Israeli",
+      "score": 19,
+      "link_id": "t3_1h1xjlf",
+      "parent_id": "t1_lzfdyaq",
+      "title": "",
+      "text": "That is a very clear מ, although if you were right it would be a good explanation",
+      "language_mode": "mixed-hebrew-english",
+      "english_gloss": "Original preserved for bilingual review; translation/gloss pending manual pass.",
+      "investigation_note": "Preserved as a high-score Hebrew or mixed-language item for later close reading.",
+      "signal_tags": [
+        "hebrew-review"
+      ]
+    },
+    {
+      "id": "kgang2o",
+      "kind": "comment",
+      "month": "2024-01",
+      "created_utc": 1704385386,
+      "author": "Leading-Fail-7263",
+      "author_flair_text": "Unflaired/Unknown",
+      "score": 17,
+      "link_id": "t3_18ycb1r",
+      "parent_id": "t3_18ycb1r",
+      "title": "",
+      "text": "🎶יאללה יא נסראללה, נדפוק אותך אינשאללה, \nנחזיר אותך לאללה, עם כל החיזבאללה! 🎶",
+      "language_mode": "hebrew",
       "english_gloss": "Original preserved for bilingual review; translation/gloss pending manual pass.",
       "investigation_note": "Preserved as a high-score Hebrew or mixed-language item for later close reading.",
       "signal_tags": [
@@ -10489,6 +10521,101 @@
       "likely_trigger_reason": "Humanitarian toll can trigger sympathy, denial, blame shifting, or argument over Hezbollah responsibility and civilian risk.",
       "corroboration_level": "strongly_multi_sourced",
       "confidence_notes": "Use together with Guardian or NGO rows for finer humanitarian detail if needed.",
+      "vendors": [
+        "chatgpt_5_4"
+      ],
+      "vendor_count": 1
+    },
+    {
+      "id": "MAJ_20260317_01",
+      "kind": "major",
+      "event_date": "2026-03-17",
+      "month": "2026-03",
+      "publication_date": "2026-03-17",
+      "source_name": "Associated Press",
+      "source_language": "English",
+      "source_url": "https://apnews.com/article/421cdb3123b43e5bb91b14f8954dec45",
+      "headline_original": "Lebanon offers talks with Israel but says fighting with Hezbollah must end first",
+      "headline_english": "Lebanon offers talks with Israel but says fighting with Hezbollah must end first",
+      "label": "Lebanon offers talks with Israel but says fighting with Hezbollah must end first",
+      "summary": "Lebanon proposed the first direct talks with Israel in decades, reportedly at ministerial level, while insisting the Israel-Hezbollah fighting must end first.",
+      "location": "Beirut; proposed Cyprus venue",
+      "region": "Beirut / Eastern Mediterranean",
+      "parties_involved": [
+        "Lebanon",
+        "Israel",
+        "Hezbollah",
+        "United States"
+      ],
+      "incident_type": "diplomacy",
+      "violation_type": "",
+      "people_named": [
+        "Joseph Aoun"
+      ],
+      "organizations_named": [
+        "Lebanese government",
+        "Hezbollah"
+      ],
+      "casualties": "",
+      "target_type": "Diplomatic channel and border-conflict framework",
+      "cross_border_relevance": "diplomacy_or_mediation",
+      "topic_labels": [
+        "diplomacy_or_mediation",
+        "normalization_or_peace_branding",
+        "direct_hostility_trigger"
+      ],
+      "subreddit_relevance_score": 5,
+      "likely_trigger_reason": "Breaks a taboo and is likely to trigger normalization, ceasefire-sequencing, and blame-assignment debates inside the subreddit.",
+      "corroboration_level": "wire_confirmed",
+      "confidence_notes": "AP reported the proposal amid continuing Beirut airstrikes and Israeli troop activity in Lebanon.",
+      "vendors": [
+        "chatgpt_5_4"
+      ],
+      "vendor_count": 1
+    },
+    {
+      "id": "MAJ_20260318_01",
+      "kind": "major",
+      "event_date": "2026-03-18",
+      "month": "2026-03",
+      "publication_date": "2026-03-18",
+      "source_name": "Associated Press",
+      "source_language": "English",
+      "source_url": "https://apnews.com/article/lebanon-israel-hezbollah-war-7af94276b5b0dd1e5ca3876d182bc202",
+      "headline_original": "Israel and Hezbollah's new war in Lebanon",
+      "headline_english": "Israel and Hezbollah's new war in Lebanon",
+      "label": "Israel and Hezbollah's new war in Lebanon",
+      "summary": "AP reported that UNIFIL had seen IDF ground incursions at least 5 kilometers into Lebanese territory around Odaisseh and Khiam, while an Israeli official said several thousand soldiers were operating inside Lebanon.",
+      "location": "Odaisseh; Khiam; Blue Line",
+      "region": "South Lebanon / Blue Line frontier",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "UNIFIL",
+        "Lebanese army"
+      ],
+      "incident_type": "ground_incursion",
+      "violation_type": "",
+      "people_named": [
+        "Kandice Ardiel"
+      ],
+      "organizations_named": [
+        "UNIFIL",
+        "Israel Defense Forces",
+        "Lebanese army"
+      ],
+      "casualties": "AP said 968 people had been killed in Lebanon since March 2 and more than 1 million displaced",
+      "target_type": "Border villages, frontier positions, Lebanese territory",
+      "cross_border_relevance": "direct_cross_border",
+      "topic_labels": [
+        "border_incursion_or_ground_activity",
+        "direct_hostility_trigger",
+        "anti_hezbollah"
+      ],
+      "subreddit_relevance_score": 5,
+      "likely_trigger_reason": "Hard evidence of a deepening ground fight and territorial penetration, likely to intensify invasion, blame, and sovereignty arguments.",
+      "corroboration_level": "wire_confirmed",
+      "confidence_notes": "The AP explainer aggregates official Israeli, UNIFIL, and Lebanese statements into a single escalation snapshot.",
       "vendors": [
         "chatgpt_5_4"
       ],
@@ -14626,6 +14753,51 @@
       "vendor_count": 1
     },
     {
+      "id": "CFV_20260313_01",
+      "kind": "ceasefire",
+      "event_date": "2026-03-13",
+      "month": "2026-03",
+      "publication_date": "2026-03-21",
+      "source_name": "Associated Press",
+      "source_language": "English",
+      "source_url": "https://apnews.com/article/cf4ac34c7dff091543002400bbdf02cd",
+      "headline_original": "Israel strikes Hezbollah's civilian as well as military wings in attempt to crush group",
+      "headline_english": "Israel strikes Hezbollah's civilian as well as military wings in attempt to crush group",
+      "label": "Israel strikes Hezbollah's civilian as well as military wings in attempt to crush group",
+      "summary": "An Israeli strike on March 13 hit a Hezbollah-run health center in Burj Qalaouiyah, killing 12 medical workers, seriously wounding one, and leaving four missing under the rubble for hours.",
+      "location": "Burj Qalaouiyah",
+      "region": "South Governorate",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Islamic Health Society medical workers"
+      ],
+      "incident_type": "airstrike",
+      "violation_type": "medical_infrastructure_strike",
+      "people_named": [],
+      "organizations_named": [
+        "Islamic Health Society",
+        "Hezbollah"
+      ],
+      "casualties": "12 medical workers killed, 1 seriously wounded, 4 missing",
+      "target_type": "Health center and medical workers",
+      "cross_border_relevance": "ceasefire_enforcement",
+      "topic_labels": [
+        "civilian_harm",
+        "direct_hostility_trigger",
+        "obscure_name_watchlist",
+        "anti_hezbollah"
+      ],
+      "subreddit_relevance_score": 5,
+      "likely_trigger_reason": "Pushes debate over whether Israel is striking only Hezbollah military assets or also its civilian-service infrastructure.",
+      "corroboration_level": "wire_confirmed",
+      "confidence_notes": "The article was published March 21 but centers on the March 13 strike and its immediate casualties.",
+      "vendors": [
+        "chatgpt_5_4"
+      ],
+      "vendor_count": 1
+    },
+    {
       "id": "CFV_20260314_01",
       "kind": "ceasefire",
       "event_date": "2026-03-14",
@@ -14665,6 +14837,98 @@
       "likely_trigger_reason": "End-of-window humanitarian benchmark for testing discourse alignment versus visible civilian toll.",
       "corroboration_level": "strongly_multi_sourced",
       "confidence_notes": "Aggregate humanitarian row to close the researched window.",
+      "vendors": [
+        "chatgpt_5_4"
+      ],
+      "vendor_count": 1
+    },
+    {
+      "id": "CFV_20260318_01",
+      "kind": "ceasefire",
+      "event_date": "2026-03-18",
+      "month": "2026-03",
+      "publication_date": "2026-03-18",
+      "source_name": "Associated Press",
+      "source_language": "English",
+      "source_url": "https://apnews.com/article/lebanon-israel-hezbollah-war-7af94276b5b0dd1e5ca3876d182bc202",
+      "headline_original": "Israel and Hezbollah's new war in Lebanon",
+      "headline_english": "Israel and Hezbollah's new war in Lebanon",
+      "label": "Israel and Hezbollah's new war in Lebanon",
+      "summary": "UNIFIL said it had seen IDF ground incursions at least 5 kilometers into Lebanese territory around Odaisseh and Khiam, while an Israeli official said several thousand soldiers were operating inside Lebanon; AP also reported three Lebanese soldiers killed in Israeli strikes.",
+      "location": "Odaisseh; Khiam; Blue Line",
+      "region": "South Lebanon",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "UNIFIL",
+        "Lebanese army"
+      ],
+      "incident_type": "ground_incursion",
+      "violation_type": "ground_incursion",
+      "people_named": [
+        "Kandice Ardiel"
+      ],
+      "organizations_named": [
+        "UNIFIL",
+        "Israel Defense Forces",
+        "Lebanese army"
+      ],
+      "casualties": "3 Lebanese soldiers killed in Israeli strikes; AP also reported mounting overall war casualties",
+      "target_type": "Lebanese territory, border villages, and Lebanese army positions",
+      "cross_border_relevance": "ceasefire_enforcement",
+      "topic_labels": [
+        "border_incursion_or_ground_activity",
+        "direct_hostility_trigger",
+        "civilian_harm"
+      ],
+      "subreddit_relevance_score": 5,
+      "likely_trigger_reason": "Provides a concrete ground-invasion benchmark and a stronger sovereignty-violation marker than routine airstrike reporting.",
+      "corroboration_level": "wire_confirmed",
+      "confidence_notes": "This row is intentionally framed as a post-ceasefire breach marker because it documents troops operating kilometers inside Lebanese territory.",
+      "vendors": [
+        "chatgpt_5_4"
+      ],
+      "vendor_count": 1
+    },
+    {
+      "id": "CFV_20260319_01",
+      "kind": "ceasefire",
+      "event_date": "2026-03-19",
+      "month": "2026-03",
+      "publication_date": "2026-03-19",
+      "source_name": "Associated Press",
+      "source_language": "English",
+      "source_url": "https://apnews.com/article/876809d5be8a8142739ad3cbb911f95d",
+      "headline_original": "In Lebanon, war and displacement mar run-up to Eid al-Fitr",
+      "headline_english": "In Lebanon, war and displacement mar run-up to Eid al-Fitr",
+      "label": "In Lebanon, war and displacement mar run-up to Eid al-Fitr",
+      "summary": "AP reported that Israel’s renewed strikes had displaced more than 1 million people in Lebanon, with shelters and aid distribution under strain in Sidon ahead of Eid al-Fitr.",
+      "location": "Sidon; school and relief shelters",
+      "region": "South Governorate",
+      "parties_involved": [
+        "Israel",
+        "displaced Lebanese civilians",
+        "Hezbollah"
+      ],
+      "incident_type": "other",
+      "violation_type": "humanitarian_displacement",
+      "people_named": [],
+      "organizations_named": [
+        "Lebanese government",
+        "relief volunteers"
+      ],
+      "casualties": "More than 1 million displaced",
+      "target_type": "Civilian population and shelter network",
+      "cross_border_relevance": "ceasefire_enforcement",
+      "topic_labels": [
+        "civilian_harm",
+        "direct_hostility_trigger",
+        "anti_lebanese_state_or_state_failure"
+      ],
+      "subreddit_relevance_score": 4,
+      "likely_trigger_reason": "Creates a humanitarian benchmark against which the subreddit’s rhetoric and omission patterns can be tested.",
+      "corroboration_level": "wire_confirmed",
+      "confidence_notes": "This is a displacement milestone row rather than a single kinetic incident.",
       "vendors": [
         "chatgpt_5_4"
       ],
@@ -14824,9 +15088,9 @@
     },
     {
       "month": "2026-03",
-      "major_events": 5,
-      "ceasefire_events": 9,
-      "high_relevance_events": 12
+      "major_events": 7,
+      "ceasefire_events": 12,
+      "high_relevance_events": 17
     }
   ],
   "watchlist": [
@@ -14839,6 +15103,21 @@
       "why_it_is_notable": "Village tied to a mid-March 2025 lethal strike in the ceasefire window.",
       "likely_reason_it_might_surface_on_subreddit": "Very obscure location - specific agricultural destruction detail notable",
       "source_url": "https://today.lorientlejour.com/article/1451852/-live.html",
+      "vendors": [
+        "chatgpt_5_4",
+        "perplexity_claude_46"
+      ],
+      "vendor_count": 2
+    },
+    {
+      "watch_id": "W064",
+      "name_or_place": "Khiam",
+      "type": "village",
+      "event_id": "CFV_20260318_01",
+      "date": "2026-03-18",
+      "why_it_is_notable": "Named alongside Odaisseh in UNIFIL reporting on observed Israeli ground incursions into Lebanese territory.",
+      "likely_reason_it_might_surface_on_subreddit": "A good watch term for invasion, resistance, and frontier-control rhetoric.",
+      "source_url": "https://apnews.com/article/lebanon-israel-hezbollah-war-7af94276b5b0dd1e5ca3876d182bc202",
       "vendors": [
         "chatgpt_5_4",
         "perplexity_claude_46"
@@ -15259,20 +15538,6 @@
       "date": "2025-01-03",
       "why_it_is_notable": "Near Khirbet Selm, location of Jan 3 evening drone strike killing 2",
       "likely_reason_it_might_surface_on_subreddit": "Very obscure village - mentioning suggests deep local knowledge",
-      "source_url": "https://www.longwarjournal.org/archives/2026/01/israeli-operations-in-lebanon",
-      "vendors": [
-        "perplexity_claude_46"
-      ],
-      "vendor_count": 1
-    },
-    {
-      "watch_id": "WATCH_V_008",
-      "name_or_place": "Khiam",
-      "type": "village",
-      "event_id": "VIOL_011",
-      "date": "2025-01-03",
-      "why_it_is_notable": "Major south Lebanon town, site of multiple strikes and prolonged occupation",
-      "likely_reason_it_might_surface_on_subreddit": "Strategically important, former detention center site, occupation debates",
       "source_url": "https://www.longwarjournal.org/archives/2026/01/israeli-operations-in-lebanon",
       "vendors": [
         "perplexity_claude_46"
@@ -16118,6 +16383,48 @@
         "perplexity_claude_46"
       ],
       "vendor_count": 1
+    },
+    {
+      "watch_id": "W061",
+      "name_or_place": "Burj Qalaouiyah",
+      "type": "village",
+      "event_id": "CFV_20260313_01",
+      "date": "2026-03-13",
+      "why_it_is_notable": "Village tied to the March 13 health-center strike that killed 12 medical workers.",
+      "likely_reason_it_might_surface_on_subreddit": "A later mention would be notable because it is more granular than generic Beirut or south-Lebanon framing.",
+      "source_url": "https://apnews.com/article/cf4ac34c7dff091543002400bbdf02cd",
+      "vendors": [
+        "chatgpt_5_4"
+      ],
+      "vendor_count": 1
+    },
+    {
+      "watch_id": "W062",
+      "name_or_place": "Islamic Health Society",
+      "type": "organization",
+      "event_id": "CFV_20260313_01",
+      "date": "2026-03-13",
+      "why_it_is_notable": "Hezbollah-run health arm hit in the Burj Qalaouiyah strike, central to the civilian-vs-military institution debate.",
+      "likely_reason_it_might_surface_on_subreddit": "Could appear in arguments about Hezbollah’s civilian infrastructure, aid networks, and legitimacy.",
+      "source_url": "https://apnews.com/article/cf4ac34c7dff091543002400bbdf02cd",
+      "vendors": [
+        "chatgpt_5_4"
+      ],
+      "vendor_count": 1
+    },
+    {
+      "watch_id": "W063",
+      "name_or_place": "Odaisseh",
+      "type": "village",
+      "event_id": "CFV_20260318_01",
+      "date": "2026-03-18",
+      "why_it_is_notable": "UNIFIL cited clashes around Odaisseh while describing Israeli ground incursions several kilometers into Lebanon.",
+      "likely_reason_it_might_surface_on_subreddit": "Useful as a frontier locality if users start discussing invasion depth or buffer-zone logic.",
+      "source_url": "https://apnews.com/article/lebanon-israel-hezbollah-war-7af94276b5b0dd1e5ca3876d182bc202",
+      "vendors": [
+        "chatgpt_5_4"
+      ],
+      "vendor_count": 1
     }
   ],
   "cross_reference": {
@@ -16482,6 +16789,7 @@
     "hasbara talking points",
     "די כבר",
     "Burj al-Muluk",
+    "Khiam",
     "Ali Salim Sufan",
     "Hezbollah Nasr Unit",
     "Jouaiya",
@@ -16497,8 +16805,7 @@
     "Hassan Nasrallah",
     "IRGC",
     "Naqoura",
-    "Al-Jabeen",
-    "Chihine"
+    "Al-Jabeen"
   ],
   "evidence_ledger": [
     {

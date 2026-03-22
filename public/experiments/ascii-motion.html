@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASCII Motion Demo</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #04060a;
+        --ink: #e8f7ff;
+        --muted: #86a0bb;
+        --line: rgba(255, 255, 255, 0.12);
+        --cyan: #61f5ff;
+        --pink: #ff2cb8;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        font-family: "SF Mono", "Menlo", monospace;
+        background:
+          radial-gradient(circle at 20% 15%, rgba(97, 245, 255, 0.12), transparent 22%),
+          radial-gradient(circle at 80% 12%, rgba(255, 44, 184, 0.12), transparent 24%),
+          linear-gradient(180deg, #03040a 0%, #05060d 100%);
+        color: var(--ink);
+      }
+
+      .frame {
+        width: min(980px, 100%);
+        border-radius: 28px;
+        border: 1px solid var(--line);
+        background: rgba(8, 11, 20, 0.9);
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.48);
+        overflow: hidden;
+      }
+
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 14px 18px;
+        border-bottom: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      pre {
+        margin: 0;
+        padding: 22px 20px 26px;
+        min-height: 560px;
+        color: var(--cyan);
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 10%, transparent 90%, rgba(255, 255, 255, 0.03)),
+          repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0 1px, rgba(255, 255, 255, 0) 1px 4px);
+        line-height: 1;
+        letter-spacing: 0.075em;
+        font-size: clamp(7px, 1vw, 12px);
+        white-space: pre;
+        overflow: hidden;
+      }
+
+      a {
+        color: var(--pink);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="frame">
+      <div class="topbar">
+        <div>ASCII motion substitute</div>
+        <div><a href="./index.html">back to lab</a></div>
+      </div>
+      <pre id="art" aria-label="Animated ASCII art"></pre>
+    </section>
+
+    <script>
+      const cols = 72;
+      const rows = 30;
+      const palette = " .,:;irsXA253hMHGS#9B&@";
+      const art = document.getElementById("art");
+
+      function glyph(value) {
+        const normalized = Math.max(0, Math.min(1, value));
+        const index = Math.floor(normalized * (palette.length - 1));
+        return palette[index];
+      }
+
+      function sparkle(x, y, t) {
+        const n = Math.sin(x * 17.31 + y * 8.17 + t * 0.043) * 43758.5453;
+        return n - Math.floor(n);
+      }
+
+      function renderFrame(t) {
+        const time = t / 16;
+        let out = "";
+
+        for (let y = 0; y < rows; y += 1) {
+          for (let x = 0; x < cols; x += 1) {
+            const nx = (x / (cols - 1)) * 2 - 1;
+            const ny = (y / (rows - 1)) * 2 - 1;
+            const aspect = cols / rows;
+            const px = nx * aspect * 0.78;
+            const py = ny * 0.95;
+            const radius = Math.sqrt(px * px + py * py);
+            const angle = Math.atan2(py, px);
+
+            const slowRing = Math.exp(-Math.pow(radius - (0.38 + 0.05 * Math.sin(time * 0.035)), 2) / 0.004);
+            const innerRing = Math.exp(-Math.pow(radius - (0.2 + 0.03 * Math.cos(time * 0.022)), 2) / 0.007);
+            const beams = 0.5 + 0.5 * Math.sin(angle * 7 + time * 0.09);
+            const turbulence =
+              0.24 * Math.sin(px * 7.5 - time * 0.06) +
+              0.26 * Math.cos(py * 8.8 + time * 0.045) +
+              0.16 * Math.sin((px + py) * 10 + time * 0.08);
+            const core = Math.max(0, 1.05 - radius * 2.25);
+            const star = sparkle(x, y, time);
+            const starfield = star > 0.992 ? 0.85 : 0;
+
+            const signal = core + slowRing * beams * 1.4 + innerRing * 0.8 + turbulence + starfield;
+            out += glyph(signal / 2.15);
+          }
+
+          out += "\n";
+        }
+
+        const label = "   ASCII MOTION / LOCAL SUBSTITUTE / FRAME " + String(Math.floor(time)).padStart(4, "0");
+        const lines = out.split("\n");
+        lines[1] = label.padEnd(cols, " ");
+        art.textContent = lines.join("\n");
+      }
+
+      function loop(t) {
+        renderFrame(t);
+        requestAnimationFrame(loop);
+      }
+
+      requestAnimationFrame(loop);
+    </script>
+  </body>
+</html>

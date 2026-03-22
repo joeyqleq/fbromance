@@ -9,15 +9,15 @@ This report extends the first-pass archive summary with deeper local evidence: s
 - Hebrew usage is treated as one signal among many, not a standalone smoking gun.
 
 ## Strongest local signals
-- 2024-09: 6634 comments, 293 posts, comment z-score 4.611
-- 2024-10: 6509 comments, 197 posts, comment z-score 4.507
-- 2024-06: 3893 comments, 134 posts, comment z-score 2.321
-- 2024-11: 3032 comments, 99 posts, comment z-score 1.602
-- 2023-11: 2975 comments, 130 posts, comment z-score 1.554
-- 2024-08: 2910 comments, 125 posts, comment z-score 1.5
+- 2024-09: 6634 comments, 293 posts, comment z-score 4.547
+- 2024-10: 6509 comments, 197 posts, comment z-score 4.444
+- 2024-06: 3893 comments, 134 posts, comment z-score 2.281
+- 2024-11: 3032 comments, 99 posts, comment z-score 1.568
+- 2023-11: 2975 comments, 130 posts, comment z-score 1.521
+- 2024-08: 2910 comments, 125 posts, comment z-score 1.468
 
 ## Hebrew subset
-- Hebrew-bearing items in the subreddit archive: 77 posts and 1192 comments
+- Hebrew-bearing items in the subreddit archive: 78 posts and 1205 comments
 - The extracted subset is saved at `/Users/joeyq/Desktop/bromance/phase2_outputs/deep/hebrew_subset.ndjson` for closer manual reading and translation work.
 
 ## Dense conversation threads
@@ -30,8 +30,8 @@ This report extends the first-pass archive summary with deeper local evidence: s
 
 ## Recurrent reply pairs
 - victoryismind → [deleted]: 189 replies
-- [deleted] → victoryismind: 111 replies
-- ForbiddenBromance-ModTeam → [deleted]: 105 replies
+- [deleted] → victoryismind: 112 replies
+- ForbiddenBromance-ModTeam → [deleted]: 106 replies
 - Tamtumtam → [deleted]: 86 replies
 - cha3bghachim → [deleted]: 71 replies
 - FriendlyJewThrowaway → KimoZ_2006: 68 replies

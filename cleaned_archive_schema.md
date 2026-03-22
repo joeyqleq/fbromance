@@ -29,18 +29,6 @@ These cleaned files are NDJSON (newline-delimited JSON). Each line is one JSON o
 - `parent_id`: Immediate parent thing ID. `t3_*` means reply to a post, `t1_*` means reply to another comment.
 - `link_id`: The root post thing ID, always pointing to the post the comment belongs to.
 
-## How to join data
-- Join comments to posts with `comments.link_id = posts.name`.
-- Rebuild reply chains with `comments.parent_id`.
-- Use `author_flair_text` as a self-presented identity signal, not as verified ground truth.
-
-## What was removed
-Removed fields include Reddit metadata that is not necessary for your analysis report or upload target:
-- award and gilding metadata
-- flair internals and template metadata other than the visible flair label itself
-- moderation and reporting metadata
-- premium, patreon, profile, and avatar metadata
-- media, preview, embed, gallery, and poll structures
-- duplicate vote fields such as `ups`, `downs`, and related flags
-- retrieval bookkeeping such as `retrieved_on` and `retrieved_utc`
-- subreddit display duplicates and archive flags not needed for content analysis
+## Source of truth
+- These cleaned files are rebuilt from the month-sharded raw pulls under `raw/subreddits/ForbiddenBromance/*`.
+- They are the compact analysis inputs used by the phase 2 and phase 3 analyzers.

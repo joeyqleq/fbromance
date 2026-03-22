@@ -1,0 +1,729 @@
+# Frame 1: Frame 1 (90ms)
+                            ,:,r:ri
+                            ;.iiriX
+                            ..,r:rr
+       :;                   :.iiriA
+    Ar,:,si                 ..,r:ri                     ,;;r
+    5,:;s,:iA               :.iiriX                   i,;,:.3
+     s;;.:,:.rs             ..,s:ri                2:;,;,:,;
+       rr:i:i,;;2A          ;.rrriA              ss;i,r:i:2X
+         r,:,:.,.isA    ;r  iriArA;:i          s;;.::;.;rA
+           ;i:r,;,i;  i,:.iisrs;sr:.:ir:r    ss,i:r,i:Xs
+             ;.iX;.:ii:;...,.,.,.,.,...;,r;r:,.;::,iiX
+           sX.:: ;r:;,Ar,.;:;,;:;,;,;,irr:i.:.:.::AA
+       XsXi..:,::iri,:...::r;s:r:r:i:r,,.r:r;;.,.;
+       .:.,,ir5s3i;.:.;,sir;srr;rrrrsrr;r.:iXX5is,,.ri
+      i,.:,XXXXAXi.,.,;r:i:r  ,:;2r2r2rr:;::.rsAXr;;.,.:
+    X.;:;s5X2s5s2;:.:,sir;    i:sA2AAAA;i.;;r,;r5s3X5rs:,.
+  ;,.XiAsAsXXXXi.:.:;i:;:i  ..:sr2r2rA;,.i,i;siXXXsXXXrr.,..
+X.;rXAAX2X2s5s5:,.:.X;r;      ;.rXXX2  .:ir;s;rr5s2s5s2rr:,.
+  i,.XrAsAXAsXXi.,.:;i;i:i             ,.r;i:riXXXXAXXXX,;.,
+    A.;sAX5X5s5ii,;,s;sir;             .:;r.:i2s5s5s5rr::.
+      r,.srXXAXi,:.,.:;i;r:i         :.i:i,,.srXXXXr:;.,
+        A,:,ii2r2;;.:,s;sirisirisiririr;r.:iXs5s5;;;
+         ;,,.,.irsXr.,.;:i;s:r;s:r;s:i::...Asi:;.,.;
+           sXiX::,r;X;:.;,;,;,;:r r,:,;.::i:i;   rX
+               ;.,,:,:...,,;...., ...,...Xi..rrri
+             ri,r:;,i,,.,.   i ;   ;;.,;s  .:,;:XisX
+           s:;:;.:,isX;r:i  :;:i.;;X ;;    s:,.:.;;riA
+         is:r,i:;;2A        :.:.,.rr         rs,:.i:r;AA
+       r;;,:,:.is2          .,...,,r           s;:.,.:,;sA
+     ss,i:i,;iA             :.,.,.ii             sr,:.;.i:AX
+   A;:.r:,.ri               .:.,..,s               2,:.,,;:r
+ Xr:;:r;riX                 i::.,.rr                 Ar:i:Xs
+ ;.i,:.ss                   ......,r                   2.;
+  X,ir3                     ;.,.,.ii
+                            ...;.,:sA
+                            ;.;,;,sr3
+
+---
+
+# Frame 2: Frame 2 (90ms)
+                            ,:,r;sr
+                            ;.iiriX
+                            ..,r:rr
+       ;i                   :.iiriA
+     r::.sr                 ..,r:ri                     ,i;s
+    5,:;s,:i2               :.iiriX                   r:;,:.3
+     r;;.:,:.rs             ..,s:ri                 :;,:,:,;A
+       ir:r:i,ii5           :.rrriA               X;;,r:i:AX
+         i,;::.,.is     ;s  ;iiAiX;;           Xi;.::;.;iX
+           :i:r,;,i;  r::.riXssrs ;.:is;s     X,;:r,i:Xs
+             ;.is;.: i,;...,.,.,.,.,...;.s si:.;::,;;X
+             .:: ;r,;,Ar,.;,;,;,;,;,:,irs,i.:.:.::XX
+           ..:.:,isr,:...::r;r:r:r:i:r,,.r:i;;.,.;
+       .:.,.ir5s5i;.:.:.sir;sir;ririsrr;r.:iXX5;s,,.sr
+       ,.:,XsXXAXi.,.,;r:r:i  ,:;2r2r2rr:i::.sXAXr;;.,.:
+    X.::;s5X2s5s2;:.:,sir;    i,sA2AAAAir.;;r,;r5s3s5ir:,.
+  ;,.XiAsAsXXXsi.:.:;i:;:i  ..:Xr2r2rA;,.i,i;siXXXsXXXrr.,..
+X.;rXAAX2X2s5s5:,.:,X;r;      ;.rXXX2  .:ir;s;rr5s2s5s2rr:,.
+  ;:.Xr2sAXAsXXi.,.:;i;i:i             ,.r;i:iiXXXXAXXXX,;.,
+    X,;sAX5X2s5ii,;,s;sir;             .:;r,:i2s5s5X5rs;:.2
+      ;:.XrXXAXi::.,.:;i;r:i         :.i:i:,.srXXXXr;;.,
+       iX,;,rr2r2;;.:,s;sirisirisirir;i;r,:;Xs5s5i;; sX
+         ;.,.:,rrssr.,,;:i;s;r;s:r;s:r::...Asi;;,,.;
+           rs;s:;,r;s::.;,;,;,i:r r,;,;.:,i;r;Xir;s
+               ;.,.:,:...,.;.,.., ...,...si..rssi
+             rr:i:i,i,,.,.   ;r;   :;.,:r  .:,;:XiXX
+           X;;:;,:,irs:i,;   i:i,;;A ::    r:,.:,;;rr2
+         rs:i,r:;:AA        :.:.,.rr         ir,,.i:r;2A
+       si;.:::.;rA          .,...,,r           r::.,.:,is2
+     Xs,;:i,;;XA            :.,.,.ii             ri.:.;.i:2A
+   2;:.r:,.ri               .,.,..,s               A,:.,,;:r
+ Ar,;;r;r;X                 i::.,.ri                 Xi:r;Xr
+ ;.i,:.rs                   ......,r                   2.:
+  s.;r5                     ;.,.,.ii
+                            ...i.,:sA
+                            ;.;,;,sr3
+
+---
+
+# Frame 3: Frame 3 (90ms)
+                            :;:siss
+                            ;.iiriX
+                            ..,s:rr
+       ir                   :.iiriA
+     X;,.XX                 ..,r:ri                     ;rrX
+    2,:;s,;r5               :.iiriX                   X;;.;.h
+     i:;,:.;,sA             ..,s:ri                 ii.:,;.;A
+       ;i:r,;,rih           :.rrriA               2;;,r:;,Xr
+         ;.;::.:,r          :;:X;s;              i.::;.:;s
+           :;:r,:,ri   i:.        ;.:          :;:r,i:sr
+             ;.;r;.: r.:.,.,.,.,.,.,.,.:.    :.;::,;;s
+             ,:; ;;,;,2s,.;,:.;,:.;,:.;rs,;.:.:,;:ss
+           ,.,.,.isr,:.,.,:r:r:r:r,i:r,,.s;;::...i
+       .:.,.;i2r5ii,:.:.sirisiriririsir;r.:rAs2;r,,,
+       ,.,.XsXXAXi.,.,;r:r:i  ,::2r2rArs:i::.sAAsi::.,.;
+     .:,:r2X5s5s5;:.:.Xir;    i,sA2AAAAir.;;r,;r5s5s2ir::.
+  i,.s;XrAsXXAsi,:.,;i:;:i  .,:si2r2r2i,.;,i;r;sXXsXXXri...,
+X.;rXAAX2X2s5s5::.:,X;r;      i,sXXX2 s.:ir;s;rr5s5s5s2ri:,.
+ r:;,Ar2sAXAsXXi.,.:;i;i:r             ,.r;i:i;XXXXAsXXX:;.,
+   rr,iX2X5X2s5i;,;:s;sir;             .:;r,;i2s5s5X5rX;:.Xr
+     r:;,XsAXAsi::.,,;:i;r:r         ;.;,i:,.rrXXAXs;i.,:s
+       ;r:i:sr2rA;;.:,s;sir;sisisrsir;iis,;;ss5s3ir;Aiir
+         :.,.::rsssi.,,;;r;s;s;s:s;s;r:;...AXrii:,.;
+           ;i:i:i:X;r::.i,i:i:i:rsr:;:;.,,iis;s:;:ir
+               ;.,.:;;...,.:.,.., ...,...r;..sAAs
+              X:i,i,;.,.:.  i,;,   .:.,,i  .::i:siA
+            i;,;,:.;ir,;.:      :ii2 ,,    i.,.;:;;rX
+          A:i,r,;:Xs        :.:.,.ri         ;i.,.r:r;3
+        s;.;::.;iX          .....,,r           i,,.,,;,iA5
+      A,;:r.;;ss            :.,.,.ii             i;.:.;,r;3
+    r:.i:,.i;A              .,.,..,s               s.,.,.::r
+  X,;;r;r:r                 i::.,.ri                 s;,s;si
+ ;.i,:.ir                   .,....,r                   A.:
+  i.;iA                     ;.,.,.ii
+                            ...i..,sA
+                            ;.;,:.rr3
+                             2
+
+---
+
+# Frame 4: Frame 4 (90ms)
+                            :;:siss
+                            ;.iiriX
+                            ..,s:rr
+       is                   :.iiriA
+     X;,.Xs                 ..,r:ri                     ;rrX
+    2,:;s,;r5               :.iiriX                   X;;.;.h
+     i:;,:.;,sA             ..,s:ri                 ri.:,;.;A
+       ;i:r,;,ri3           :.rrriA               2;;,r:;,Xr
+         ;.;::.:,r          :;:X;s;              i.::;.:;s
+           :;:r,:,ri   i:.        ;.:          :;:r,i:sr
+             ;.;r;.: r.:.,.,.,.,.,.,.,.:.    :.;::,;;s
+             ,:; ;;,;,2s,.;,:.;,:.;,:.;rs,;.:.:,;:ss
+           ,.,.,.isr,:.,.,:r:r:r:r,i:r,,.s;;::...i
+       .:.,.;i2r5ii,:.:.sirisiriririsir;r.:rAs2;r,,,
+       ,.,.XsXXAXi.,.,;r:r:i  ,::2r2rArs:i::.sAAsi::.,.;
+     .:,:r2X5s5s5;:.:.Xir;    i,sA2AAAAir.;;r,;r5s5s2ir::.
+  i,.s;XrAsXXAsi,:.,;i:;:i  .,:si2r2r2i,.;,i;r;sXXsXXXri...,
+X.;rXAAX2X2s5s5::.:,X;r;      ;,sXXX2 s.:ir;s;rr5s5s5s2ri:,.
+ r:;,Ar2sAXAsXXi.,.:;i;i:r             ,.r;i:i;XXXXAsXXX:;.,
+   rr,iX2X5X2s5i;,;:s;sir;             .:;r,;i2s5s5X5rX;:.Xr
+     r:;,XsAXAsi::.,,;:i;r:r         ;.;,i:,.rrXXAXs;i.,;s
+       ;r:i:sr2rA;;.:,s;sir;sisisrsir;iis,;;ss5s3ir;Aiir
+         :.,.::rsssi.,,;;r;s;s;s:s;s;r:;...AXrii:,.;
+           ;i:i:i:X;r::.i,i:i:i:rsr:;:;.,,iis;s:;:ir
+               ;.,.:;;...,.:.,.., ...,...r;..sAAs
+              X:i,i,;.,.:.  r,;,   .:.,,i  .::i:siA
+            i;,;,:.;ir,;.:      :ii2 ,,    i.,.;:;;rX
+          A:i,r,;:Xs        :.:.,.ri         ;i.,.r:r;3
+        s;.;::.;iX          .....,,r           i,,.,,;,iA5
+      A,;:r.;;ss            :.,.,.ii             i;.:.;,r;3
+    r:.i:,.i;A              .,.,..,s               s.,.,,::r
+  X,;;r;r:r                 i::.,.ri                 s;,s;si
+ ;.i,:.ir                   .,....,r                   A.:
+  i.;iA                     ;.,.,.ii
+                            ...i..,rA
+                            ;.;,:.rr3
+                             2
+
+---
+
+# Frame 5: Frame 5 (90ms)
+                            ;i;siXs
+                            ;.iiriX
+                            ..,s:rr
+       rX                   :.iiriA
+     A;,.AX                 ..,r:ri                     isrA
+    2,:;s:is3               :.iiriX                   A;;.;,h
+     ;,i,,.;,s2             ..,s:ri                 sr.:,;.:A
+       :;:r,:,rr            :.rrriA                i;,r:;,Xr
+         ;.;::.::r          ,::s;r;              i.::;.:;r
+           ,;:r.:,ri    :.        i.;          :;:r,i:ri
+             ;.;i;.;  .,.,.,.,.,.,.,.,.,.    :.;::,;:r
+             ,:; ;;.;,2s,.:,:.:,:.:.:.;ss.;.,.:,;:sr
+           ,.,.,.isr,:.,.,,i:r:r:r,i,i,,.s;;:,...i
+       .;.,.:i2r5ii,:.,.sirisiriririsir:i.:rAsA;r,,,
+       ,.,.srXXAXi.,.,;i;r:r  ,::2r2rArs:;::.XAAsi,:.,.;
+     .:,:r2X5s5s5;:.:.Xir;    i,sA2AAAAir,;:r,ir5s5rA;i,:,
+  r,.r:srAsXXXsi::.,:i:;:i  .,:si2r2r2i,.;.i;r;sXXXXXXii...:
+A.;isAAX5X2s5s5::.:,X;r;      i:sXXX2 s.:ir;s;sr5s2s5s2ri,,.
+ i:i,AsAsAXAsXXi.,.:;i:i;r             ,.r;r:i;XXXXAsXXX:;.,
+   ir:rX2X5X2s5i;.;:X;sir;             .:;s,;iAs5s5X5sXi:.si
+     i,;,XsAXAsi::.,,;;i;r:r         ;.;,i:..rrXXAXsii.,:r
+       :i:i;ss5rX:;.:,s;sir;srsiXrsis;iis:;:rs5s3rs;Xiii
+         ,.,.:;sssri.,:i;r;s;s;s:s;s;r:;...Asrii;,.i
+           ;;,;:i:Xir,:.i:i:i:r;rsr:i:i.:,;iX:r:;,ir
+               ;.,.:;;...,.,.,.., ...,...r:..s As
+               :;,i,;.,.:.  i,;,   .:.,,i  .::r:si2
+             ;,;::.;ii.:.,      ;rr  ,,    ;.,.;:;;s
+           :i,r,;:Xs        :.:.:.ri         :i.,,r:ri
+         ;.;::.;;X          .....,,r           i.,.,,;,i
+       ,;;r.;:ss            :.,.,.ii             i:.:.;,r;
+    s:.i:,.i:A              ...,..,s               s.,.,.::r
+  X,;;r;r:r                 i::.,.rr                 s;,s;si
+ ;.i,:.ii                   .,....,r                   X.:
+  i.;;X                     ;.,.,.ii                    3
+    s                       ...;..,rA
+                            :.;,:.rr3
+                            XAsAX2X2
+
+---
+
+# Frame 6: Frame 6 (90ms)
+                            ;i;siXs
+                            ;.iiriX
+                            ..,s:rr
+       rX                   :.iiriA
+     Ai,.AX                 ..,r:ri                     isrA
+    2,:;s:is3               :.iiriX                   A;;.;,h
+     ;,i,,.;,s2             ..,s:ri                 sr.:,;.:A
+       :;:r,:,rr            :.rrriA                i;,r:;,Xr
+         ;.;::.::r          ,::s;r;              i.::;.:;r
+           ,;:r.:,ri    :.        i.;          :;:r,i:ri
+             ;.;i;.;  .,.,.,.,.,.,.,.,.,.    :.;::,;:r
+             ,:; :;.;,2s,.:,:.:,:.:.:.;ss.;.,.:,;,sr
+           ,.,.,.isr,:.,.,,i:r:r:r,i,i,,.s;;:,...i
+       .;.,.:i2r5ii,:.,.sirisiriririsir:i.:rAsA;r,,,
+       ,.,.srXXAXi.,.,;i;r:r  ,::2r2rArs:;::.XAAsi,:.,.;
+     .:,:r2X5s5s5;:.:.Xir;    i,sA2AAAAir,;:r,ir5s5rA;i,:,
+  r,.r:srAsXXXsi::.,:i:;:i  .,:si2r2r2i,.;.i;r;sXXXXXXii...:
+A.;isAAX5X2s5s5::.:,X;r;      i:sXXX2 s.:ir;s;sr5s2s5s2ri,,.
+ i:i,AsAsAXAsXXi.,.:;i:i;r         5   ,.r;r:i;XXXXAsXXX:;.,
+   ir:rX2X5X2s5i;.;:X;sir;             .:;s,;iAs5s5X5sXi:.si
+     i,;,XsAXAsi::.,,;;i;r:r         ;.;,i:..rrXXAXsii.,:r
+       :i:i;ss5rX:;.:,s;sir;srsiXrsis;iis:;:rs5s3rs;Xiii
+         ,.,.:;sssri.,:i;r;s;s;s:s;s;r:;...Asrii;,.i
+           ;;,;:i:Xir,:.i:i:i:r;rsr:i:i.:,;iX:r:;,ir
+               ;.,.:;;...,.,.,.., ...,...r:..s As
+               :;,i,;.,.:.  i,;,   .:.,,i  .::r:sr2
+             ;,;::.;ii.:.,      ;ri  ,,    ;.,.;:;;s
+           :i,r,;:Xs        :.:.:.ri         :i.,,r:ri
+         ;.;::.;;X          .....,,r           i.,.,,;,i
+      5,;;r.;:ss            :.,.,.ii             i;.:.;,r;
+    s:.r:,.i:A              ...,..,s               s.,.,.::r
+  X,;;r;r:r                 i::.,.rr                 s;,s;si
+ ;.i,:.ii                   .,....,r                   X.:
+  i.;;X                     ;.,.,.ii                    32
+                            ...;..,rA
+                            :.;,:.rr3
+                            XAsAX2X5
+
+---
+
+# Frame 7: Frame 7 (90ms)
+                            :;:siss
+                            ;.iiriX
+                            ..,s:rr
+       is                   :.iiriA
+     X;,.Xs                 ..,r:ri                     ;rrX
+    2,:;s,;r5               :.iiriX                   X;;.;.h
+     i:;,:.;,sA             ..,s:ri                 ri.:,;.;A
+       :i:r,;,ri3           :.rrriA               2;;,r:;,Xr
+         ;.;::.:,r          :;:X;s;              i.::;.:;s
+           :;:r,:,ri    :.        ;.:          :;:r,i:sr
+             ;.;r;.: r.:.,.,.,.,.,.,.,.:.    :.;::,;;s
+             ,:; :;,;,2s,.;,:.;,:.;,:.;rs,;.:.:,;:ss
+           ,.,.,.isr,:.,.,:r:r:r:r,i:r,,.s;;::...i
+       .:.,.;i2r5ii,:.:.sirisiriririsir;r.:rAs2;r,,,
+       ,.,.XsXXAXi.,.,;r:r:i  ,::2r2rArs:i::.sAAsi::.,.;
+     .:,:r2X5s5s5;:.:.Xir;    i,sA2AAAAir.;;r,;r5s5s2ir::,
+  i,.s;XrAsXXAsi,:.,;i:;:i  .,:si2r2r2i,.;,i;r;sXXsXXXri...,
+X.;rXAAX2X2s5s5::.:,X;r;      ;,sXXX2 s.:ir;s;rr5s5s5s2ri:,.
+ r:;,Ar2sAXAsXXi.,.:;i;i:r             ,.r;i:i;XXXXAsXXX:;.,
+   rr,iX2X5X2s5i;,;:s;sir;             .:;r,;i2s5s5X5rX;:.Xr
+     r:;,XsAXAsi::.,,;:i;r:r         ;.;,i:,.rrXXAXs;i.,;s
+       ;r:i:sr2rA;;.:,s;sir;sisisrsis;iis,;;ss5s3ir;Arrr
+         :.,.::rsssi.,,;;r;s;s;s:s;s;r:;...AXrii:,.i
+           ;i,i:i:X;r::.i,i:i:i:rsr:;:;.,,i;s;s:;:is
+               ;.,.:;;...,.:.,.., ...,...s;..sAAs
+              X:i,i,;.,.:.  r:;,   .;.,,r  .::i:siA
+            r;,;,:.;ir,;.:      :ii2 ,,    i,,.;:;;sX
+          A:i,r,;:Xs        :.:.,.ri         ;i.,.r:r;35
+       As;.;::.;iX          .....,,r           i,,.,,;,iA3
+      A,;:r.;;ss            :.,.,.ii             i;.:.;,r;3
+    r:.i:,.i;A              .,.,..,s               s.,.,.::r
+  X,;;r;r:s                 i::.,.ri                 s;,s;si
+ ;.i,:.ii                   .,....,r                   A.:
+  i.;iA                     ;.,.,.ii3
+                            ...i..,sA
+                            ;.;,:.rr3
+                             2   5A5
+
+---
+
+# Frame 8: Frame 8 (90ms)
+                            :;:siss
+                            ;.iiriX
+                            ..,s:rr
+       ir                   :.iiriA
+     X;,.Xs                 ..,r:ri                     ;rrX
+    2,:;s,;r5               :.iiriX                   X;;.;.h
+     i:;,:.;,sA             ..,s:ri                 ri.:,;.;A
+       ;i:r,;,ri3           :.rrriA               5;;,r:;,Xr
+         ;.;::.:,r          :;:X;s;              i.::;.:;s
+           :;:r,:,ri    :.        ;.;          :;:r,i:sr
+             ;.;r;.: r.:.,.,.,.,.,.,.,.:.    :.;::,;;s
+             ,:; :;,;,2s,.;,:.;,:.;,:.;rs,;.:.:,;:ss
+           ,.,.,.isr,:.,.,:r:r:r:r,i:r,,.s;;::...i
+       .:.,.;i2r5ii,:.:.sirisiriririsir;r.:rAs2;r,,,
+       ,.,.XsXXAXi.,.,;r:r:i  ,::2r2rArs:i::.sAAsi::.,.;
+     .:,:r2X5s5s5;:.:.Xir;    i,sA2AAAAir.;;r,;r5s5s2ir::,
+  i,.s;XrAsXXAsi,:.,;i:;:i  .,:si2r2rAi,.;,i;r;sXXsXXXri...,
+X.;rXAAX2X2s5s5::.:,X;r;      ;,sXXX2 s.:ir;s;rr5s5s5s2ri:,.
+ r:;,Ar2sAXAsXXi.,.:;i;i:r             ,.r;i:i;XXXXAsXXX:;.,
+   rr,iX2X5X2s5i;,;:s;sir;             .:;r,;i2s5s5X5rX;:.Xr
+     r:;,XsAXAsi::.,,;:i;r:r         ;.;,i:,.rrXXAXs;i.,;s
+       ;r:i:sr2rA;;.:,s;sir;sisiXrsis;iis,;;ss5s3ir;Arrr
+         :.,.::rsssi.,,;;r;s;s;s:s;s;r:;...AXrii:,.i
+           ;i,i:i:X;r::.i:i:i:i:rsr:;:;.,,iis;s:i:is
+               ;.,.:;;...,.:.,.., ...,...s;..sAAs
+              X:i,i,;.,.:.  r:;,   .;.,,r  .::i:siA
+            i;,;,:.;ir,;.:      ;ri2 ,:    i,,.;:;;sX
+         XA:i,r,;:Xs        :.:.,.ri         ;i.,.r:r;35
+       As;.;::.;iX          .....,,r           i,,.,,;,iA3
+      A,;:r.;;ss            :.,.,.ii             i;.:.;,r;3
+    r:.i:,.i;A              .,.,..,s               X.,.,.::r
+  X,;;r;r:s                 i::.,.ri                 s;,s;si
+ ;.i,:.ii                   .,....,r                   A.:
+  i.;iA                     ;.,.,.ii3
+                            ...i..,sA
+                            ;.;,:.rr3
+                             2   5A5
+
+---
+
+# Frame 9: Frame 9 (90ms)
+                            ,:,r;sr
+                            ;.iiriX
+                            ..,r:rr
+       ;i                   :.iiriA
+     r::.sr                 ..,r:ri                     :i;s
+    2,:;s,:i2               :.iiriX                   r:;,:.3
+     r;;.:,:.rs             ..,s:ri                5:;,:,:,;A
+       ir:r:i,ii5           :.rrriA              XX;;,r:i:AX
+         i,;::.,.is     is  ;iiAiX;i           Xi;.::;.;iX
+           :i:r,;,i;  i,:.rrXssis ;.:rs;s    XX:;:r,i:Xs
+             ;.is;.: i,;...,.,.,.,.,...;.srsi:.;::,iiX
+             .:: ;r,;,Ar,.;,;,;,;,;,:,irs,i.:.:.::AX
+           ..:.:,isr,:...::r;r:r:r:i:r,,.r:i;;.,.i
+       .:.,.ir5s5i;.:.:.sir;sir;ririsrr;r.:iXX5;s,,,Xr
+       ,.:,XsXXAXi.,.,;r:r:i  ,:;2r2r2rr:i::.sXAXr;;.,.:
+    X.::;s5X2s5s2;:.:,sir;    i,sA2AAAAir.;;r,;r5s3s5ir:,.
+  ;,.XiAsAsXXXsi.:.:;i:;:i  ..:Xr2r2rA;,.i,i;siXXXsXXXrr.,..
+X.;rXAAX2X2s5s5:,.:,X;r;      ;.rXXX2  .:ir;s;rr5s2s5s2rr:,.
+  ;:.Xr2sAXAsXXi.,.:;i;i:i             ,.r;i:iiXXXXAXXXX,;.,
+    X,;sAX5X2s5ii,;,s;sir;             .:;r,:i2s5s5s5rs;:.2A
+      ;:.XrXXAXi::.,.:;i;r:i         ;.i:i:,.srXXXXr;;.,rA
+       is,;,rr2r2;;.:,s;sirisirisirir;i;r,:;Xs5s5i;; XX
+         ;.,.:,rrssr.,,;:i;s;r;s:r;s:r::...Asi;;,,.i
+           rs;r:;,r;s::.;,;,;,i:r r,;,;.:,i;riAisis
+               ;.,.:,:...,.;.,.., ,..,...Xi..sXsi
+             rr:i:i,i,,.,.   ;r;   :;.,;s  .:,;:siXX
+           X;;:;,:,irs:i,;  ;i;r,;;A ;;    r:,.:,;;rr2
+         rs:i,r:;:AA        :.:.,.rr         ir,,.i:r;2A
+       si;.:::.;r2          .,...,,r           s::.,.:,is2
+     Xs,;:i,;;XA            :.,.,.ii             si.:.;.i:2A
+   2;:.r:,.ri               .,.,..,s               A,:.,,;:r
+ Ar,;;r;r;X                 i::.,.ri                 Ai:r;Xr
+ ;.i,:.rs                   ......,r                   2.;
+  s.;r5                     ;.,.,.ii3
+                            ...i.,:sA
+                            ;.;,;,sr3
+
+---
+
+# Frame 10: Frame 10 (90ms)
+                            ,:,r:rr
+                            ;.iiriX
+                            ..,r:rr
+       :;                   :.iiriA
+    Ar,:,si                 ..,r:ri                    5,;;r
+    5,:;s,:iA               :.iiriX                  2i:;,:.3
+     si;.:,:.rs             ..,s:ri                2:;,;,:,;A
+       rs:i:i,;;2A          ;.rrriA              Xs;i,r:i:2X
+         r,:,:.,.isA    ;r  irrArA;;i          X;;.::;.;rA
+           ;i:r,;,i;  i,:.risrs;sr;.:ir:s    sX,i:r,i:Xs
+             ;.iX;.:ii:;...,...,.,.,...;,rir;,.;::,iiX
+           ss.:: ;r:;,Ar,.;:;,;:;,;,;,irr:i.:.:.::AA
+         Xi..:,::iri,:...::r;s:r:r:i:r,,.r:r;;.,.;
+       .:.,,ir5s3i;.:.;,sir;srr;rrrrsrr;r.:iXX5is,,.si2
+      i,.:,XXXXAXi.,.,;r:i:i  ,:;2r2r2rr:;::.rsAXr;;.,.:
+    X.;:;s5X2s5s2;:.:,sir;    i:sA2AAAA;i.;;r,;r5s3X5rs:,.
+  ;,.XiAsAsXXXXi.:.:;i:;:i  ..:sr2r2rA;,.i,i;siXXXsXXXrr.,..
+X.;rXAAX2X2s5s5:,.:.X;r;      ;.rXXX2  .:ir;s;rr5s2s5s2rr:,.
+  i,.XrAsAXAsXXi.,.:;i;i:i             ,.r;i:riXXXXAXXXX,;.,
+    X.;sAX5X5s5ii,;,s;sir;             .:;r.:i2s5s5s5rr::.
+      r,.srXXAXi,:.,.:;i;r:i         :.i:i,,.srXXXXr:;.,
+        A,:,ii2r2;;.:,s;sirisirisiririr;r.:iXs5s5;;;
+         ;,,.,.irsXr.,.;:i;s:r;s:r;s:i::...Asi:;.,.i
+            XiX::,r;X;:.;,;,;,;:r r,:,;.:,i:ii rXrX
+               ;.,,:,:...,,;...., ,..,...Xr..rssi
+             ri,r:;,i,,.,.   isi   ;;.,;X  .:,;:XisX
+           s:;:;.:,isX;r,;  :;:i,;;X ;i    s;,.:,;;riA
+         is:r,i:;;2A        :.:.,.rr         rs,:.i:r;2A
+       r;;,:,:.is2          .,...,,r           s;:.,.:,;s2
+     ss,i:i,;iAA            :.,.,.ii             sr,:.;.i:2X
+   A;:.r:,.ri               .:.,..,s               2::.,,;:r
+ Xr:;:r;riX                 i::.,.rr                 Ar;r:Xs
+ ;.i,:.ss                   ......,r                   5.;
+  X,ir3                     ;.,.,.ii3
+                            ...;.,:sA
+                            i.;,;,sr3
+
+---
+
+# Frame 11: Frame 11 (90ms)
+                            .,,i:ri
+                            ;.iiriX
+                            ..,r:rr
+       ,;                   :.iiriA
+    Ai,;,ri                 ..,r:ri                    5.;:i
+    5,:;s.:;A               :.iiriX                  Ai,i,:.
+     Xi;.;::.ir5            ..,s:ri                A,;,;.:,i
+       rs,i:i,;;AA          ;.rrriA              sr;i,r:i:2A
+         s::,:.,.;rA    :i   sr2s2;:;          s:;.::;.;s2
+           ir:i,i,;;  ;.:.i;sir;ri;.:;i,r    ss,i:i,i;AX
+             ;.iA;.:;i;i...,...,...,...i,i;i:,.;::,irA
+           rr.:, ;s:;,Ar,.i:;:i:;:i,;,iir:r,:.:.::22
+       sir:..:,;:iri,:...;:r;s:r:r:r:r,,.i:rii,,.;i
+       .:.,,rr5s3i;.:.;,sir;sri:rrrrsrs;r,:;XX5iX,:.r;XX
+     s;,.;:XXXXAXi.,.,ir:i:r  ,:;5s2r2rr:;,:.rrXXrii.,.:rA
+   Xs.;;is5X2s5sA::.;,sir;    r:sA2AAAA;i.;;r,ir5s3X5rs:,.2A
+ A:,,AiAsAsXXXsi.:.:;i:;:i  .,:si2r2r2;,.i,i;siXXXsXXXrr.,..
+X.;rXAAX2X2s5s5::.:.X;r;      ;.rXXX2  .:ir;s;rr5s5s5X5rr:,.
+  i,.srAsAXAsXXi.,.:;i;i:i             ,.r;i:riXXXXAXXsX,;.,
+    A.;sAX5X5s5ii,;,s;Xir;             .:;r.,i2s5s5s5rr:,.
+       ,.srXsXXi,:.,.:;i;r:i         :.i:i,,.srXXXXr:;.,
+         .:.iiAr5ii.:,s;sirisir;siririr;r.:iXs5s5;::
+         i,,.,.iisXr.,.::i;r:r;s:r;s:i::...Asi::.,.i
+               ::.i:X;:.;.;,;,;,r r.:,;.::i:ii    2
+               ;.,,:.:...,, ...., ,..,...Ar..rrr;2
+             ii,r:;,i,,.,.          i.:i   .:,;:Xiss
+           r,;:;.:,iXXis:i  ,:,;.::X i     X;,.:.;;riX
+         ;r:r,i:i;5         :.:.,.rr         sX,:.;:r;AX
+       i:;,:,:.is           .,...,,r           Xi:.,.:,;rA
+     rr,i:i,iiA             :.,.,.ii             Xs,:.:.i:AX
+   X::,r:,.sr               .:.,..,s               2:;.,,;:r
+ si:;:i;rrA                 i,:.,.rr                 2s;i:As
+ i.;,:.sX                   ......,r                    .;
+  A,isM                     ;.:.,.ii3
+                            ...;.,:sA
+                            i,i:i:ssh
+
+---
+
+# Frame 12: Frame 12 (90ms)
+                            3A3532
+                            .,,i:ri
+                            ;.iiriX
+                            ..,r:rr
+       ,:                   :.iiriA
+    X;.;:i;5                ..,r:ri                    A.:,;
+    5,:;r.:;XA              :.iiriX                  X;,i::.
+      s:.;::.;iA            ..,s:rr                X.::;.::i
+       AA,i:r.::Xs          ;.rrriA              ri:i,i:i;35
+         Ai:.;,,.;iX    ,;        ;,:          r,;,:,;,;X5
+           sX:i,r,;:  :.:.;:i:;:i;:.::;.i    ii,i:i,i;5A
+             ;.i i.,,;ir...,...,...,...r:;,;.,.;,:,rs2
+           ii.:,r;A;;,si,.i;i:i;i:i:;:i;i;s,;.:.:;3
+       i;i,..;;iirii.:..,;:r;s:s;r:r:r,:.i,srr::.:,s
+       .,.,:ss5s3i:.:.i,sir;sri:ssssXssis,;;sX3rA::.;:rr
+     i,,.i;AXXXAXi.,.,ir:i;r  ,:;5s5r2rr:;,;.iiXXsri,:.:;s
+   ir,iirX5X2s5rX::,i,s;r;   :r;sA2AAAA:i,;;s:ir5s3X5rX;,.Xs
+ r:;:ArAsAsXXXX;.,.:ir:;:i  .,,ri2r2r2;,.r:i:risXXsXXXsr.,..
+A.;isX2X2X2s5s5::.:.s;r;      ;.rXXX2  .:ir;s;rr5s5s5X5rr:,.
+  s:.r;AsAXAsXXi.,.:;i;i:i             ,.r;i,rrXXXXAXXss,:.:
+     .;rXs5X5s5ii,;,r;sir;            s,;;r.,i2s5s3s2ii::,
+       ,.rissXXr::.,.:;i;r:i        ;;.i:i,:.ssXXXsr:;.:
+         .,.;;Ar5ii,:,r;sirisiriririsir;i.,rAs2r2:,:
+         r:,.,.;;rXr.,.::i;r:r;r:r;r:i,,.,.As;,:...i
+               :,.;:A;:.:.:.:.;,i r.,.:.::r,:r
+               ;.:,:.,...,  ....: ,..,...  ..iii;A
+             ;;,r:;,r:,.,.          r.:    .:.::X;rr
+           i,;;;.::r        .,.:.,:s         :.:.:;i;s
+         :i;r,;:r;          :.:.,.rr          2::.;,r:Xs
+       ;,;,:.;,rA           .,...,,r            s;.,.:,;iX
+     ;i:i,;,ir5             :.,.,.ii             AX::.:.i:Xr
+   r,;,i::.Xs               ,:.,..,r                ii.::i:r2
+ ;i;;:i;rs5                 i,:.,.ri                  Xi;,2X
+ r.;.:.X2                   ......,r                    :r
+  5:sA                      ;.:,:.ii3
+                            ...;.,:sA
+                            r:r;r;Xs
+
+---
+
+# Frame 13: Frame 13 (90ms)
+                            3A3532
+                            .,,i:ri
+                            ;.iiriX
+                            ..,r:rr
+       ,:5                  :.iiriA
+    X;.;:i;5                ..,r:ri                    A.,,;
+    5,:;r.:;XA              :.iiriX                  X;,i::.3
+     5s:.;::.;iA            ..,s:rr                X.::;.::i
+       AA,i:r.::Xs          ;.rrriA              ri:i,i:i;35
+         Ai:.;,,.;iX    ,;        ;,:          r,;,:,;,iX5
+           sX:i,r,;:  :.:.;:i:;:i;:.::;.i    ii,i:i,i;5A
+             ;.i i.,:;ir...,...,...,...r:;,;.,.;,:,is2
+           ii.:,r;A;;,si,.i;i:i;i:i:;:i;i;s,;.:.:;3
+       i;i,..;;iirii.:..,;:r;s:s;r:r:r,:.i,srr::.:,s
+       .,.,:ss5s3i:.:.i,sir;sri:ssssXssis,;;sX3rA::.;:rr
+     ;,,.i;AXXXAXi.,.,ir:i;r  ,:;5s5r2rr:;,;.iiXXsri,:.:;s
+   ir,iirX5X2s5rX::,i,s;r;   :r;sA2AAAA:i,;;s:ir5s3X5rX;,.Xs
+ r:;:ArAsAsXXXX;.,.:ir:;:r  .,,ri2r2r2;,.r:i:risXXsXXXsr.,..
+A.;isX2X2X2s5s5::.:.s;r;      ;.rXXX2  .:ir;s;rr5s5s5X5rr:,.
+  s:.r;AsAXAsXXi.,.:;i;i:i             ,.r;i,rrXXXXAXXss,:.:
+     .;rXs5X5s5ii,;,r;sir;            s,;;r.,i2s5s3s2ii::,
+       ,.rissXXr::.,.:;i;r:i        ;;.i:i,:.ssXXXsr:;.:
+         .,.;;Ar5ii,:,r;sirisiriririsir;i.,rAs2r2:,:
+         r:,.,.;;rXr.,.::i;r:r;r:r;r:i,,.,.As;,:...i
+               :,.;:A;:.:.:.:.;,i r.,.:.::r,:r
+               ;.:,:.,...,  ....: ,..,...  ,.iii;A
+             ;;,r:;,r:,.,.          r.:    .:.::X;rr
+           i,;:;.::r        .,.:.,:s         :.:.:;i;s
+         :i;r,;:r;          :.:.,.rr          2::.;,r:Xs
+       ;,;,:.;,rA           .,...,,r            s;.,.:,;iX
+     ;i:i,;,ir5             :.,.,.ii             AX::.:.i:Xr
+   r,;,i::.Xs               ,:.,..,r                ii.,:i:r2
+ ;i;;:i;rs5                 i,:.,.ri                  Xi;,2X
+ r.;.:.X2                   ......,r                    ,r
+  5:rA                      ;.:,:.ii3
+                            ...;.,:sX
+                            r:r;r;XX
+
+---
+
+# Frame 14: Frame 14 (90ms)
+                            5X5252M
+                            .,,i:ri
+                            ;.iiriX
+       32                   ..,r:rr
+      3,:2                  :.iiriA
+    X;.i:i:5                ..,r:ri                    A.,,;
+    5,:;r.,:sA              :.iiriX                  s:.i::.3
+      X:.;::.;;A            ..,s:ri                s.::;.::i
+        5,;:r.::ss          ;.rrriA              ii:r,i:r;h3
+          r:.;:,.;;s    .:        :.,          i.;,:,;,iA3
+            A:;,r,::  :.:.;,;:;,;::.:,:.;    ;i:r:i,r;32
+             ;.i i.,,;ir...,.,.,.,.,...r::,:.,.;,::rX5
+           ;;.:,i;A;;,s;:.i;i:i;i;i:;:i;i;s,;.:.:;3
+       i:;...;;iiri;.:..,;:r;s:r:r:r:r::.;,srr;:.:.r
+       .,.,;Xs5s3i:.:.i:sir;ssi,ssssXssis:;:rX3rA::.;,ii
+     ;,,.iiAXXXAXi.,.:ir:i;r  ,:;5s5r2rr:;,;.;;XXsrr::.::r
+   ;i:iirX5X2s5rX::,i:s;r;  i,riXA2AAAA:;,;;s:rs5s3X3sX;,.sr
+ i,;:2rAXAsXXAX;.,.:ir:;;r  .,,ri2r2s2;,.r:i:risXXsXXXsr.:..
+A,;isAAX2X2s5s5::.:.s;r;      i.sXXX5  .:ir;s;rr5s2s5X5rr:,.
+  s:.r;AsAXAsXXi.,.:;i;i:i             ,.i;;,rrXXXXAXXrs.:.;
+     .;iss5X5s5ii,;,r:sir;            r,;;r.,i2s5s3sAii,:,
+       ,.r;srXXr:;.,.:;i;r:i        ;;.r:i,:,ssXXXrr:;.:
+         .,.;;Xr5ir,:,r;sirisiriririsir:i.,rAs2r2:,:
+         r;:.,.;;rXr.,.::i:r:r:r:r:r:i,,.,.Xs;,:...i
+               :,.::A;:.:.:.:.:.i i.,.:.::r.:s
+               ;.:::.,...,  ....: ,..,.,.  ,.i;i:X
+             ;;,r::,s::.:.          s.:    .:.::X;rr
+           i.;;;.::r        .,.:.,,s         :.,.:;i:s
+         :i;r,;:ri          :.:.,.rr           ::.;,r:sr
+       ;,i::.;,r            .,...,,r             ;.,.,,;;s
+     ;;:i,;,rr5             :.,.,.ii              2::.:.i,sr
+  Ai.;,i::,XX               ,:.,..,s                ri.::i:r
+ ;;;i,i;rs3                 ;,:.,.ri                  Ai;,2A
+ r.:.;,A                    ......,r                    :r
+   ;sA                      ;.:,:.ii3
+                            ...;.,:sA
+                            s;sisiAX
+
+---
+
+# Frame 15: Frame 15 (90ms)
+                            5X525AM
+                            .,,i:ri
+                            ;.iiriX
+       3                    ..,r:rr
+      3,:2                  :.iiriA
+    X;.i:i:2                ..,r:ri                    A.,,;
+    5,:;r.,:sA              :.iiriX                  s:.i::.3
+      X:.;::.;;A            ..,s:ri                s.::;.::i
+        5,;:r.::ss          ;.rrriA              ii:r,i:r;h5
+          r:.;:,.;;s    .:        :.,          i.;,:,;,iA3
+            A:;,r,::  :.:.;,;:;,;::.:,:.;    ;i:r:i,r;3
+             ;.i i.,,;ir...,.,.,.,.,...r::,:.,.;,::rX
+           ;;.:,i;A;;,s;:.i;i:i;i;i:;:i;i;s,;.:.:;3
+       i:;...;;iiri;.:..,;:r;s:r:r:r:r::.;,srr;:.:.r
+       .,.,;Xs5s3i:.:.i:sir;ssi,ssssXssis:;:rX3rA::.;,ii
+     ;,,.iiAXXXAXi.,.:ir:i;r  ,:;5s5r2rr:;,;.;;XXsrr::.::r
+   ;i:iirX5X2s5rX::,i:s;r;  i,riXA2AAAA:;,;;s:rs5s3X3sX;,.si
+ i,;:2rAXAsXXAX;.,.:ir:;;r  .,,ri2r2s2;,.r:i:risXXsXXXsr.:..
+A,;isAAX2X2s5s5::.:.s;r;      ;.sXXX2  .:ir;s;rr5s2s5X5rr:,.
+  s:.r;AsAXAsXXi.,.:;i;i:i             ,.i;;,rrXXXXAXXrs.:.;
+     .;rss5X5s5ii,;,r:sir;            r,;;r.,i2s5s3sAii,:,
+       ,.r;srXXr:;.,.:;i;r:i        ;;.r:i,:,ssXXXrr:;.:
+         .,.;;Xr5ir,:,r;sirisiriririsir:i.,rAs2r2:,:
+         r;:.,.;;rXr.,.::i:r:r:r:r:r:i,,.,.Xs;,:...i
+               :,.::A;:.:.:.:.:.i r.,.:.::r.:r
+               ;.:::.,...,  ....: ,..,.,.  ,.i;i:X
+             ;;,r::,s::.:.          s.:    .:.::X;rr
+           i.;;;.::r        .,.:.,,s         :.,.:;i:s
+         :i;r,;:ri          :.:.,.rr           ::.;,r:sr
+       ;,i,:.;,r            .,...,,r             ;.,.,,;;s
+     :;:i,;,rr5             :.,.,.ii              2::.:.i,sr
+  Ai.;,i::,XX               ,:.,..,s                ri.::i:r
+ ;;;i,i;rs3                 ;,:.,.ri                  Ai;,2A
+ r.:.;,A                    ......,r                    :r
+   ;s2                      ;.:,:.ii3
+                            ...;.,:sA
+                            s;sisiAX
+
+---
+
+# Frame 16: Frame 16 (90ms)
+                            3A3532
+                            .,,i:ri
+                            ;.iiriX
+                            ..,r:rr
+       ,:                   :.iiriA
+    X;.;:i;5                ..,r:ri                    A.,,;
+    5,:;r.::XA              :.iiriX                  X;,i::.3
+      s:.;::.;iA            ..,s:ri                X.::;.::i
+       AA,i:r.::Xs          ;.rrriA              ii:i,i:i:35
+         Ai:.;,,.;iX    ,;        :,:          i,;,:,;,;X5
+           sX:i,r,;;  :.:.;:i:;,;::.::;.;    ii,i:i,r;5A
+             ;.i i.,,;ir...,.,.,.,.,...r::,;.,.;,:,is2
+           ii.:,r;A;;,si,.i;i:i;i:i:;:i;r;s,;.:.:;3
+       i;i,..;;iirii.:..,;:r;s:s;r:r:r,:.i,srr::.:,s
+       .,.,:ss5s3i:.:.i,sir;sri:ssssXssis,;;sX3rA::.;:rr
+     ;,,.i;AXXXAXi.,.,ir:i;r  ,:;5s5r2rr:;,;.iiXXsri,:.:;s
+   ir,iirX5X2s5rX::,i,s;r;   :r;sA2AAAA:i,;;s:ir5s3X5rX;,.Xs
+ r:;:ArAsAsXXXX;.,.:ir:;:r  .,,ri2r2r2;,.r:i:risXXsXXXsr.,..
+A.;isX2X2X2s5s5::.:.s;r;      ;.rXXX2  .:ir;s;rr5s5s5X5rr:,.
+  s:.r;AsAXAsXXi.,.:;i;i:i             ,.r;i,rrXXXXAXXss,:.:
+     .;rXs5X5s5ii,;,r;sir;            s,;;r.,i2s5s3s2ii::,
+       ,.rissXXr::.,.:;i;r:i        ;;.i:i,:.ssXXXsr:;.:
+         .,.;;Ar5ii,:,r;sirisiriririsir;i.,rAs2r2:,:
+         r;,.,.;;rXr.,.::i;r:r;r:r;r:i,,.,.As;,:...i
+               :,.;:A;:.:.:.:.;,i r.,.:.::r,:r
+               ;.:,:.,...,  ....: ,..,...  ..iii;A
+             ;;,r:;,r:,.,.          r.:    .:.::X;rr
+           i,;:;.::r        .,.:.,:s         :.:.:;i;X
+         :i;r,;:r;          :.:.,.rr          2::.;,r:Xs
+       ;,;,:.;,rA           .,...,,r            s;.,.:,;iX
+     ;i:i,;,ir5             :.,.,.ii              X::.:.i:Xr
+   r,;,i::.Xs               ,:.,..,r                ii.::i:r
+ ;i;;:i;rs5                 i,:.,.ri                  Xi;,2X
+ r.;.:,A2                   ......,r                    ,r
+  5:sA                      ;.:,:.ii3
+                            ...;.,:sX
+                            r:r;r;XX
+
+---
+
+# Frame 17: Frame 17 (90ms)
+                            3A3532
+                            .,,i:ri
+                            ;.iiriX
+                            ..,r:rr
+       ,:                   :.iiriA
+    X;.;:i;5                ..,r:ri                    A.:,;
+    5,:;r.::XA              :.iiriX                  X;,i::.3
+      s:.;::.;iA            ..,s:ri                X.::;.::i
+       AA,i:r.::Xs          ;.rrriA              ii:i,i:i;32
+         Ai:.;,,.;iX    ,;        :,:          i,;,:,;,;X5
+           sX:i,r,;;  :.:.;:i:;,i::.::;.;    ii,i:i,r;5A
+             ;.i ;.,,;ir...,.,.,.,.,...r::,;.,.;,:,is2
+           ii.:,i;A;;,si,.i;i:i;i:i:;:i;r;s,;.:.:;3
+       i;i,..;;iirii.:..,;:r;s:s;r:r:r,:.i,srr::.:,s
+       .,.,:ss5s3i:.:.i,sir;sri:ssssXssis,;;sX3rA::.;:rr
+     i,,.i;AXXXAXi.,.,ir:i;r  ,:;5s5r2rr:;,;.iiXXsri,:.:;s
+   ir,iirX5X2s5rX::,i,s;r;   ,r;sA2AAAA:i,;;s:ir5s3X5rX;,.Xr
+ r:;:ArAsAsXXXX;.,.:ir:;:r  .,,ri2r2r2;,.r:i:risXXsXXXsr.,..
+A.;isX2X2X2s5s5::.:.s;r;      ;.rsXX2  .:ir;s;rr5s5s5X5rr:,.
+  s:.r;AsAXAsXXi.,.:;i;i:i             ,.r;i,rrXXXXAXXss,:.:
+     .;rXs5X5s5ii,;,r;sir;            s,;;r.,i2s5s3s2ii::.
+       ,.rissXXr::.,.:;i;r:i        ;;.i:i,:.ssXXXsr:;.:
+         .,.;;Ar5ii,:,r;sirisiriririsir;i.,rAs2r2:,:
+         r;,.,.;;rXr.,.::i;r:r;r:r;r:i,,.,.As;,:...i
+               :,.;:A;:.:.:.:.;,i r.,.:.::r,:r
+               ;.:,:.,...,  ....: ,..,...  ..iii;X
+             ;;,r:;,r:,.,.          r.:    .:.::X;rr
+           i,;:;.::r        .,.:.,:s         :.:.:;i;s
+         :i;r,;:r;          :.:.,.rr          2::.;,r:Xs
+       ;,;,:.;,rA           .,...,,r            s;.,.:,;iX
+     ;i:i,;,ir5             :.,.,.ii              X::.:.i:Xr
+   r,;,i::.Xs               ,:.,..,r                i;.::i:r
+ ;i:;:i;rs5                 i,:.,.ri                  Xi;,2X
+ r.;.:.X2                   ......,r                    :r
+  5:sA                      ;.:,:.ii3
+                            ...;.,:sX
+                            r:r;r;XX
+
+---
+
+# Frame 18: Frame 18 (90ms)
+                            .,,i:ri
+                            ;.iiriX
+                            ..,r:rr
+       ,;                   :.iiriA
+    Ai,;,ri                 ..,r:ri                    2.::i
+    5,:;s.:;A               :.iiriX                  Ai,i,:.3
+     Xi;.;::.ir5            ..,s:ri                A,;,;.:,i
+       rs,i:i,;;AX          ;.rrriA              sr:i,r:i:2A
+         s::,:.,.;rA    :i   sr2sA;:;          s:;,::;.;sA
+           ir:i,i,;;  :.:.i;rii:ri:.:;i,i    rr,i:i,i;AX
+             ;.iA;.:;i;i...,.,.,.,.,...i,;:i,,.;::,irA
+           rr.:, ;s:;,Ar,.i:;:i:;:i,;,iir:r,:.:.::2A
+       sir:..:,;:iri,:...;:r;s:r:r:r:r,,.i:rii,,.;;
+       .:.,,rr5s3i;.:.;,sir;sri:rrrrsrs;r,:;XX5iX,:.i;X
+     s;,.;:XXXXAXi.,.,ir:i:r  ,:;5s2r2rr:;,:.rrXXrii.,.:r
+   Xs.;;is5X2s5sA::.;,sir;    i:sA2AAAA;i.;;r,ir5s3X5rs:,.2
+ A:,,AiAsAsXXXsi.:.:;i:;:i  ..:si2r2rA;,.i,i;siXXXsXXXrr.,..
+X.;rXAAX2X2s5s5::.:.X;r;      ;.rsXX2  .:ir;s;rr5s5s5X5rr:,.
+  i,.srAsAXAsXXi.,.:;i;i:i             ,.r;i:riXXXXAXXsX,;.,
+    A.;sAX5X5s5ii,;,s;Xir;             .:;r.,i2s5s5s5rr:,.
+       ,.srXsXXi,:.,.:;i;r:i         :.i:i,,.srXXXXr:;.,
+         ,:.iiAr5ii.:,s;sirisir;siririr;r.:iXs5s5;::
+         i,,.,.iisXr.,.::i;r:r;s:r;s:i::...Asi::.,.;
+               ::.i:X;:.;.;,;,;,r r.:,;.::i:ii
+               ;.,,:.:...,, ...., ,..,...  ..rrr;
+             ii,r:;,i,,.,.          i.,i   .:,;:Xiss
+           r,;:;.:,iXXis;r  ,:,;.::X i     X;,.:.;;riX
+         ;r;r,i:i;5         :.:.,.rr         sX,:.;:r;AX
+       i:;,:,:.is           .,...,,r           Xi:.,.:,;rA
+     rr,i:i,iiA             :.,.,.ii             Xr,:.:.i:As
+   X::,r:,.sr               .:.,..,s               2:;.,,;:r
+ ri:;:i;rrA                 i,:.,.rr                  r;i:As
+ ;.;,:.sX                   ......,r                    .;
+  A,isM                     ;.:.,.ii3
+                            ...;.,:sX
+                            i,i:i:ss3

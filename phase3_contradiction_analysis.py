@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
-ROOT = Path("/Users/joeyq/Desktop/bromance")
+ROOT = Path(__file__).resolve().parent
 POSTS = ROOT / "r_ForbiddenBromance_posts.cleaned.ndjson"
 COMMENTS = ROOT / "r_ForbiddenBromance_comments.cleaned.ndjson"
 USER_HISTORIES = ROOT / "raw" / "user_histories"

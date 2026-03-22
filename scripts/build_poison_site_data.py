@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
-ROOT = Path('/Users/joeyq/Desktop/bromance')
+ROOT = Path(__file__).resolve().parents[1]
 PHASE2_DEEP = ROOT / 'phase2_outputs' / 'deep'
 PHASE2 = ROOT / 'phase2_outputs'
 EXTERNAL_RAW = ROOT / 'external_research' / 'raw'
