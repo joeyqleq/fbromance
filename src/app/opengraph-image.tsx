@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { poisonOverview, poisonSpikeMonths } from "@/data/poison-dashboard";
+import { poisonOverview, poisonSpikeMonths } from "../data/poison-dashboard";
 
 export const size = {
   width: 1200,

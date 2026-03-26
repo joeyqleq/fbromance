@@ -1,0 +1,72 @@
+
+> poi5on-m3@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.6
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+Failed to compile.
+
+src/app/layout.tsx
+`next/font` error:
+Unknown font `Doto`
+
+./src/app/analyst/layout.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/Users/joeyq/Desktop/bromance/src/app/analyst/layout.tsx[0m:36:1]
+ [2m36[0m |   ];
+ [2m37[0m | 
+ [2m38[0m |   return (
+ [2m39[0m |     <div className="flex h-screen bg-black text-[#00ff41] font-mono overflow-hidden">
+    : [31;1m     ^^^[0m
+ [2m40[0m |       {/* Sidebar */}
+ [2m41[0m |       <aside 
+ [2m42[0m |         className={\`\${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 absolute md:relative z-40 w-64 h-full bg-[#0a0a0a] border-r border-[#00ff41]/30 transition-transform duration-300 ease-in-out flex flex-col\`}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/analyst/layout.tsx
+
+./src/app/api/contact/route.ts
+Error: 
+  [31mx[0m Expected unicode escape
+    ,-[[36;1;4m/Users/joeyq/Desktop/bromance/src/app/api/contact/route.ts[0m:17:1]
+ [2m17[0m |     const { data, error } = await resend.emails.send({
+ [2m18[0m |       from: 'poi5on.m3 Contact Form <contact@poi5on.me>',
+ [2m19[0m |       to: ['mail@joeyq.me'],
+ [2m20[0m |       subject: \`poi5on.m3: \${subject || 'New Contact Request'}\`,
+    : [31;1m               ^[0m
+ [2m21[0m |       text: \`
+ [2m22[0m | Name: \${name}
+ [2m23[0m | Email: \${email}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/api/contact/route.ts
+
+./src/app/opengraph-image.tsx?__next_metadata_image_meta__
+Module not found: Can't resolve '@/data/poison-dashboard'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/next@14.2.6_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=openGraph&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/opengraph-image.tsx?__next_metadata__
+
+./src/app/opengraph-image.tsx
+Module not found: Can't resolve '@/data/poison-dashboard'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/.pnpm/next@14.2.6_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader.js?page=%2Fopengraph-image%2Froute&filePath=%2FUsers%2Fjoeyq%2FDesktop%2Fbromance%2Fsrc%2Fapp%2Fopengraph-image.tsx&isDynamic=1!?__next_metadata_route__
+
+
+> Build failed because of webpack errors

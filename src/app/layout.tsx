@@ -1,11 +1,27 @@
 import "@/styles/globals.css";
-import { cn, generateMetadata } from "@/functions";
-import { body, display, mono } from "@/constants";
-import { Toaster } from "@/components/ui/sonner";
-import Providers from "@/components/global/providers";
-import { PoisonAnalytics } from "@/components/poison/analytics";
+import { Metadata } from "next";
+import { Space_Grotesk, IBM_Plex_Mono, Doto } from 'next/font/google';
+import { Analytics } from "@/components/Analytics";
 
-export const metadata = generateMetadata();
+const doto = Doto({ subsets: ['latin'], weight: ['400', '700', '900'], variable: '--font-display' });
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-body' });
+const ibmPlexMono = IBM_Plex_Mono({ subsets: ['latin'], weight: ['400', '600'], variable: '--font-mono' });
+
+export const metadata: Metadata = {
+  title: 'poi5on.m3 — An Open Investigation into r/ForbiddenBromance',
+  description: 'A data-driven investigation into wartime narrative behavior, rhetorical mode-switching, and hasbara culture patterns on r/ForbiddenBromance.',
+  keywords: ['hasbara', 'reddit investigation', 'ForbiddenBromance', 'data analysis', 'open source intelligence', 'Lebanon Israel'],
+  authors: [{ name: 'poi5on.m3' }],
+  openGraph: {
+    title: 'poi5on.m3 — The Peace Forum That Wasn\'t',
+    description: 'Six years of data. One subreddit. A structured investigation.',
+    url: 'https://poi5on.me',
+    siteName: 'poi5on.m3',
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image' },
+  robots: { index: true, follow: true },
+};
 
 export default function RootLayout({
     children,
@@ -15,22 +31,10 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <body
-                className={cn(
-                    "min-h-screen bg-background text-foreground antialiased font-default overflow-x-hidden !scrollbar-hide selection:bg-primary/30 selection:text-foreground",
-                    body.variable,
-                    display.variable,
-                    mono.variable,
-                )}
+                className={`${doto.variable} ${spaceGrotesk.variable} ${ibmPlexMono.variable} min-h-screen bg-background text-foreground antialiased font-default overflow-x-hidden !scrollbar-hide`}
             >
-                <Toaster
-                    richColors
-                    theme="dark"
-                    position="top-right"
-                />
-                <Providers>
-                    <PoisonAnalytics />
-                    {children}
-                </Providers>
+                <Analytics />
+                {children}
             </body>
         </html>
     );
