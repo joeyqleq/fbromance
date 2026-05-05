@@ -25,7 +25,7 @@ export function Analytics() {
           _paq.push(['trackPageView']);
           _paq.push(['enableLinkTracking']);
           (function() {
-            var u="//matomo.p5n.lol/";
+            var u="//matomo.myhayat.app/";
             _paq.push(['setTrackerUrl', u+'matomo.php']);
             _paq.push(['setSiteId', '8']);
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
@@ -34,7 +34,7 @@ export function Analytics() {
         `}
       </Script>
       <Script 
-        src="https://tianji.p5n.lol/tracker.js" 
+        src="https://tianji.myhayat.app/tracker.js" 
         data-website-id="cmmoe88u400105fe7ozi3wgc2"
         strategy="afterInteractive"
         defer
