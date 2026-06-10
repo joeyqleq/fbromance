@@ -19,9 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     ...poisonNavigationSections
-      .filter((section) => section !== "overview")
       .map((section) => ({
-        url: `${base}/app/${section}`,
+        url: `${base}${section.href}`,
         lastModified: now,
         changeFrequency: "weekly" as const,
         priority: 0.8,

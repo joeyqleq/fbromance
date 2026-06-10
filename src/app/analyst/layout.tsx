@@ -39,7 +39,7 @@ export default function AnalystLayout({
     <div className="relative flex h-screen bg-[#0c0e0f] text-[#ffffff] font-mono overflow-hidden scanline-overlay">
       {/* Sidebar */}
       <aside 
-        className={\`\${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 absolute md:relative z-40 w-64 h-full bg-[#121415] border-r border-[#ffabf3]/20 transition-transform duration-300 ease-in-out flex flex-col\`}
+        className={`${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 absolute md:relative z-40 w-64 h-full bg-[#121415] border-r border-[#ffabf3]/20 transition-transform duration-300 ease-in-out flex flex-col`}
       >
         <div className="p-6 border-b border-[#ffabf3]/20 flex-shrink-0">
           <MatrixText text="ZI0PSY0P.TECH" className="font-heading font-black text-xl tracking-tighter text-[#ffabf3]" />
@@ -53,9 +53,9 @@ export default function AnalystLayout({
               <div key={link.name} className="flex flex-col">
                 <Link 
                   href={link.path}
-                  className={\`flex items-center text-sm \${isActive ? 'text-[#ff00ff]' : 'text-[#b7bac4] hover:text-white'} transition-colors\`}
+                  className={`flex items-center text-sm ${isActive ? 'text-[#ff00ff]' : 'text-[#b7bac4] hover:text-white'} transition-colors`}
                 >
-                  <span className={\`mr-2 \${isActive ? 'opacity-100' : 'opacity-0'}\`}>▸</span>
+                  <span className={`mr-2 ${isActive ? 'opacity-100' : 'opacity-0'}`}>▸</span>
                   {link.name}
                 </Link>
                 {link.sub && isActive && (
@@ -63,7 +63,7 @@ export default function AnalystLayout({
                     {link.sub.map((subItem) => (
                       <Link 
                         key={subItem} 
-                        href={\`\${link.path}#\${subItem.toLowerCase().replace(/\\s+/g, '-')}\`}
+                        href={`${link.path}#${subItem.toLowerCase().replace(/\s+/g, '-')}`}
                         className="block text-[11px] text-[#8f93a3] hover:text-[#00fbfb] transition-colors"
                       >
                         {subItem}
