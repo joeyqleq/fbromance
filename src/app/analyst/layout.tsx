@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MatrixText } from "@kokonutui/matrix-text";
+import { MatrixText } from "@/components/kokonutui/matrix-text";
 
 export default function AnalystLayout({
   children,
@@ -36,13 +36,13 @@ export default function AnalystLayout({
   ];
 
   return (
-    <div className="flex h-screen bg-black text-[#00ff41] font-mono overflow-hidden">
+    <div className="relative flex h-screen bg-[#0c0e0f] text-[#ffffff] font-mono overflow-hidden scanline-overlay">
       {/* Sidebar */}
       <aside 
-        className={\`\${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 absolute md:relative z-40 w-64 h-full bg-[#0a0a0a] border-r border-[#00ff41]/30 transition-transform duration-300 ease-in-out flex flex-col\`}
+        className={\`\${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 absolute md:relative z-40 w-64 h-full bg-[#121415] border-r border-[#ffabf3]/20 transition-transform duration-300 ease-in-out flex flex-col\`}
       >
-        <div className="p-6 border-b border-[#00ff41]/30 flex-shrink-0">
-          <MatrixText text="POI5ON.M3" className="font-heading font-black text-xl tracking-tighter text-[#ff0080]" />
+        <div className="p-6 border-b border-[#ffabf3]/20 flex-shrink-0">
+          <MatrixText text="ZI0PSY0P.TECH" className="font-heading font-black text-xl tracking-tighter text-[#ffabf3]" />
           <div className="text-[10px] tracking-widest uppercase mt-2 opacity-60">Analyst Console</div>
         </div>
 
@@ -53,7 +53,7 @@ export default function AnalystLayout({
               <div key={link.name} className="flex flex-col">
                 <Link 
                   href={link.path}
-                  className={\`flex items-center text-sm \${isActive ? 'text-[#ff0080]' : 'text-[#888888] hover:text-white'} transition-colors\`}
+                  className={\`flex items-center text-sm \${isActive ? 'text-[#ff00ff]' : 'text-[#b7bac4] hover:text-white'} transition-colors\`}
                 >
                   <span className={\`mr-2 \${isActive ? 'opacity-100' : 'opacity-0'}\`}>▸</span>
                   {link.name}
@@ -64,7 +64,7 @@ export default function AnalystLayout({
                       <Link 
                         key={subItem} 
                         href={\`\${link.path}#\${subItem.toLowerCase().replace(/\\s+/g, '-')}\`}
-                        className="block text-[11px] text-[#444444] hover:text-[#00ff41] transition-colors"
+                        className="block text-[11px] text-[#8f93a3] hover:text-[#00fbfb] transition-colors"
                       >
                         {subItem}
                       </Link>
@@ -76,8 +76,8 @@ export default function AnalystLayout({
           })}
         </nav>
 
-        <div className="p-6 border-t border-[#00ff41]/30 flex-shrink-0">
-          <Link href="/dossier" className="text-xs text-[#888888] hover:text-white transition-colors flex items-center">
+        <div className="p-6 border-t border-[#ffabf3]/20 flex-shrink-0">
+          <Link href="/dossier" className="text-xs text-[#b7bac4] hover:text-white transition-colors flex items-center">
             <span className="mr-2">←</span> DOSSIER
           </Link>
         </div>
@@ -87,10 +87,10 @@ export default function AnalystLayout({
       <div className="flex-1 flex flex-col min-w-0">
         
         {/* Topbar */}
-        <header className="h-16 flex-shrink-0 border-b border-[#00ff41]/30 bg-[#0a0a0a] flex items-center justify-between px-4 sm:px-6">
+        <header className="h-16 flex-shrink-0 border-b border-[#ffabf3]/20 bg-[#121415] flex items-center justify-between px-4 sm:px-6">
           <div className="flex items-center">
             <button 
-              className="md:hidden text-[#00ff41] mr-4"
+              className="md:hidden text-[#00fbfb] mr-4"
               onClick={() => setSidebarOpen(!sidebarOpen)}
             >
               [MENU]
@@ -106,19 +106,19 @@ export default function AnalystLayout({
                <input 
                  type="text" 
                  placeholder="Search archives..." 
-                 className="bg-black border border-[#111] text-[#00ff41] px-4 py-1 text-xs focus:outline-none focus:border-[#ff0080] transition-colors w-48 group-hover:border-[#00ff41]/50"
+                 className="bg-[#0c0e0f] border border-[#ffabf3]/20 text-[#00fbfb] px-4 py-1 text-xs focus:outline-none focus:border-[#ff00ff] transition-colors w-48 group-hover:border-[#00fbfb]/50"
                />
                <span className="absolute right-2 top-1.5 opacity-40 text-xs">⌘K</span>
             </div>
             
-            <button className="text-[10px] border border-[#ff0080]/50 text-[#ff0080] px-3 py-1 hover:bg-[#ff0080]/10 transition-colors uppercase tracking-widest">
+            <button className="text-[10px] border border-[#ffabf3]/40 text-[#ffabf3] px-3 py-1 hover:bg-[#ff00ff]/15 transition-colors uppercase tracking-widest">
               Export CSV
             </button>
           </div>
         </header>
 
         {/* Content */}
-        <main className="flex-1 overflow-y-auto bg-black p-4 sm:p-8">
+        <main className="flex-1 overflow-y-auto bg-[#0c0e0f] p-4 sm:p-8">
           {children}
         </main>
       </div>

@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://poi5on.me/sitemap.xml",
-    host: "https://poi5on.me",
+    sitemap: "https://zi0psy0p.tech/sitemap.xml",
+    host: "https://zi0psy0p.tech",
   };
 }

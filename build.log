@@ -37,9 +37,9 @@ Error:
   [31mx[0m Expected unicode escape
     ,-[[36;1;4m/Users/joeyq/Desktop/bromance/src/app/api/contact/route.ts[0m:17:1]
  [2m17[0m |     const { data, error } = await resend.emails.send({
- [2m18[0m |       from: 'poi5on.m3 Contact Form <contact@poi5on.me>',
+ [2m18[0m |       from: 'ziopsyop.tech Contact Form <contact@zi0psy0p.tech>',
  [2m19[0m |       to: ['mail@joeyq.me'],
- [2m20[0m |       subject: \`poi5on.m3: \${subject || 'New Contact Request'}\`,
+ [2m20[0m |       subject: \`ziopsyop.tech: \${subject || 'New Contact Request'}\`,
     : [31;1m               ^[0m
  [2m21[0m |       text: \`
  [2m22[0m | Name: \${name}

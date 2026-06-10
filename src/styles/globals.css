@@ -4,47 +4,48 @@
 
 @layer base {
   :root {
-    --bg-primary: #000000;
-    --bg-secondary: #0a0a0a;
-    --bg-tertiary: #111111;
-    --accent-primary: #ff0080;
-    --accent-secondary: #00ff41;
-    --accent-tertiary: #00b4ff;
-    --text-primary: #f0f0f0;
-    --text-secondary: #888888;
-    --text-mono: #00ff41;
-    --border-primary: rgba(255, 0, 128, 0.3);
-    --border-glow: rgba(255, 0, 128, 0.8);
-    --glow-pink: 0 0 20px rgba(255, 0, 128, 0.4);
-    --glow-green: 0 0 20px rgba(0, 255, 65, 0.4);
+    --bg-primary: #0c0e0f;
+    --bg-secondary: #121415;
+    --bg-tertiary: #1a1c1d;
+    --accent-primary: #ffabf3;
+    --accent-secondary: #ff00ff;
+    --accent-tertiary: #00fbfb;
+    --text-primary: #ffffff;
+    --text-secondary: #b7bac4;
+    --text-mono: #ffffff;
+    --border-primary: rgba(255, 171, 243, 0.08);
+    --border-glow: rgba(255, 171, 243, 0.18);
+    --glow-pink: 0 0 40px rgba(255, 171, 243, 0.12);
+    --glow-magenta: 0 0 40px rgba(255, 0, 255, 0.16);
+    --glow-cyan: 0 0 30px rgba(0, 251, 251, 0.14);
 
-    --background: 0 0% 0%; /* #000000 */
-    --foreground: 0 0% 94%; /* #f0f0f0 */
+    --background: 200 11% 5%;
+    --foreground: 0 0% 100%;
 
-    --card: 0 0% 4%; /* #0a0a0a */
-    --card-foreground: 0 0% 94%;
+    --card: 200 9% 8%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 4%;
-    --popover-foreground: 0 0% 94%;
+    --popover: 200 9% 8%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 330 100% 50%; /* #ff0080 */
-    --primary-foreground: 0 0% 100%;
+    --primary: 311 100% 84%;
+    --primary-foreground: 200 11% 5%;
 
-    --secondary: 130 100% 50%; /* #00ff41 */
-    --secondary-foreground: 0 0% 0%;
+    --secondary: 300 100% 50%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 7%; /* #111111 */
-    --muted-foreground: 0 0% 53%; /* #888888 */
+    --muted: 200 8% 12%;
+    --muted-foreground: 218 11% 74%;
 
-    --accent: 330 100% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 181 100% 49%;
+    --accent-foreground: 200 11% 5%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 330 100% 50%; /* mapped to --border-primary alpha via tailwind */
-    --input: 330 100% 50%;
-    --ring: 330 100% 50%;
+    --border: 311 100% 84%;
+    --input: 311 100% 84%;
+    --ring: 300 100% 50%;
 
     --radius: 0px;
   }
@@ -53,11 +54,12 @@
 @layer base {
   * {
     @apply border-border;
+    border-radius: 0 !important;
   }
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
-    cursor: crosshair;
+    background-image: linear-gradient(180deg, #121415 0%, #0c0e0f 100%);
   }
 }
 
@@ -67,13 +69,50 @@
     box-shadow: var(--glow-pink);
   }
   .glow-green-box {
-    box-shadow: var(--glow-green);
+    box-shadow: var(--glow-cyan);
   }
   .glow-pink-text {
     text-shadow: var(--glow-pink);
   }
   .glow-green-text {
-    text-shadow: var(--glow-green);
+    text-shadow: var(--glow-cyan);
+  }
+  .tonal-layer {
+    background: linear-gradient(180deg, rgba(255, 171, 243, 0.08), rgba(18, 20, 21, 0.92));
+    box-shadow: inset 0 0 0 1px rgba(255, 171, 243, 0.08), 0 0 30px rgba(255, 171, 243, 0.08);
+  }
+  .glass-panel {
+    background: linear-gradient(180deg, rgba(18, 20, 21, 0.78), rgba(12, 14, 15, 0.92));
+    box-shadow: inset 0 0 0 1px rgba(255, 171, 243, 0.08), 0 0 40px rgba(255, 171, 243, 0.08);
+    backdrop-filter: blur(12px);
+  }
+  .scanline-overlay {
+    position: relative;
+  }
+  .scanline-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: repeating-linear-gradient(
+      180deg,
+      rgba(0, 251, 251, 0.1) 0px,
+      rgba(0, 251, 251, 0.1) 1px,
+      transparent 1px,
+      transparent 7px
+    );
+    mix-blend-mode: screen;
+    animation: scanline-flow 8s linear infinite;
+  }
+  .spectral-drift {
+    animation: spectral-drift 12s ease-in-out infinite;
+  }
+  .hover-responsive-glow {
+    transition: box-shadow 180ms ease, transform 180ms ease;
+  }
+  .hover-responsive-glow:hover {
+    box-shadow: var(--glow-magenta), var(--glow-pink);
+    transform: translate3d(0, -1px, 0);
   }
 }
 
@@ -82,6 +121,16 @@
   10% { opacity: 1; }
   90% { opacity: 1; }
   100% { stroke-dashoffset: 0; opacity: 0; }
+}
+
+@keyframes scanline-flow {
+  from { transform: translateY(-5%); }
+  to { transform: translateY(5%); }
+}
+
+@keyframes spectral-drift {
+  0%, 100% { filter: saturate(1) hue-rotate(0deg); opacity: 0.95; }
+  50% { filter: saturate(1.12) hue-rotate(8deg); opacity: 1; }
 }
 
 .circuit-path {

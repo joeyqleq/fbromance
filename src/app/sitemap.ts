@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { poisonNavigationSections } from "@/data/poison-dashboard";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://poi5on.me";
+  const base = "https://zi0psy0p.tech";
   const now = new Date();
 
   return [

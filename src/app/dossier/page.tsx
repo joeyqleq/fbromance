@@ -7,7 +7,7 @@ import { BackgroundDecorations } from '@/components/BackgroundDecorations';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Dossier // poi5on.m3',
+  title: 'Dossier // ziopsyop.tech',
   description: 'The narrative investigation into r/ForbiddenBromance.',
 };
 
