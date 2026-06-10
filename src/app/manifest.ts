@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "poi5on.m3",
-    short_name: "poi5on.m3",
+    name: "ziopsyop.tech",
+    short_name: "ziopsyop.tech",
     description:
       "Public evidence dossier and analyst workbench for the ForbiddenBromance investigation.",
     start_url: "/",
@@ -12,7 +12,7 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#050608",
     icons: [
       {
-        src: "/icon",
+        src: "/images/brand/secondary_ascii_logo.png",
         sizes: "512x512",
         type: "image/png",
       },

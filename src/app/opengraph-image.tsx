@@ -22,8 +22,8 @@ export default function OpenGraphImage() {
           justifyContent: "space-between",
           padding: "48px 56px",
           background:
-            "radial-gradient(circle at 14% 82%, rgba(183,255,95,0.22), transparent 26%), radial-gradient(circle at 78% 8%, rgba(97,245,255,0.16), transparent 20%), radial-gradient(circle at 65% 30%, rgba(255,44,184,0.18), transparent 18%), linear-gradient(160deg, #040506 0%, #0b0f18 50%, #09070f 100%)",
-          color: "#f6f7fb",
+            "radial-gradient(circle at 14% 82%, rgba(0,251,251,0.18), transparent 26%), radial-gradient(circle at 78% 8%, rgba(255,171,243,0.2), transparent 20%), radial-gradient(circle at 65% 30%, rgba(255,0,255,0.2), transparent 18%), linear-gradient(160deg, #0c0e0f 0%, #121415 55%, #0c0e0f 100%)",
+          color: "#ffffff",
           fontFamily: "sans-serif",
           position: "relative",
           overflow: "hidden",
@@ -33,8 +33,7 @@ export default function OpenGraphImage() {
           style={{
             position: "absolute",
             inset: 28,
-            borderRadius: 42,
-            border: "1px solid rgba(255,255,255,0.08)",
+            border: "1px solid rgba(255,171,243,0.08)",
           }}
         />
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
@@ -44,18 +43,15 @@ export default function OpenGraphImage() {
                 fontSize: 28,
                 letterSpacing: "0.24em",
                 textTransform: "uppercase",
-                color: "#61f5ff",
+                color: "#00fbfb",
               }}
             >
               evidence dossier
             </div>
-            <div style={{ display: "flex", fontSize: 94, fontWeight: 800, letterSpacing: "-0.08em" }}>
-              <span style={{ color: "#f6f7fb" }}>poi</span>
-              <span style={{ color: "#ff2cb8" }}>5</span>
-              <span style={{ color: "#f6f7fb" }}>on.m</span>
-              <span style={{ color: "#61f5ff" }}>3</span>
+            <div style={{ display: "flex", fontSize: 76, fontWeight: 800, letterSpacing: "-0.05em" }}>
+              <span style={{ color: "#ffffff" }}>ziopsyop.tech</span>
             </div>
-            <div style={{ fontSize: 36, lineHeight: 1.25, color: "#d8dded" }}>
+            <div style={{ fontSize: 34, lineHeight: 1.25, color: "#ffffff" }}>
               Investigating timing, rhetoric, and identity-performance patterns around r/ForbiddenBromance.
             </div>
           </div>
@@ -63,23 +59,22 @@ export default function OpenGraphImage() {
             style={{
               width: 240,
               height: 240,
-              borderRadius: 28,
-              border: "1px solid rgba(255,255,255,0.08)",
-              background: "rgba(10,13,20,0.75)",
+              border: "1px solid rgba(255,171,243,0.08)",
+              background: "rgba(18,20,21,0.85)",
               padding: 24,
               display: "flex",
               flexDirection: "column",
               justifyContent: "space-between",
-              boxShadow: "0 0 60px rgba(40,92,255,0.18)",
+              boxShadow: "0 0 60px rgba(255,171,243,0.08)",
             }}
           >
-            <div style={{ fontSize: 16, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8790a4" }}>
+            <div style={{ fontSize: 16, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffabf3" }}>
               archive
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               <div style={{ fontSize: 54, fontWeight: 700 }}>{poisonOverview.comments.toLocaleString()}</div>
-              <div style={{ fontSize: 24, color: "#b7ff5f" }}>comments</div>
-              <div style={{ display: "flex", fontSize: 18, color: "#8790a4" }}>
+              <div style={{ fontSize: 24, color: "#00fbfb" }}>comments</div>
+              <div style={{ display: "flex", fontSize: 18, color: "#ffabf3" }}>
                 hottest month: {hottestMonth.month}
               </div>
             </div>
@@ -92,18 +87,17 @@ export default function OpenGraphImage() {
               style={{
                 width: 240,
                 height: 126,
-                borderRadius: 22,
-                border: "1px solid rgba(255,255,255,0.08)",
-                background: "linear-gradient(180deg, rgba(19,23,34,0.95), rgba(9,12,18,0.85))",
+                border: "1px solid rgba(255,171,243,0.08)",
+                background: "linear-gradient(180deg, rgba(18,20,21,0.95), rgba(12,14,15,0.9))",
                 padding: 18,
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
               }}
             >
-              <div style={{ display: "flex", fontSize: 18, color: "#8790a4" }}>{item.month}</div>
+              <div style={{ display: "flex", fontSize: 18, color: "#ffabf3" }}>{item.month}</div>
               <div style={{ display: "flex", fontSize: 42, fontWeight: 700 }}>{item.comments.toLocaleString()}</div>
-              <div style={{ display: "flex", fontSize: 18, color: "#ff2cb8" }}>comment spike</div>
+              <div style={{ display: "flex", fontSize: 18, color: "#ff00ff" }}>comment spike</div>
             </div>
           ))}
         </div>

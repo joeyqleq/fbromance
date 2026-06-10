@@ -28,7 +28,9 @@ import {
 } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import * as React from "react";
-import { cn } from "@/functions";
+
+const cn = (...inputs: Array<string | false | null | undefined | string[]>) =>
+  inputs.flat().filter(Boolean).join(" ");
 
 interface ToolbarItem {
   id: string;

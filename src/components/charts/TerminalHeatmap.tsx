@@ -34,13 +34,13 @@ export function TerminalHeatmap({ data }: TerminalHeatmapProps) {
     // Wait, the prompt says "green = softened inside FB, red = hardened inside FB".
     // We'll use green for negative shift, red for positive shift.
     const colorClass = delta < -5 ? 'text-[#00ff41]' : delta > 5 ? 'text-[#ff0080]' : 'text-[#888888]';
-    return <span className={\`\${colorClass} font-mono text-[11px]\`}>{sign}{delta.toFixed(1)}pp</span>;
+    return <span className={`${colorClass} font-mono text-[11px]`}>{sign}{delta.toFixed(1)}pp</span>;
   };
 
   return (
     <div 
       ref={ref}
-      className={\`w-full overflow-x-auto transition-opacity duration-1000 \${isVisible ? 'opacity-100' : 'opacity-0'}\`}
+      className={`w-full overflow-x-auto transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
     >
       <div className="min-w-[800px] grid grid-cols-[1.5fr_1fr_2fr_2fr_1fr] bg-[#0a0a0a] border border-[#00ff41]/30 p-1 gap-[1px]">
         {/* Header */}

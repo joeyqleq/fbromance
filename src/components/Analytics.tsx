@@ -6,9 +6,13 @@ import Script from 'next/script';
 
 export function Analytics() {
   const pathname = usePathname();
+  const matomoUrl = process.env.NEXT_PUBLIC_MATOMO_URL?.replace(/\/+$/, '');
+  const matomoSiteId = process.env.NEXT_PUBLIC_MATOMO_SITE_ID;
+  const matomoCookieDomain = process.env.NEXT_PUBLIC_MATOMO_COOKIE_DOMAIN ?? '*.zi0psy0p.tech';
+  const tianjiUrl = process.env.NEXT_PUBLIC_TIANJI_URL?.replace(/\/+$/, '');
+  const tianjiWebsiteId = process.env.NEXT_PUBLIC_TIANJI_SITE_ID;
 
   useEffect(() => {
-    // Matomo page view tracking
     if (typeof window !== 'undefined' && (window as any)._paq) {
       (window as any)._paq.push(['setCustomUrl', pathname]);
       (window as any)._paq.push(['setDocumentTitle', document.domain + "/" + document.title]);
@@ -18,27 +22,30 @@ export function Analytics() {
 
   return (
     <>
-      <Script id="matomo" strategy="afterInteractive">
-        {`
-          var _paq = window._paq = window._paq || [];
-          _paq.push(["setCookieDomain", "*.poi5on.me"]);
-          _paq.push(['trackPageView']);
-          _paq.push(['enableLinkTracking']);
-          (function() {
-            var u="//matomo.myhayat.app/";
-            _paq.push(['setTrackerUrl', u+'matomo.php']);
-            _paq.push(['setSiteId', '8']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-          })();
-        `}
-      </Script>
-      <Script 
-        src="https://tianji.myhayat.app/tracker.js" 
-        data-website-id="cmmoe88u400105fe7ozi3wgc2"
-        strategy="afterInteractive"
-        defer
-      />
+      {matomoUrl && matomoSiteId ? (
+        <>
+          <Script id="matomo-init" strategy="afterInteractive">
+            {`
+              var _paq = window._paq = window._paq || [];
+              _paq.push(['setCookieDomain', '${matomoCookieDomain}']);
+              _paq.push(['setTrackerUrl', '${matomoUrl}/matomo.php']);
+              _paq.push(['setSiteId', '${matomoSiteId}']);
+              _paq.push(['trackPageView']);
+              _paq.push(['enableLinkTracking']);
+            `}
+          </Script>
+          <Script id="matomo-script" src={`${matomoUrl}/matomo.js`} strategy="afterInteractive" />
+        </>
+      ) : null}
+      {tianjiUrl && tianjiWebsiteId ? (
+        <Script
+          id="tianji-script"
+          src={`${tianjiUrl}/tracker.js`}
+          data-website-id={tianjiWebsiteId}
+          strategy="afterInteractive"
+          defer
+        />
+      ) : null}
     </>
   );
 }

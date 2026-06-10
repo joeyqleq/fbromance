@@ -3,7 +3,7 @@ import { BackgroundDecorations } from '@/components/BackgroundDecorations';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Methodology // poi5on.m3',
+  title: 'Methodology // ziopsyop.tech',
   description: 'Data collection, processing, and analysis pipeline methodology.',
 };
 

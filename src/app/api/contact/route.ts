@@ -1,8 +1,6 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(req: Request) {
   try {
     const { name, email, message, subject } = await req.json();
@@ -14,10 +12,19 @@ export async function POST(req: Request) {
       );
     }
 
+    const resendApiKey = process.env.RESEND_API_KEY;
+    if (!resendApiKey) {
+      return NextResponse.json(
+        { error: 'Email service is not configured' },
+        { status: 503 }
+      );
+    }
+    const resend = new Resend(resendApiKey);
+
     const { data, error } = await resend.emails.send({
-      from: 'poi5on.m3 Contact Form <contact@poi5on.me>',
+      from: 'ziopsyop.tech Contact Form <contact@zi0psy0p.tech>',
       to: ['mail@joeyq.me'],
-      subject: 'poi5on.m3: ' + (subject || 'New Contact Request'),
+      subject: 'ziopsyop.tech: ' + (subject || 'New Contact Request'),
       text: 'Name: ' + name + '\nEmail: ' + email + '\nSubject: ' + subject + '\n\nMessage:\n' + message,
     });
 

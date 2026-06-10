@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { poisonNavigationSections } from "@/data/poison-dashboard";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://poi5on.me";
+  const base = "https://zi0psy0p.tech";
   const now = new Date();
 
   return [
@@ -19,9 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     ...poisonNavigationSections
-      .filter((section) => section !== "overview")
       .map((section) => ({
-        url: `${base}/app/${section}`,
+        url: `${base}${section.href}`,
         lastModified: now,
         changeFrequency: "weekly" as const,
         priority: 0.8,

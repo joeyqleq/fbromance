@@ -1,8 +1,8 @@
-# poi5on.m3 Frontend Design
+# ziopsyop.tech Frontend Design
 
 ## Goal
 
-Turn the existing `luro-ai` Next.js shell into `poi5on.m3`: a public evidence dossier and analyst workbench for the `r/ForbiddenBromance` investigation. The site should feel like an illustrated covert instrument panel, not a SaaS dashboard or generic longform report.
+Turn the existing `luro-ai` Next.js shell into `ziopsyop.tech`: a public evidence dossier and analyst workbench for the `r/ForbiddenBromance` investigation. The site should feel like an illustrated covert instrument panel, not a SaaS dashboard or generic longform report.
 
 ## Approved Direction
 
@@ -60,7 +60,7 @@ This is not neo-brutalist and not newspaper-editorial. It is closer to a hostile
 
 ### Identity
 
-The main identity object is the illustrated `poi5on.m3` wordmark. It should feel drawn and machine-readable rather than typographic-only.
+The main identity object is the illustrated `ziopsyop.tech` wordmark. It should feel drawn and machine-readable rather than typographic-only.
 
 The eye motif is secondary and reused as:
 
@@ -145,7 +145,7 @@ The site needs full metadata hygiene:
 
 - real metadata title/description by route
 - Open Graph / Twitter cards
-- canonical URL configuration for `poi5on.me`
+- canonical URL configuration for `zi0psy0p.tech`
 - favicon set and app icons
 - social preview image aligned with the visual system
 - robots and sitemap friendly defaults
@@ -153,7 +153,7 @@ The site needs full metadata hygiene:
 Analytics to embed:
 
 - Tianji script
-- Matomo cross-domain setup for `poi5on.me`
+- Matomo cross-domain setup for `zi0psy0p.tech`
 
 These should be integrated in a Next.js-safe way through the root layout or dedicated analytics component, not pasted raw into HTML.
 

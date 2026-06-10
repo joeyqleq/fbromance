@@ -85,12 +85,12 @@ export function ConfidenceLadder() {
           return (
             <div 
               key={rung.level} 
-              className={\`relative transition-all duration-700 ease-out flex flex-col \${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}\`}
+              className={`relative transition-all duration-700 ease-out flex flex-col ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
             >
               {/* Indicator Dot */}
-              <div className={\`absolute -left-6 md:-left-[2.2rem] top-2 w-4 h-4 rounded-full border-2 border-black \${rung.indicator} \${isVisible ? rung.glow : ''} z-10 transition-shadow duration-1000\`} />
+              <div className={`absolute -left-6 md:-left-[2.2rem] top-2 w-4 h-4 rounded-full border-2 border-black ${rung.indicator} ${isVisible ? rung.glow : ''} z-10 transition-shadow duration-1000`} />
               
-              <div className={\`bg-[#0a0a0a] border \${isTargetRung ? 'border-[#ff0080] glow-pink-box' : 'border-[#111111]'} p-6 relative\`}>
+              <div className={`bg-[#0a0a0a] border ${isTargetRung ? 'border-[#ff0080] glow-pink-box' : 'border-[#111111]'} p-6 relative`}>
                 {isTargetRung && (
                   <div className="absolute -top-3 right-4 bg-[#ff0080] text-white text-[10px] font-mono px-2 py-1 tracking-wider">
                     INVESTIGATION CEILING
@@ -102,7 +102,7 @@ export function ConfidenceLadder() {
                 
                 <div className="flex items-center gap-3">
                   <span className="font-mono text-[10px] text-[#888888] tracking-widest">STATUS:</span>
-                  <span className={\`font-mono text-[11px] tracking-wider font-bold \${rung.statusColor}\`}>
+                  <span className={`font-mono text-[11px] tracking-wider font-bold ${rung.statusColor}`}>
                     [{rung.status}]
                   </span>
                 </div>

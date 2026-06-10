@@ -1,6 +1,6 @@
 # Antigravity Bootstrap Prompt
 
-You are setting up Antigravity on the same macOS machine to continue the `fbromance` / `poi5on.m3` project from the current Codex checkpoint.
+You are setting up Antigravity on the same macOS machine to continue the `fbromance` / `ziopsyop.tech` project from the current Codex checkpoint.
 
 ## Goal
 Mirror the Codex environment closely enough that you can continue the project without losing MCP access, skill coverage, visual-browser capability, or project context.

@@ -1,4 +1,4 @@
-# poi5on.m3
+# ziopsyop.tech
 
 Public evidence dossier and analyst workbench for investigating timing, rhetoric, and identity-performance patterns around `r/ForbiddenBromance`.
 

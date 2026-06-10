@@ -1,14 +1,14 @@
-# ███ POI5ON.M3 — MASTER BUILD PROMPT ███
+# ███ ziopsyop.tech — MASTER BUILD PROMPT ███
 # For: Gemini 3.1 Pro inside Anti-gravity
 # Prepared by: Claude (Anthropic) — March 2026
 # Project root: /Users/joeyq/Desktop/bromance
-# Domain: poi5on.me (stylized as poi5on.m3)
+# Domain: zi0psy0p.tech (stylized as ziopsyop.tech)
 
 ---
 
 ## ⚠️ READ THIS FIRST — BEFORE TOUCHING ANY FILE
 
-You are the design and engineering agent for `poi5on.m3`. This prompt is your **complete, authoritative brief**. Everything you need is here plus the MCP servers and assets attached. Read every section before writing a single line of code. The human will not be explaining things twice.
+You are the design and engineering agent for `ziopsyop.tech`. This prompt is your **complete, authoritative brief**. Everything you need is here plus the MCP servers and assets attached. Read every section before writing a single line of code. The human will not be explaining things twice.
 
 **Invoke these Anti-gravity workflows now, before starting:**
 - `frontend-design`
@@ -26,9 +26,9 @@ You are the design and engineering agent for `poi5on.m3`. This prompt is your **
 
 | Property | Value |
 |----------|-------|
-| Site name | **poi5on.m3** |
-| Domain | `poi5on.me` |
-| Stylized display | `POI5ON.M3` (in Doto font) |
+| Site name | **ziopsyop.tech** |
+| Domain | `zi0psy0p.tech` |
+| Stylized display | `ziopsyop.tech` (in Doto font) |
 | Tagline | `A data-driven investigation into wartime narrative behavior on r/ForbiddenBromance` |
 | Sub-tagline / descriptor | `When a peace forum looks like something else entirely.` |
 | Project root | `/Users/joeyq/Desktop/bromance` |
@@ -236,7 +236,7 @@ r/ForbiddenBromance
 ```
 
 **Corner buttons (fixed, like original React export):**
-- Top-left: `POI5ON.M3` in Doto font, links to `/`
+- Top-left: `ziopsyop.tech` in Doto font, links to `/`
 - Top-right: `[INDEX]` — triggers the nav overlay on click
 - Bottom-left / bottom-right: remove the demo text, replace with:
   - Bottom-left: `EST. 2026 // BEIRUT → GITHUB`
@@ -259,13 +259,13 @@ When the user scrolls past 100vh (into the second viewport), trigger:
 1. The ASCII canvas fades slightly (opacity 0.3)
 2. A terminal boot-up sequence plays in the center of the screen:
 ```
-> INITIALIZING POI5ON.M3...
+> INITIALIZING ziopsyop.tech...
 > LOADING DOSSIER MODULES............. OK
 > LOADING ANALYST WORKBENCH........... OK
 > MOUNTING EVIDENCE STORE............. OK
 > SIGNAL READY.
 ```
-3. This resolves into the persistent top navigation bar with: `POI5ON.M3` left-anchored in Doto + `[DOSSIER]` `[ANALYST]` `[METHOD]` `[DISPATCH]` right-anchored.
+3. This resolves into the persistent top navigation bar with: `ziopsyop.tech` left-anchored in Doto + `[DOSSIER]` `[ANALYST]` `[METHOD]` `[DISPATCH]` right-anchored.
 
 Use the `@kokonutui/toolbar` component for the toolbar animation. Style it to match the design system.
 
@@ -571,7 +571,7 @@ This is the full data dashboard. Think: a macOS/Linux terminal-style financial i
 
 #### Left sidebar navigation (use `@kokonutui/toolbar` for animation)
 ```
-POI5ON.M3 [logo]
+ziopsyop.tech [logo]
 ─────────────────
 ANALYST CONSOLE
 ─────────────────
@@ -716,7 +716,7 @@ If you'd like to support continued work like this —
 other experiments at the intersection of open data, conflict, and online behavior — 
 there are a few ways to do that below.
 
-— The researcher behind poi5on.m3
+— The researcher behind ziopsyop.tech
 ```
 
 **Disclaimer block:**
@@ -771,7 +771,7 @@ The color mode is **permanently dark**. No light mode. Remove `next-themes` togg
 ### Typography
 
 **Display font: Doto by Google Fonts**
-Used for: all page titles, section headings, the logo `POI5ON.M3`, all `H1` and `H2` elements, stat numbers, nav labels.
+Used for: all page titles, section headings, the logo `ziopsyop.tech`, all `H1` and `H2` elements, stat numbers, nav labels.
 Load via: `next/font/google` with `subsets: ['latin']`
 ```
 import { Doto } from 'next/font/google'
@@ -799,7 +799,7 @@ Used for: data values, code, terminal text, timestamps, stat badges, mono labels
 - `text-[11px]` IBM Plex Mono UPPERCASE — mono labels, data values
 - `text-[9px]` IBM Plex Mono — micro labels, metadata
 
-**Matrix text animation for the `poi5on.m3` heading:**
+**Matrix text animation for the `ziopsyop.tech` heading:**
 Use `@kokonutui/matrix-text` component. Apply it to the main logo heading in the nav and landing page top-left corner.
 
 ### Borders & Surfaces
@@ -877,7 +877,7 @@ npx shadcn@latest add @kokonutui/action-search-bar
 # Drawer for contact form and sharing modals
 npx shadcn@latest add @kokonutui/smooth-drawer
 
-# Matrix text animation for poi5on.m3 heading
+# Matrix text animation for ziopsyop.tech heading
 npx shadcn@latest add @kokonutui/matrix-text
 
 # Glitch text loader
@@ -972,7 +972,7 @@ import Script from 'next/script'
 <Script id="matomo" strategy="afterInteractive">
   {`
     var _paq = window._paq = window._paq || [];
-    _paq.push(["setCookieDomain", "*.poi5on.me"]);
+    _paq.push(["setCookieDomain", "*.zi0psy0p.tech"]);
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
@@ -1011,17 +1011,17 @@ Form fields: Name, Email, Message, Submit.
 Backend: Next.js API route at `/app/api/contact/route.ts`
 - Uses **Resend** SDK
 - API key: from `.env.local` as `RESEND_API_KEY` (already set)
-- From: `hasbara@poi5on.me`
-- To: `p5n@poi5on.me`
-- Subject: `[poi5on.m3] Contact: {name}`
+- From: `hasbara@zi0psy0p.tech`
+- To: `p5n@zi0psy0p.tech`
+- Subject: `[ziopsyop.tech] Contact: {name}`
 
 Install Resend: `npm install resend`
 
 Add to `.env.local`:
 ```
 RESEND_API_KEY=re_...  # already set
-RESEND_FROM=hasbara@poi5on.me
-RESEND_TO=p5n@poi5on.me
+RESEND_FROM=hasbara@zi0psy0p.tech
+RESEND_TO=p5n@zi0psy0p.tech
 ```
 
 ---
@@ -1031,15 +1031,15 @@ RESEND_TO=p5n@poi5on.me
 Update `src/app/layout.tsx` metadata:
 ```typescript
 export const metadata: Metadata = {
-  title: 'poi5on.m3 — An Open Investigation into r/ForbiddenBromance',
+  title: 'ziopsyop.tech — An Open Investigation into r/ForbiddenBromance',
   description: 'A data-driven investigation into wartime narrative behavior, rhetorical mode-switching, and hasbara culture patterns on r/ForbiddenBromance.',
   keywords: ['hasbara', 'reddit investigation', 'ForbiddenBromance', 'data analysis', 'open source intelligence', 'Lebanon Israel'],
-  authors: [{ name: 'poi5on.m3' }],
+  authors: [{ name: 'ziopsyop.tech' }],
   openGraph: {
-    title: 'poi5on.m3 — The Peace Forum That Wasn\'t',
+    title: 'ziopsyop.tech — The Peace Forum That Wasn\'t',
     description: 'Six years of data. One subreddit. A structured investigation.',
-    url: 'https://poi5on.me',
-    siteName: 'poi5on.m3',
+    url: 'https://zi0psy0p.tech',
+    siteName: 'ziopsyop.tech',
     type: 'website',
   },
   twitter: { card: 'summary_large_image' },
@@ -1202,9 +1202,9 @@ This is a complete React app exported from Variant.com. It contains a canvas-bas
 **What to strip out completely:**
 - All demo text strings (`MATERIAL SYSTEMS`, `DIGITAL GEOGRAPHY`, `exploring the topology of interface`, all hero titles)
 - The `.hero-container` and `.hero-title` and `.hero-sub` elements and their content
-- The `.panel-zone` content (the three-column bottom panel text — you will replace this with the poi5on.m3 panel content described in Section 6)
+- The `.panel-zone` content (the three-column bottom panel text — you will replace this with the ziopsyop.tech panel content described in Section 6)
 - The nav overlay and its demo links
-- The corner button labels (replace with poi5on.m3 labels described in Section 6)
+- The corner button labels (replace with ziopsyop.tech labels described in Section 6)
 - The `currentState` toggle logic and state A/B demo content
 
 **What to keep:**

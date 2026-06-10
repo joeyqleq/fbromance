@@ -2,22 +2,39 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MARKETING_PAGE = ROOT / "src" / "app" / "(marketing)" / "page.tsx"
-APP_PAGE = ROOT / "src" / "app" / "(main)" / "app" / "page.tsx"
-SECTION_PAGE = ROOT / "src" / "app" / "(main)" / "app" / "[section]" / "page.tsx"
+LAYOUT = ROOT / "src" / "app" / "layout.tsx"
+SITEMAP = ROOT / "src" / "app" / "sitemap.ts"
+ROBOTS = ROOT / "src" / "app" / "robots.ts"
+MANIFEST = ROOT / "src" / "app" / "manifest.ts"
+CONTACT = ROOT / "src" / "app" / "api" / "contact" / "route.ts"
+ANALYTICS = ROOT / "src" / "components" / "Analytics.tsx"
 
 
 def main() -> None:
-    marketing_source = MARKETING_PAGE.read_text()
-    assert "generateMetadata" in marketing_source, "homepage should define metadata"
+    layout_source = LAYOUT.read_text()
+    assert "ziopsyop.tech" in layout_source, "layout metadata should use new site branding"
+    assert "https://zi0psy0p.tech" in layout_source, "layout metadata should use new primary domain"
 
-    app_source = APP_PAGE.read_text()
-    assert "generateMetadata" in app_source or "export const metadata" in app_source, "overview route should define metadata"
-    assert "poi5on.m3" in app_source, "overview route metadata should use poi5on.m3 branding"
+    sitemap_source = SITEMAP.read_text()
+    assert "https://zi0psy0p.tech" in sitemap_source, "sitemap should use new domain"
 
-    section_source = SECTION_PAGE.read_text()
-    assert "generateMetadata" in section_source, "dynamic workbench route should define route-specific metadata"
-    assert "timeline" in section_source and "evidence" in section_source, "dynamic route metadata should understand named sections"
+    robots_source = ROBOTS.read_text()
+    assert "https://zi0psy0p.tech/sitemap.xml" in robots_source, "robots sitemap should use new domain"
+    assert "host: \"https://zi0psy0p.tech\"" in robots_source, "robots host should use new domain"
+
+    manifest_source = MANIFEST.read_text()
+    assert "ziopsyop.tech" in manifest_source, "manifest should use new branding"
+    assert "secondary_ascii_logo.png" in manifest_source, "manifest should point to secondary ascii logo favicon"
+
+    contact_source = CONTACT.read_text()
+    assert "contact@zi0psy0p.tech" in contact_source, "contact form sender should use new domain"
+    assert "ziopsyop.tech" in contact_source, "contact subject should use new branding"
+
+    analytics_source = ANALYTICS.read_text()
+    assert "NEXT_PUBLIC_MATOMO_URL" in analytics_source, "matomo integration should be env-driven"
+    assert "NEXT_PUBLIC_TIANJI_URL" in analytics_source, "tianji integration should be env-driven"
+    assert "matomo.myhayat.app" not in analytics_source, "old matomo endpoint should be removed"
+    assert "tianji.myhayat.app" not in analytics_source, "old tianji endpoint should be removed"
 
 
 if __name__ == "__main__":

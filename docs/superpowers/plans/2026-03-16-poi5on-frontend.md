@@ -1,8 +1,8 @@
-# poi5on.m3 Frontend Implementation Plan
+# ziopsyop.tech Frontend Implementation Plan
 
 > **For agentic workers:** REQUIRED: Use superpowers:subagent-driven-development (if subagents available) or superpowers:executing-plans to implement this plan. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Replace the visible `luro-ai` product surface with a polished `poi5on.m3` dossier homepage and evidence-atlas workbench, using the existing Next.js app only as the technical host.
+**Goal:** Replace the visible `luro-ai` product surface with a polished `ziopsyop.tech` dossier homepage and evidence-atlas workbench, using the existing Next.js app only as the technical host.
 
 **Architecture:** Keep the current App Router project, but introduce a new `poison` design system, a route-aware homepage/workbench information architecture, and data-driven chart/evidence modules backed by `phase2_outputs/deep/dashboard_data.json`. The implementation should be componentized so the homepage and workbench feel like one coherent instrument panel rather than two unrelated skins.
 
@@ -17,7 +17,7 @@
 - `src/data/poison-dashboard.ts` — typed adapter for `phase2_outputs/deep/dashboard_data.json`
 - `src/components/poison/theme.ts` — shared theme constants and palette helpers
 - `src/components/poison/layout/poison-shell.tsx` — reusable background, scanline, and frame shell
-- `src/components/poison/layout/poison-hero-wordmark.tsx` — illustrated `poi5on.m3` wordmark object
+- `src/components/poison/layout/poison-hero-wordmark.tsx` — illustrated `ziopsyop.tech` wordmark object
 - `src/components/poison/layout/poison-top-nav.tsx` — homepage nav
 - `src/components/poison/layout/poison-sidebar.tsx` — workbench left rail
 - `src/components/poison/sections/hero.tsx`
@@ -50,7 +50,7 @@
 ### Modify
 
 - `src/app/layout.tsx` — metadata, theme body classes, analytics injection
-- `src/functions/metadata.ts` — route-aware SEO for `poi5on.me`
+- `src/functions/metadata.ts` — route-aware SEO for `zi0psy0p.tech`
 - `src/constants/fonts.ts` — replace generic font pairing with more distinctive local stack where possible
 - `src/styles/globals.css` — poison theme tokens, ambient motion, utility classes
 - `tailwind.config.ts` — animation/keyframe/token support for new gradients and panel effects
@@ -133,7 +133,7 @@ Update fonts, tokens, gradients, ambient motion, panel glow, scanlines, and char
 
 Implement:
 
-- `generateMetadata()` defaults for `poi5on.me`
+- `generateMetadata()` defaults for `zi0psy0p.tech`
 - canonical metadata
 - Open Graph/Twitter image routes
 - app icon/manifest
@@ -165,7 +165,7 @@ Expected: build succeeds with the new metadata and image routes.
 
 Create a simple smoke script that fetches `/` during local run and checks for:
 
-- `poi5on.m3`
+- `ziopsyop.tech`
 - `r/ForbiddenBromance`
 - at least one chart caption block
 
